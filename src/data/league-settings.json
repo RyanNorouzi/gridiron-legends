@@ -1,0 +1,33 @@
+{
+  "teamCount": 32,
+  "conferences": ["Liberty", "Frontier"],
+  "divisionsPerConference": 4,
+  "regularSeasonWeeks": 17,
+  "byeWeeks": true,
+  "preseasonWeeks": 3,
+  "playoff": {
+    "teamsPerConference": 7,
+    "byesPerConference": 1,
+    "roundNames": ["Wild Card", "Divisional", "Conference Championship", "Championship"]
+  },
+  "salaryCap": 225000000,
+  "capGrowthRate": 0.05,
+  "minimumSalary": 800000,
+  "rosterSize": 53,
+  "activeRosterSize": 46,
+  "draftRounds": 7,
+  "tradeDeadlineWeek": 9,
+  "rulesetId": "simulation",
+  "difficultyId": "pro",
+  "injuriesEnabled": true,
+  "fatigueEnabled": true,
+  "weatherEnabled": true,
+  "season": {
+    "byeWindow": [5, 14],
+    "freeAgentPoolSize": 120,
+    "offseasonRecoveryWeeks": 24,
+    "restDaysPerWeek": 7,
+    "defaultStartYear": 2026,
+    "defaultLeagueName": "Gridiron Legends League"
+  }
+}

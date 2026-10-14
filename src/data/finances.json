@@ -1,0 +1,150 @@
+{
+  "media": {
+    "perSeason": 175000000
+  },
+  "tickets": {
+    "referencePrice": {
+      "small": 65,
+      "medium": 85,
+      "large": 110
+    },
+    "minPrice": 10,
+    "maxPrice": 500,
+    "elasticity": 1.2,
+    "baseDemand": 0.5,
+    "supportWeight": 0.35,
+    "excitementWeight": 0.25,
+    "opponentWeight": 0.08,
+    "playoffBoost": 0.15,
+    "minAttendancePct": 0.15,
+    "preseasonPriceFactor": 0.5,
+    "preseasonDemandFactor": 0.85,
+    "playoffPriceFactor": 1.5,
+    "hikeThreshold": 0.05
+  },
+  "concessions": {
+    "perCapita": 22,
+    "playoffMultiplier": 1.25
+  },
+  "merchandise": {
+    "perSeason": {
+      "small": 16000000,
+      "medium": 26000000,
+      "large": 34000000
+    },
+    "supportBase": 0.4,
+    "supportWeight": 0.8,
+    "winBase": 0.75,
+    "winWeight": 0.5
+  },
+  "sponsors": {
+    "perSeason": {
+      "small": 18000000,
+      "medium": 28000000,
+      "large": 38000000
+    },
+    "successBase": 0.8,
+    "successWeight": 0.4,
+    "offerChance": {
+      "small": 0.03,
+      "medium": 0.05,
+      "large": 0.08
+    },
+    "offerShare": 0.12
+  },
+  "stadiumOps": {
+    "perHomeGame": 900000,
+    "perAttendee": 6,
+    "weeklyOverhead": 220000
+  },
+  "cash": {
+    "floor": 0,
+    "aiCashTarget": 15000000,
+    "aiMaxPriceStep": 0.1
+  },
+  "owner": {
+    "baseline": 60,
+    "memory": 0.4,
+    "profitWeight": 100,
+    "cashWeight": 10,
+    "cashScale": 40000000,
+    "subsidyPenalty": 8,
+    "subsidyScale": 10000000,
+    "winWeight": 80,
+    "financialShare": 0.3,
+    "competitiveShare": 0.5,
+    "fanShare": 0.2,
+    "playoffBonus": 6,
+    "championBonus": 12
+  },
+  "fans": {
+    "damping": {
+      "small": 1.15,
+      "medium": 1.0,
+      "large": 0.8
+    },
+    "effects": {
+      "win": {
+        "support": 0.5,
+        "excitement": 3
+      },
+      "loss": {
+        "support": -0.4,
+        "excitement": -3
+      },
+      "bigSigning": {
+        "support": 1.5,
+        "excitement": 7
+      },
+      "draftPick": {
+        "support": 0.5,
+        "excitement": 4
+      },
+      "rivalryWin": {
+        "support": 1.2,
+        "excitement": 6
+      },
+      "rivalryLoss": {
+        "support": -1.0,
+        "excitement": -5
+      },
+      "championship": {
+        "support": 12,
+        "excitement": 25
+      },
+      "playoffs": {
+        "support": 3,
+        "excitement": 10
+      },
+      "losingStreak": {
+        "support": -1.5,
+        "excitement": -5
+      },
+      "starTraded": {
+        "support": -2.5,
+        "excitement": -8
+      },
+      "ticketHike": {
+        "support": -1.5,
+        "excitement": -3
+      }
+    },
+    "decay": {
+      "support": 0.03,
+      "excitement": 0.06
+    },
+    "excitementBaseline": 50,
+    "championshipBaselineBonus": 2,
+    "championshipBaselineCap": 10,
+    "historyWeight": 20,
+    "historySeasons": 3,
+    "baselineRange": [20, 90],
+    "reset": {
+      "winWeight": 50,
+      "playoffs": 8,
+      "champion": 15,
+      "supportWeight": 0.2
+    },
+    "losingStreakLength": 3
+  }
+}

@@ -1,0 +1,4500 @@
+[
+  {
+    "id": "iform-dive-right",
+    "name": "I-Form Dive Right",
+    "formation": "iForm",
+    "type": "run",
+    "concept": "insideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "FB": {
+        "type": "leadBlock",
+        "gap": "A-right"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "C-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "A-right",
+    "audibles": {
+      "runToPass": "iform-paBoot-right"
+    },
+    "tags": [
+      "base",
+      "shortYardage"
+    ]
+  },
+  {
+    "id": "iform-dive-left",
+    "name": "I-Form Dive Left",
+    "formation": "iForm",
+    "type": "run",
+    "concept": "insideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "FB": {
+        "type": "leadBlock",
+        "gap": "A-right"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "C-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "A-right",
+    "audibles": {
+      "runToPass": "iform-paBoot-right"
+    },
+    "tags": [
+      "base",
+      "shortYardage"
+    ],
+    "flip": true
+  },
+  {
+    "id": "iform-iso-right",
+    "name": "I-Form Iso Right",
+    "formation": "iForm",
+    "type": "run",
+    "concept": "insideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "FB": {
+        "type": "leadBlock",
+        "gap": "B-right"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "D-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "C-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "B-right",
+    "audibles": {
+      "runToPass": "iform-paBoot-right"
+    },
+    "tags": [
+      "base",
+      "shortYardage"
+    ]
+  },
+  {
+    "id": "iform-iso-left",
+    "name": "I-Form Iso Left",
+    "formation": "iForm",
+    "type": "run",
+    "concept": "insideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "FB": {
+        "type": "leadBlock",
+        "gap": "B-right"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "D-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "C-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "B-right",
+    "audibles": {
+      "runToPass": "iform-paBoot-right"
+    },
+    "tags": [
+      "base",
+      "shortYardage"
+    ],
+    "flip": true
+  },
+  {
+    "id": "iform-power-right",
+    "name": "I-Form Power Right",
+    "formation": "iForm",
+    "type": "run",
+    "concept": "insideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "FB": {
+        "type": "leadBlock",
+        "gap": "C-right"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "B-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "C-right",
+    "audibles": {
+      "runToPass": "iform-paBoot-right"
+    },
+    "tags": [
+      "base",
+      "shortYardage",
+      "goalLine"
+    ]
+  },
+  {
+    "id": "iform-power-left",
+    "name": "I-Form Power Left",
+    "formation": "iForm",
+    "type": "run",
+    "concept": "insideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "FB": {
+        "type": "leadBlock",
+        "gap": "C-right"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "B-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "C-right",
+    "audibles": {
+      "runToPass": "iform-paBoot-right"
+    },
+    "tags": [
+      "base",
+      "shortYardage",
+      "goalLine"
+    ],
+    "flip": true
+  },
+  {
+    "id": "singleback-counter-left",
+    "name": "Singleback Counter Left",
+    "formation": "singleback",
+    "type": "run",
+    "concept": "insideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-left"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "B-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "B-left",
+    "audibles": {
+      "runToPass": "singleback-paPost"
+    },
+    "tags": [
+      "base"
+    ]
+  },
+  {
+    "id": "singleback-counter-right",
+    "name": "Singleback Counter Right",
+    "formation": "singleback",
+    "type": "run",
+    "concept": "insideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-left"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "B-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "B-left",
+    "audibles": {
+      "runToPass": "singleback-paPost"
+    },
+    "tags": [
+      "base"
+    ],
+    "flip": true
+  },
+  {
+    "id": "twoTE-dive-right",
+    "name": "Ace Dive Right",
+    "formation": "twoTE",
+    "type": "run",
+    "concept": "insideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "TE2": {
+        "type": "runBlock",
+        "gap": "C-left"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "C-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "A-right",
+    "audibles": {
+      "runToPass": "twoTE-paShot"
+    },
+    "tags": [
+      "base",
+      "shortYardage"
+    ]
+  },
+  {
+    "id": "heavy-iso-right",
+    "name": "Heavy Iso Right",
+    "formation": "heavy",
+    "type": "run",
+    "concept": "insideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "FB": {
+        "type": "leadBlock",
+        "gap": "B-right"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "TE2": {
+        "type": "runBlock",
+        "gap": "C-left"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "C-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "B-right",
+    "tags": [
+      "shortYardage",
+      "goalLine",
+      "clockKill"
+    ]
+  },
+  {
+    "id": "goalLine-dive-left",
+    "name": "Jumbo Dive Left",
+    "formation": "goalLine",
+    "type": "run",
+    "concept": "insideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "FB": {
+        "type": "leadBlock",
+        "gap": "A-left"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "TE2": {
+        "type": "runBlock",
+        "gap": "C-left"
+      },
+      "TE3": {
+        "type": "runBlock",
+        "gap": "D-right"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "B-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "A-left",
+    "tags": [
+      "goalLine",
+      "shortYardage"
+    ]
+  },
+  {
+    "id": "pistol-insideZone-right",
+    "name": "Pistol Inside Zone Right",
+    "formation": "pistol",
+    "type": "run",
+    "concept": "insideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "C-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "A-right",
+    "audibles": {
+      "runToPass": "pistol-paSeams"
+    },
+    "tags": [
+      "base"
+    ]
+  },
+  {
+    "id": "shotgun-insideZone-left",
+    "name": "Gun Inside Zone Left",
+    "formation": "shotgun",
+    "type": "run",
+    "concept": "insideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "C-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "B-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "A-left",
+    "audibles": {
+      "runToPass": "shotgun-slants"
+    },
+    "tags": [
+      "base"
+    ]
+  },
+  {
+    "id": "iform-toss-right",
+    "name": "I-Form Toss Right",
+    "formation": "iForm",
+    "type": "run",
+    "concept": "outsideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "FB": {
+        "type": "leadBlock",
+        "gap": "D-right"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "C-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "D-right",
+    "audibles": {
+      "runToPass": "iform-paBoot-right"
+    },
+    "tags": [
+      "base"
+    ]
+  },
+  {
+    "id": "iform-toss-left",
+    "name": "I-Form Toss Left",
+    "formation": "iForm",
+    "type": "run",
+    "concept": "outsideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "FB": {
+        "type": "leadBlock",
+        "gap": "D-right"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "C-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "D-right",
+    "audibles": {
+      "runToPass": "iform-paBoot-right"
+    },
+    "tags": [
+      "base"
+    ],
+    "flip": true
+  },
+  {
+    "id": "singleback-stretch-right",
+    "name": "Singleback Stretch Right",
+    "formation": "singleback",
+    "type": "run",
+    "concept": "outsideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "D-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "C-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "C-right",
+    "audibles": {
+      "runToPass": "singleback-paPost"
+    },
+    "tags": [
+      "base"
+    ]
+  },
+  {
+    "id": "singleback-stretch-left",
+    "name": "Singleback Stretch Left",
+    "formation": "singleback",
+    "type": "run",
+    "concept": "outsideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "D-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "C-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "C-right",
+    "audibles": {
+      "runToPass": "singleback-paPost"
+    },
+    "tags": [
+      "base"
+    ],
+    "flip": true
+  },
+  {
+    "id": "shotgun-sweep-left",
+    "name": "Gun Sweep Left",
+    "formation": "shotgun",
+    "type": "run",
+    "concept": "outsideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "C-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "B-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "D-left",
+    "audibles": {
+      "runToPass": "shotgun-quickOuts"
+    },
+    "tags": [
+      "base"
+    ]
+  },
+  {
+    "id": "pistol-outsideZone-right",
+    "name": "Pistol Outside Zone Right",
+    "formation": "pistol",
+    "type": "run",
+    "concept": "outsideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "D-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "C-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "C-right",
+    "tags": [
+      "base"
+    ]
+  },
+  {
+    "id": "trips-jetSweep-left",
+    "name": "Trips Jet Sweep Left",
+    "formation": "trips",
+    "type": "run",
+    "concept": "outsideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "leadBlock",
+        "gap": "D-left"
+      },
+      "WR3": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-left"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "C-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "B-right"
+      }
+    },
+    "primary": "WR3",
+    "progression": [],
+    "ballCarrier": "WR3",
+    "runGap": "D-left",
+    "tags": [
+      "base",
+      "trick"
+    ]
+  },
+  {
+    "id": "heavy-toss-right",
+    "name": "Heavy Toss Right",
+    "formation": "heavy",
+    "type": "run",
+    "concept": "outsideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "FB": {
+        "type": "leadBlock",
+        "gap": "D-right"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "TE2": {
+        "type": "runBlock",
+        "gap": "C-left"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "C-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "D-right",
+    "tags": [
+      "shortYardage",
+      "clockKill"
+    ]
+  },
+  {
+    "id": "shotgun-rbDraw",
+    "name": "Gun RB Draw",
+    "formation": "shotgun",
+    "type": "run",
+    "concept": "draw",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "go"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "go",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "go"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "seam",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "A-right",
+    "audibles": {
+      "runToPass": "shotgun-fourVerts"
+    },
+    "tags": [
+      "longYardage",
+      "thirdDown"
+    ]
+  },
+  {
+    "id": "singleback-draw",
+    "name": "Singleback Draw",
+    "formation": "singleback",
+    "type": "run",
+    "concept": "draw",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "seam"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "go",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "go"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "seam",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "A-left",
+    "audibles": {
+      "runToPass": "singleback-yCross"
+    },
+    "tags": [
+      "longYardage"
+    ]
+  },
+  {
+    "id": "empty-qbDraw",
+    "name": "Empty QB Draw",
+    "formation": "empty",
+    "type": "qbRun",
+    "concept": "draw",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "go",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "go"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "seam",
+        "mirror": true
+      },
+      "WR4": {
+        "type": "route",
+        "route": "seam"
+      },
+      "WR5": {
+        "type": "route",
+        "route": "slant",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "QB",
+    "progression": [],
+    "ballCarrier": "QB",
+    "runGap": "A-right",
+    "tags": [
+      "longYardage",
+      "trick"
+    ]
+  },
+  {
+    "id": "shotgun-rbScreen-right",
+    "name": "Gun RB Screen Right",
+    "formation": "shotgun",
+    "type": "screen",
+    "concept": "screen",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "screen"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "go",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "seam",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "RB",
+    "progression": [
+      "WR3"
+    ],
+    "dropback": 5,
+    "tags": [
+      "longYardage",
+      "thirdDown"
+    ]
+  },
+  {
+    "id": "shotgun-rbScreen-left",
+    "name": "Gun RB Screen Left",
+    "formation": "shotgun",
+    "type": "screen",
+    "concept": "screen",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "screen"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "go",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "seam",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "RB",
+    "progression": [
+      "WR3"
+    ],
+    "dropback": 5,
+    "tags": [
+      "longYardage",
+      "thirdDown"
+    ],
+    "flip": true
+  },
+  {
+    "id": "shotgunTrips-bubble",
+    "name": "Trips Bubble Screen",
+    "formation": "shotgunTrips",
+    "type": "screen",
+    "concept": "screen",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "passBlock"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "seam",
+        "mirror": true
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "bubble"
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR3",
+    "progression": [
+      "TE1"
+    ],
+    "dropback": 1,
+    "tags": [
+      "base",
+      "shortYardage"
+    ]
+  },
+  {
+    "id": "singleback-wrScreen-left",
+    "name": "Singleback WR Screen Left",
+    "formation": "singleback",
+    "type": "screen",
+    "concept": "screen",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "passBlock"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "stick"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "bubble",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "go"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR1",
+    "progression": [
+      "TE1"
+    ],
+    "dropback": 1,
+    "tags": [
+      "base",
+      "longYardage"
+    ]
+  },
+  {
+    "id": "shotgun-slants",
+    "name": "Gun Slants",
+    "formation": "shotgun",
+    "type": "pass",
+    "concept": "slant",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "checkRelease"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "flat"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "slant",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "slant"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "slant",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR2",
+    "progression": [
+      "WR3",
+      "WR1",
+      "TE1",
+      "RB"
+    ],
+    "dropback": 3,
+    "audibles": {
+      "manBeater": "shotgun-mesh",
+      "zoneBeater": "shotgun-curls",
+      "blitzBeater": "shotgun-quickOuts",
+      "passToRun": "shotgun-insideZone-left"
+    },
+    "tags": [
+      "base",
+      "shortYardage",
+      "twoMinute"
+    ]
+  },
+  {
+    "id": "singleback-slantFlat",
+    "name": "Singleback Slant Flat",
+    "formation": "singleback",
+    "type": "pass",
+    "concept": "slant",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "checkRelease"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "flat"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "slant",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "slant"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "flat",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR2",
+    "progression": [
+      "TE1",
+      "WR1",
+      "WR3",
+      "RB"
+    ],
+    "dropback": 3,
+    "audibles": {
+      "manBeater": "singleback-yCross",
+      "zoneBeater": "singleback-curlFlat",
+      "blitzBeater": "singleback-wrScreen-left",
+      "passToRun": "singleback-stretch-right"
+    },
+    "tags": [
+      "base",
+      "shortYardage",
+      "redZone"
+    ]
+  },
+  {
+    "id": "singleback-curlFlat",
+    "name": "Singleback Curl Flat",
+    "formation": "singleback",
+    "type": "pass",
+    "concept": "curl",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "swing"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "stick"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "curl",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "curl"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "flat",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR2",
+    "progression": [
+      "WR1",
+      "TE1",
+      "WR3",
+      "RB"
+    ],
+    "dropback": 5,
+    "audibles": {
+      "manBeater": "singleback-yCross",
+      "zoneBeater": "singleback-slantFlat",
+      "blitzBeater": "singleback-slantFlat",
+      "passToRun": "singleback-counter-left"
+    },
+    "tags": [
+      "base",
+      "thirdDown"
+    ]
+  },
+  {
+    "id": "shotgun-curls",
+    "name": "Gun Curls",
+    "formation": "shotgun",
+    "type": "pass",
+    "concept": "curl",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "checkRelease"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "hitch"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "curl",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "curl"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "hitch",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR1",
+    "progression": [
+      "WR2",
+      "WR3",
+      "TE1",
+      "RB"
+    ],
+    "dropback": 5,
+    "audibles": {
+      "manBeater": "shotgun-mesh",
+      "zoneBeater": "shotgun-dragDig",
+      "blitzBeater": "shotgun-slants",
+      "passToRun": "shotgun-insideZone-left"
+    },
+    "tags": [
+      "base",
+      "thirdDown",
+      "longYardage"
+    ]
+  },
+  {
+    "id": "shotgun-quickOuts",
+    "name": "Gun Quick Outs",
+    "formation": "shotgun",
+    "type": "pass",
+    "concept": "out",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "flat"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "stick"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "quickOut",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "quickOut"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "slant",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR2",
+    "progression": [
+      "WR1",
+      "TE1",
+      "WR3",
+      "RB"
+    ],
+    "dropback": 3,
+    "audibles": {
+      "manBeater": "shotgun-slants",
+      "zoneBeater": "shotgun-curls",
+      "blitzBeater": "shotgun-rbScreen-right",
+      "passToRun": "shotgun-sweep-left"
+    },
+    "tags": [
+      "base",
+      "twoMinute",
+      "shortYardage"
+    ]
+  },
+  {
+    "id": "trips-outs",
+    "name": "Trips Outs",
+    "formation": "trips",
+    "type": "pass",
+    "concept": "out",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "checkRelease"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "drag",
+        "mirror": true
+      },
+      "WR1": {
+        "type": "route",
+        "route": "deepOut"
+      },
+      "WR2": {
+        "type": "route",
+        "route": "out"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "quickOut"
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR2",
+    "progression": [
+      "WR3",
+      "WR1",
+      "TE1",
+      "RB"
+    ],
+    "dropback": 5,
+    "audibles": {
+      "manBeater": "trips-dragFlood",
+      "zoneBeater": "trips-smash",
+      "passToRun": "trips-jetSweep-left"
+    },
+    "tags": [
+      "base",
+      "twoMinute"
+    ]
+  },
+  {
+    "id": "shotgun-postWheel",
+    "name": "Gun Post Wheel",
+    "formation": "shotgun",
+    "type": "pass",
+    "concept": "post",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "wheel"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "stick"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "dig",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "post"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "drag",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR2",
+    "progression": [
+      "RB",
+      "WR1",
+      "WR3",
+      "TE1"
+    ],
+    "dropback": 7,
+    "audibles": {
+      "manBeater": "shotgun-mesh",
+      "zoneBeater": "shotgun-curls",
+      "blitzBeater": "shotgun-slants",
+      "passToRun": "shotgun-insideZone-left"
+    },
+    "tags": [
+      "longYardage",
+      "base"
+    ]
+  },
+  {
+    "id": "twoTE-skinnyPosts",
+    "name": "Ace Skinny Posts",
+    "formation": "twoTE",
+    "type": "pass",
+    "concept": "post",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "checkRelease"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "out"
+      },
+      "TE2": {
+        "type": "route",
+        "route": "drag",
+        "mirror": true
+      },
+      "WR1": {
+        "type": "route",
+        "route": "skinnyPost",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "skinnyPost"
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR2",
+    "progression": [
+      "WR1",
+      "TE1",
+      "TE2",
+      "RB"
+    ],
+    "dropback": 7,
+    "audibles": {
+      "manBeater": "twoTE-paShot",
+      "passToRun": "twoTE-dive-right"
+    },
+    "tags": [
+      "longYardage"
+    ]
+  },
+  {
+    "id": "trips-smash",
+    "name": "Trips Smash",
+    "formation": "trips",
+    "type": "pass",
+    "concept": "corner",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "checkRelease"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "dig",
+        "mirror": true
+      },
+      "WR1": {
+        "type": "route",
+        "route": "hitch"
+      },
+      "WR2": {
+        "type": "route",
+        "route": "corner"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "flat"
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR2",
+    "progression": [
+      "WR1",
+      "WR3",
+      "TE1",
+      "RB"
+    ],
+    "dropback": 5,
+    "audibles": {
+      "manBeater": "trips-dragFlood",
+      "blitzBeater": "trips-outs",
+      "passToRun": "trips-jetSweep-left"
+    },
+    "tags": [
+      "base",
+      "redZone",
+      "thirdDown"
+    ]
+  },
+  {
+    "id": "shotgun-cornerFlat",
+    "name": "Gun Corner Flat",
+    "formation": "shotgun",
+    "type": "pass",
+    "concept": "corner",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "flat"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "corner"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "comeback",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "hitch"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "drag",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "TE1",
+    "progression": [
+      "RB",
+      "WR2",
+      "WR1",
+      "WR3"
+    ],
+    "dropback": 5,
+    "audibles": {
+      "manBeater": "shotgun-mesh",
+      "zoneBeater": "shotgun-curls",
+      "blitzBeater": "shotgun-slants",
+      "passToRun": "shotgun-sweep-left"
+    },
+    "tags": [
+      "base",
+      "redZone"
+    ]
+  },
+  {
+    "id": "shotgun-goRoutes",
+    "name": "Gun Go Routes",
+    "formation": "shotgun",
+    "type": "pass",
+    "concept": "go",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "swing"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "stick"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "go",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "go"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "seam",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR2",
+    "progression": [
+      "WR1",
+      "WR3",
+      "TE1",
+      "RB"
+    ],
+    "dropback": 7,
+    "audibles": {
+      "manBeater": "shotgun-mesh",
+      "zoneBeater": "shotgun-fourVerts",
+      "blitzBeater": "shotgun-slants",
+      "passToRun": "shotgun-insideZone-left"
+    },
+    "tags": [
+      "longYardage",
+      "base"
+    ]
+  },
+  {
+    "id": "empty-fades",
+    "name": "Empty Fades",
+    "formation": "empty",
+    "type": "pass",
+    "concept": "go",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "fade",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "fade"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "quickOut",
+        "mirror": true
+      },
+      "WR4": {
+        "type": "route",
+        "route": "quickOut"
+      },
+      "WR5": {
+        "type": "route",
+        "route": "slant",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR2",
+    "progression": [
+      "WR1",
+      "WR4",
+      "WR3",
+      "WR5"
+    ],
+    "dropback": 3,
+    "audibles": {
+      "manBeater": "empty-mesh"
+    },
+    "tags": [
+      "redZone",
+      "goalLine",
+      "twoPoint"
+    ]
+  },
+  {
+    "id": "shotgun-deepCross",
+    "name": "Gun Deep Cross",
+    "formation": "shotgun",
+    "type": "pass",
+    "concept": "cross",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "checkRelease"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "flat"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "post",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "dig"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "cross",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR3",
+    "progression": [
+      "WR2",
+      "WR1",
+      "TE1",
+      "RB"
+    ],
+    "dropback": 7,
+    "audibles": {
+      "manBeater": "shotgun-mesh",
+      "zoneBeater": "shotgun-curls",
+      "blitzBeater": "shotgun-slants",
+      "passToRun": "shotgun-insideZone-left"
+    },
+    "tags": [
+      "base",
+      "longYardage"
+    ]
+  },
+  {
+    "id": "singleback-yCross",
+    "name": "Singleback Y Cross",
+    "formation": "singleback",
+    "type": "pass",
+    "concept": "cross",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "swing"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "cross"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "go",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "comeback"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "drag",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "TE1",
+    "progression": [
+      "WR2",
+      "WR3",
+      "WR1",
+      "RB"
+    ],
+    "dropback": 7,
+    "audibles": {
+      "zoneBeater": "singleback-curlFlat",
+      "blitzBeater": "singleback-slantFlat",
+      "passToRun": "singleback-stretch-right"
+    },
+    "tags": [
+      "base",
+      "longYardage"
+    ]
+  },
+  {
+    "id": "shotgun-dragDig",
+    "name": "Gun Drag Dig",
+    "formation": "shotgun",
+    "type": "pass",
+    "concept": "drag",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "flat"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "corner"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "dig",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "curl"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "drag",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR3",
+    "progression": [
+      "WR1",
+      "TE1",
+      "WR2",
+      "RB"
+    ],
+    "dropback": 5,
+    "audibles": {
+      "manBeater": "shotgun-mesh",
+      "zoneBeater": "shotgun-curls",
+      "blitzBeater": "shotgun-slants",
+      "passToRun": "shotgun-sweep-left"
+    },
+    "tags": [
+      "base",
+      "thirdDown"
+    ]
+  },
+  {
+    "id": "trips-dragFlood",
+    "name": "Trips Drag Flood",
+    "formation": "trips",
+    "type": "pass",
+    "concept": "drag",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "checkRelease"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "drag",
+        "mirror": true
+      },
+      "WR1": {
+        "type": "route",
+        "route": "go"
+      },
+      "WR2": {
+        "type": "route",
+        "route": "deepOut"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "flat"
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "TE1",
+    "progression": [
+      "WR2",
+      "WR3",
+      "WR1",
+      "RB"
+    ],
+    "dropback": 7,
+    "audibles": {
+      "manBeater": "trips-smash",
+      "zoneBeater": "trips-outs",
+      "passToRun": "trips-jetSweep-left"
+    },
+    "tags": [
+      "base",
+      "longYardage"
+    ]
+  },
+  {
+    "id": "shotgun-mesh",
+    "name": "Gun Mesh",
+    "formation": "shotgun",
+    "type": "pass",
+    "concept": "mesh",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "swing"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "drag"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "corner",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "go"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "drag",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR3",
+    "progression": [
+      "TE1",
+      "RB",
+      "WR1",
+      "WR2"
+    ],
+    "dropback": 5,
+    "audibles": {
+      "zoneBeater": "shotgun-curls",
+      "blitzBeater": "shotgun-slants",
+      "passToRun": "shotgun-insideZone-left"
+    },
+    "tags": [
+      "base",
+      "thirdDown",
+      "redZone"
+    ]
+  },
+  {
+    "id": "empty-mesh",
+    "name": "Empty Mesh",
+    "formation": "empty",
+    "type": "pass",
+    "concept": "mesh",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "corner",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "go"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "drag",
+        "mirror": true
+      },
+      "WR4": {
+        "type": "route",
+        "route": "drag"
+      },
+      "WR5": {
+        "type": "route",
+        "route": "stick",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR3",
+    "progression": [
+      "WR4",
+      "WR5",
+      "WR1",
+      "WR2"
+    ],
+    "dropback": 5,
+    "audibles": {
+      "zoneBeater": "empty-fades",
+      "passToRun": "empty-qbDraw"
+    },
+    "tags": [
+      "base",
+      "thirdDown",
+      "twoPoint"
+    ]
+  },
+  {
+    "id": "shotgun-fourVerts",
+    "name": "Gun Four Verticals",
+    "formation": "shotgun",
+    "type": "pass",
+    "concept": "fourVerts",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "checkRelease"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "seam"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "go",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "go"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "seam",
+        "mirror": true
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR3",
+    "progression": [
+      "TE1",
+      "WR1",
+      "WR2",
+      "RB"
+    ],
+    "dropback": 7,
+    "audibles": {
+      "manBeater": "shotgun-mesh",
+      "zoneBeater": "shotgun-curls",
+      "blitzBeater": "shotgun-slants",
+      "passToRun": "shotgun-rbDraw"
+    },
+    "tags": [
+      "longYardage",
+      "twoMinute"
+    ]
+  },
+  {
+    "id": "shotgunTrips-fourVerts",
+    "name": "Trips Four Verticals",
+    "formation": "shotgunTrips",
+    "type": "pass",
+    "concept": "fourVerts",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "checkRelease"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "go",
+        "mirror": true
+      },
+      "WR1": {
+        "type": "route",
+        "route": "go"
+      },
+      "WR2": {
+        "type": "route",
+        "route": "seam"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "skinnyPost"
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR2",
+    "progression": [
+      "WR3",
+      "WR1",
+      "TE1",
+      "RB"
+    ],
+    "dropback": 7,
+    "audibles": {
+      "manBeater": "shotgunTrips-twoPoint-pick",
+      "zoneBeater": "shotgunTrips-bubble",
+      "blitzBeater": "shotgunTrips-bubble"
+    },
+    "tags": [
+      "longYardage",
+      "twoMinute"
+    ]
+  },
+  {
+    "id": "iform-paBoot-right",
+    "name": "I-Form PA Boot Right",
+    "formation": "iForm",
+    "type": "playAction",
+    "concept": "playAction",
+    "assignments": {
+      "QB": {
+        "type": "qb",
+        "fakeTo": "RB"
+      },
+      "FB": {
+        "type": "route",
+        "route": "flat"
+      },
+      "RB": {
+        "type": "passBlock"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "corner"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "cross",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "deepOut"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "C-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "B-right"
+      }
+    },
+    "primary": "WR2",
+    "progression": [
+      "TE1",
+      "FB",
+      "WR1"
+    ],
+    "dropback": 7,
+    "fakeTo": "RB",
+    "audibles": {
+      "passToRun": "iform-power-left"
+    },
+    "tags": [
+      "base",
+      "redZone"
+    ]
+  },
+  {
+    "id": "singleback-paPost",
+    "name": "Singleback PA Post",
+    "formation": "singleback",
+    "type": "playAction",
+    "concept": "playAction",
+    "assignments": {
+      "QB": {
+        "type": "qb",
+        "fakeTo": "RB"
+      },
+      "RB": {
+        "type": "passBlock"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "stick"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "post",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "dig"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "seam",
+        "mirror": true
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "C-right"
+      }
+    },
+    "primary": "WR1",
+    "progression": [
+      "WR2",
+      "WR3",
+      "TE1"
+    ],
+    "dropback": 7,
+    "fakeTo": "RB",
+    "audibles": {
+      "passToRun": "singleback-stretch-right",
+      "zoneBeater": "singleback-curlFlat"
+    },
+    "tags": [
+      "base",
+      "longYardage"
+    ]
+  },
+  {
+    "id": "pistol-paSeams",
+    "name": "Pistol PA Seams",
+    "formation": "pistol",
+    "type": "playAction",
+    "concept": "playAction",
+    "assignments": {
+      "QB": {
+        "type": "qb",
+        "fakeTo": "RB"
+      },
+      "RB": {
+        "type": "passBlock"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "seam"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "post",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "go"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "seam"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "C-right"
+      }
+    },
+    "primary": "WR3",
+    "progression": [
+      "TE1",
+      "WR1",
+      "WR2"
+    ],
+    "dropback": 7,
+    "fakeTo": "RB",
+    "audibles": {
+      "passToRun": "pistol-insideZone-right"
+    },
+    "tags": [
+      "base",
+      "longYardage"
+    ]
+  },
+  {
+    "id": "twoTE-paShot",
+    "name": "Ace PA Shot",
+    "formation": "twoTE",
+    "type": "playAction",
+    "concept": "playAction",
+    "assignments": {
+      "QB": {
+        "type": "qb",
+        "fakeTo": "RB"
+      },
+      "RB": {
+        "type": "route",
+        "route": "checkRelease"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "corner"
+      },
+      "TE2": {
+        "type": "route",
+        "route": "cross",
+        "mirror": true
+      },
+      "WR1": {
+        "type": "route",
+        "route": "post",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "go"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "C-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "B-right"
+      }
+    },
+    "primary": "WR2",
+    "progression": [
+      "TE1",
+      "TE2",
+      "WR1",
+      "RB"
+    ],
+    "dropback": 7,
+    "fakeTo": "RB",
+    "audibles": {
+      "passToRun": "twoTE-dive-right"
+    },
+    "tags": [
+      "longYardage",
+      "redZone"
+    ]
+  },
+  {
+    "id": "shotgun-rpoSlant",
+    "name": "Gun RPO Slant",
+    "formation": "shotgun",
+    "type": "rpo",
+    "concept": "rpo",
+    "assignments": {
+      "QB": {
+        "type": "qb",
+        "fakeTo": "RB"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "hitch",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "slant",
+        "mirror": true
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "C-right"
+      }
+    },
+    "primary": "WR3",
+    "progression": [
+      "WR1"
+    ],
+    "ballCarrier": "RB",
+    "runGap": "A-right",
+    "dropback": 1,
+    "fakeTo": "RB",
+    "audibles": {
+      "passToRun": "shotgun-insideZone-left",
+      "runToPass": "shotgun-slants"
+    },
+    "tags": [
+      "base",
+      "shortYardage"
+    ]
+  },
+  {
+    "id": "pistol-rpoBubble",
+    "name": "Pistol RPO Bubble",
+    "formation": "pistol",
+    "type": "rpo",
+    "concept": "rpo",
+    "assignments": {
+      "QB": {
+        "type": "qb",
+        "fakeTo": "RB"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "bubble"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "C-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "B-right"
+      }
+    },
+    "primary": "WR3",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "A-left",
+    "dropback": 1,
+    "fakeTo": "RB",
+    "audibles": {
+      "passToRun": "pistol-insideZone-right",
+      "runToPass": "pistol-paSeams"
+    },
+    "tags": [
+      "base"
+    ]
+  },
+  {
+    "id": "shotgun-qbPowerRead",
+    "name": "Gun QB Power",
+    "formation": "shotgun",
+    "type": "qbRun",
+    "concept": "qbRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "leadBlock",
+        "gap": "B-right"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "B-right"
+      }
+    },
+    "primary": "QB",
+    "progression": [],
+    "ballCarrier": "QB",
+    "runGap": "B-right",
+    "audibles": {
+      "runToPass": "shotgun-slants"
+    },
+    "tags": [
+      "shortYardage",
+      "redZone",
+      "goalLine"
+    ]
+  },
+  {
+    "id": "goalLine-qbSneak",
+    "name": "QB Sneak",
+    "formation": "goalLine",
+    "type": "qbRun",
+    "concept": "qbRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "FB": {
+        "type": "leadBlock",
+        "gap": "A-right"
+      },
+      "RB": {
+        "type": "leadBlock",
+        "gap": "A-left"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "TE2": {
+        "type": "runBlock",
+        "gap": "C-left"
+      },
+      "TE3": {
+        "type": "runBlock",
+        "gap": "D-right"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "B-right"
+      }
+    },
+    "primary": "QB",
+    "progression": [],
+    "ballCarrier": "QB",
+    "runGap": "A-right",
+    "tags": [
+      "goalLine",
+      "shortYardage"
+    ]
+  },
+  {
+    "id": "pistol-zoneRead",
+    "name": "Pistol Zone Read",
+    "formation": "pistol",
+    "type": "qbRun",
+    "concept": "qbRun",
+    "assignments": {
+      "QB": {
+        "type": "qb",
+        "fakeTo": "RB"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "C-right"
+      }
+    },
+    "primary": "QB",
+    "progression": [],
+    "ballCarrier": "QB",
+    "runGap": "A-right",
+    "fakeTo": "RB",
+    "audibles": {
+      "runToPass": "pistol-paSeams"
+    },
+    "tags": [
+      "base"
+    ]
+  },
+  {
+    "id": "iform-kneel",
+    "name": "Victory Kneel",
+    "formation": "iForm",
+    "type": "kneel",
+    "concept": "kneel",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "FB": {
+        "type": "passBlock"
+      },
+      "RB": {
+        "type": "passBlock"
+      },
+      "TE1": {
+        "type": "passBlock"
+      },
+      "WR1": {
+        "type": "passBlock"
+      },
+      "WR2": {
+        "type": "passBlock"
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "QB",
+    "progression": [],
+    "tags": [
+      "clockKill"
+    ]
+  },
+  {
+    "id": "singleback-spike",
+    "name": "Clock Spike",
+    "formation": "singleback",
+    "type": "spike",
+    "concept": "spike",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "passBlock"
+      },
+      "TE1": {
+        "type": "passBlock"
+      },
+      "WR1": {
+        "type": "passBlock"
+      },
+      "WR2": {
+        "type": "passBlock"
+      },
+      "WR3": {
+        "type": "passBlock"
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "QB",
+    "progression": [],
+    "tags": [
+      "twoMinute"
+    ]
+  },
+  {
+    "id": "kickoff-deep",
+    "name": "Kickoff Deep",
+    "formation": "kickoff",
+    "type": "special",
+    "concept": "kickoff",
+    "assignments": {
+      "K": {
+        "type": "kicker"
+      },
+      "KC1": {
+        "type": "kickCoverage"
+      },
+      "KC2": {
+        "type": "kickCoverage"
+      },
+      "KC3": {
+        "type": "kickCoverage"
+      },
+      "KC4": {
+        "type": "kickCoverage"
+      },
+      "KC5": {
+        "type": "kickCoverage"
+      },
+      "KC6": {
+        "type": "kickCoverage"
+      },
+      "KC7": {
+        "type": "kickCoverage"
+      },
+      "KC8": {
+        "type": "kickCoverage"
+      },
+      "KC9": {
+        "type": "kickCoverage"
+      },
+      "KC10": {
+        "type": "kickCoverage"
+      }
+    },
+    "primary": "K",
+    "progression": [],
+    "tags": [
+      "kickoff"
+    ]
+  },
+  {
+    "id": "kickoff-squib",
+    "name": "Kickoff Squib",
+    "formation": "kickoff",
+    "type": "special",
+    "concept": "kickoff",
+    "assignments": {
+      "K": {
+        "type": "kicker"
+      },
+      "KC1": {
+        "type": "kickCoverage"
+      },
+      "KC2": {
+        "type": "kickCoverage"
+      },
+      "KC3": {
+        "type": "kickCoverage"
+      },
+      "KC4": {
+        "type": "kickCoverage"
+      },
+      "KC5": {
+        "type": "kickCoverage"
+      },
+      "KC6": {
+        "type": "kickCoverage"
+      },
+      "KC7": {
+        "type": "kickCoverage"
+      },
+      "KC8": {
+        "type": "kickCoverage"
+      },
+      "KC9": {
+        "type": "kickCoverage"
+      },
+      "KC10": {
+        "type": "kickCoverage"
+      }
+    },
+    "primary": "K",
+    "progression": [],
+    "tags": [
+      "kickoff",
+      "squib"
+    ]
+  },
+  {
+    "id": "kickoff-onside",
+    "name": "Onside Kick",
+    "formation": "kickoffOnside",
+    "type": "special",
+    "concept": "onside",
+    "assignments": {
+      "K": {
+        "type": "kicker"
+      },
+      "KC1": {
+        "type": "kickCoverage"
+      },
+      "KC2": {
+        "type": "kickCoverage"
+      },
+      "KC3": {
+        "type": "kickCoverage"
+      },
+      "KC4": {
+        "type": "kickCoverage"
+      },
+      "KC5": {
+        "type": "kickCoverage"
+      },
+      "KC6": {
+        "type": "kickCoverage"
+      },
+      "KC7": {
+        "type": "kickCoverage"
+      },
+      "KC8": {
+        "type": "kickCoverage"
+      },
+      "KC9": {
+        "type": "kickCoverage"
+      },
+      "KC10": {
+        "type": "kickCoverage"
+      }
+    },
+    "primary": "K",
+    "progression": [],
+    "tags": [
+      "onside"
+    ]
+  },
+  {
+    "id": "punt-standard",
+    "name": "Punt",
+    "formation": "punt",
+    "type": "special",
+    "concept": "punt",
+    "assignments": {
+      "P": {
+        "type": "kicker"
+      },
+      "LS": {
+        "type": "longSnapper"
+      },
+      "LT": {
+        "type": "kickCoverage"
+      },
+      "LG": {
+        "type": "kickCoverage"
+      },
+      "RG": {
+        "type": "kickCoverage"
+      },
+      "RT": {
+        "type": "kickCoverage"
+      },
+      "W1": {
+        "type": "kickCoverage"
+      },
+      "W2": {
+        "type": "kickCoverage"
+      },
+      "PP": {
+        "type": "kickCoverage"
+      },
+      "G1": {
+        "type": "gunner"
+      },
+      "G2": {
+        "type": "gunner"
+      }
+    },
+    "primary": "P",
+    "progression": [],
+    "tags": [
+      "punt"
+    ]
+  },
+  {
+    "id": "punt-pooch",
+    "name": "Pooch Punt",
+    "formation": "punt",
+    "type": "special",
+    "concept": "punt",
+    "assignments": {
+      "P": {
+        "type": "kicker"
+      },
+      "LS": {
+        "type": "longSnapper"
+      },
+      "LT": {
+        "type": "kickCoverage"
+      },
+      "LG": {
+        "type": "kickCoverage"
+      },
+      "RG": {
+        "type": "kickCoverage"
+      },
+      "RT": {
+        "type": "kickCoverage"
+      },
+      "W1": {
+        "type": "kickCoverage"
+      },
+      "W2": {
+        "type": "kickCoverage"
+      },
+      "PP": {
+        "type": "kickCoverage"
+      },
+      "G1": {
+        "type": "gunner"
+      },
+      "G2": {
+        "type": "gunner"
+      }
+    },
+    "primary": "P",
+    "progression": [],
+    "tags": [
+      "punt",
+      "pooch"
+    ]
+  },
+  {
+    "id": "fieldGoal-standard",
+    "name": "Field Goal",
+    "formation": "fieldGoal",
+    "type": "special",
+    "concept": "fieldGoal",
+    "assignments": {
+      "K": {
+        "type": "kicker"
+      },
+      "H": {
+        "type": "holder"
+      },
+      "LS": {
+        "type": "longSnapper"
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      },
+      "TE1": {
+        "type": "passBlock"
+      },
+      "TE2": {
+        "type": "passBlock"
+      },
+      "W1": {
+        "type": "passBlock"
+      },
+      "W2": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "K",
+    "progression": [],
+    "tags": [
+      "fieldGoal"
+    ]
+  },
+  {
+    "id": "extraPoint-standard",
+    "name": "Extra Point",
+    "formation": "fieldGoal",
+    "type": "special",
+    "concept": "extraPoint",
+    "assignments": {
+      "K": {
+        "type": "kicker"
+      },
+      "H": {
+        "type": "holder"
+      },
+      "LS": {
+        "type": "longSnapper"
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      },
+      "TE1": {
+        "type": "passBlock"
+      },
+      "TE2": {
+        "type": "passBlock"
+      },
+      "W1": {
+        "type": "passBlock"
+      },
+      "W2": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "K",
+    "progression": [],
+    "tags": [
+      "pat"
+    ]
+  },
+  {
+    "id": "fakePunt-pass",
+    "name": "Fake Punt Pass",
+    "formation": "punt",
+    "type": "pass",
+    "concept": "fakePunt",
+    "assignments": {
+      "P": {
+        "type": "qb"
+      },
+      "LS": {
+        "type": "longSnapper"
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      },
+      "W1": {
+        "type": "passBlock"
+      },
+      "W2": {
+        "type": "route",
+        "route": "seam"
+      },
+      "PP": {
+        "type": "route",
+        "route": "flat"
+      },
+      "G1": {
+        "type": "route",
+        "route": "go",
+        "mirror": true
+      },
+      "G2": {
+        "type": "route",
+        "route": "go"
+      }
+    },
+    "primary": "G2",
+    "progression": [
+      "W2",
+      "PP",
+      "G1"
+    ],
+    "dropback": 0,
+    "tags": [
+      "trick",
+      "punt"
+    ]
+  },
+  {
+    "id": "fakePunt-run",
+    "name": "Fake Punt Run",
+    "formation": "punt",
+    "type": "run",
+    "concept": "fakePunt",
+    "assignments": {
+      "P": {
+        "type": "qb"
+      },
+      "PP": {
+        "type": "carry"
+      },
+      "LS": {
+        "type": "longSnapper"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "W1": {
+        "type": "runBlock",
+        "gap": "C-left"
+      },
+      "W2": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "G1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "G2": {
+        "type": "route",
+        "route": "stalkBlock"
+      }
+    },
+    "primary": "PP",
+    "progression": [],
+    "ballCarrier": "PP",
+    "runGap": "B-right",
+    "tags": [
+      "trick",
+      "punt",
+      "shortYardage"
+    ]
+  },
+  {
+    "id": "fakeFieldGoal-pass",
+    "name": "Fake FG Pass",
+    "formation": "fieldGoal",
+    "type": "pass",
+    "concept": "fakeFieldGoal",
+    "assignments": {
+      "H": {
+        "type": "qb"
+      },
+      "K": {
+        "type": "route",
+        "route": "swing",
+        "mirror": true
+      },
+      "LS": {
+        "type": "longSnapper"
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      },
+      "TE1": {
+        "type": "passBlock"
+      },
+      "W1": {
+        "type": "passBlock"
+      },
+      "TE2": {
+        "type": "route",
+        "route": "corner"
+      },
+      "W2": {
+        "type": "route",
+        "route": "flat"
+      }
+    },
+    "primary": "TE2",
+    "progression": [
+      "W2",
+      "K"
+    ],
+    "dropback": 0,
+    "tags": [
+      "trick",
+      "fieldGoal",
+      "redZone"
+    ]
+  },
+  {
+    "id": "fakeFieldGoal-run",
+    "name": "Fake FG Run",
+    "formation": "fieldGoal",
+    "type": "run",
+    "concept": "fakeFieldGoal",
+    "assignments": {
+      "H": {
+        "type": "qb"
+      },
+      "W2": {
+        "type": "carry"
+      },
+      "K": {
+        "type": "passBlock"
+      },
+      "LS": {
+        "type": "longSnapper"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "B-right"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-left"
+      },
+      "TE2": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "W1": {
+        "type": "runBlock",
+        "gap": "D-left"
+      }
+    },
+    "primary": "W2",
+    "progression": [],
+    "ballCarrier": "W2",
+    "runGap": "D-right",
+    "tags": [
+      "trick",
+      "fieldGoal",
+      "goalLine"
+    ]
+  },
+  {
+    "id": "shotgunTrips-twoPoint-pick",
+    "name": "Trips Pick Flat",
+    "formation": "shotgunTrips",
+    "type": "pass",
+    "concept": "slant",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "RB": {
+        "type": "route",
+        "route": "checkRelease"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "stick",
+        "mirror": true
+      },
+      "WR1": {
+        "type": "route",
+        "route": "fade"
+      },
+      "WR2": {
+        "type": "route",
+        "route": "slant"
+      },
+      "WR3": {
+        "type": "route",
+        "route": "flat"
+      },
+      "LT": {
+        "type": "passBlock"
+      },
+      "LG": {
+        "type": "passBlock"
+      },
+      "C": {
+        "type": "passBlock"
+      },
+      "RG": {
+        "type": "passBlock"
+      },
+      "RT": {
+        "type": "passBlock"
+      }
+    },
+    "primary": "WR3",
+    "progression": [
+      "WR2",
+      "WR1",
+      "TE1",
+      "RB"
+    ],
+    "dropback": 3,
+    "audibles": {
+      "zoneBeater": "shotgunTrips-bubble"
+    },
+    "tags": [
+      "twoPoint",
+      "goalLine",
+      "redZone"
+    ]
+  },
+  {
+    "id": "twoTE-twoPoint-paFlat",
+    "name": "Ace PA Flat",
+    "formation": "twoTE",
+    "type": "playAction",
+    "concept": "playAction",
+    "assignments": {
+      "QB": {
+        "type": "qb",
+        "fakeTo": "RB"
+      },
+      "RB": {
+        "type": "passBlock"
+      },
+      "TE1": {
+        "type": "route",
+        "route": "flat"
+      },
+      "TE2": {
+        "type": "route",
+        "route": "corner",
+        "mirror": true
+      },
+      "WR1": {
+        "type": "route",
+        "route": "slant",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "fade"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "C-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "B-right"
+      }
+    },
+    "primary": "TE1",
+    "progression": [
+      "WR2",
+      "TE2",
+      "WR1"
+    ],
+    "dropback": 5,
+    "fakeTo": "RB",
+    "tags": [
+      "twoPoint",
+      "goalLine"
+    ]
+  },
+  {
+    "id": "iform-twoPoint-power",
+    "name": "I-Form Two Point Power",
+    "formation": "iForm",
+    "type": "run",
+    "concept": "insideRun",
+    "assignments": {
+      "QB": {
+        "type": "qb"
+      },
+      "FB": {
+        "type": "leadBlock",
+        "gap": "C-right"
+      },
+      "RB": {
+        "type": "carry"
+      },
+      "TE1": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "WR1": {
+        "type": "route",
+        "route": "stalkBlock",
+        "mirror": true
+      },
+      "WR2": {
+        "type": "route",
+        "route": "stalkBlock"
+      },
+      "LT": {
+        "type": "runBlock",
+        "gap": "B-left"
+      },
+      "LG": {
+        "type": "runBlock",
+        "gap": "C-right"
+      },
+      "C": {
+        "type": "runBlock",
+        "gap": "A-left"
+      },
+      "RG": {
+        "type": "runBlock",
+        "gap": "A-right"
+      },
+      "RT": {
+        "type": "runBlock",
+        "gap": "B-right"
+      }
+    },
+    "primary": "RB",
+    "progression": [],
+    "ballCarrier": "RB",
+    "runGap": "C-right",
+    "tags": [
+      "twoPoint",
+      "goalLine",
+      "shortYardage"
+    ]
+  }
+]

@@ -1,0 +1,933 @@
+{
+  "conferences": [
+    {
+      "name": "Liberty",
+      "divisions": [
+        "Colonial",
+        "Harbor",
+        "Delta",
+        "Lakes"
+      ]
+    },
+    {
+      "name": "Frontier",
+      "divisions": [
+        "Prairie",
+        "Summit",
+        "Mesa",
+        "Cascade"
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "city": "Boston",
+      "name": "Ironsides",
+      "abbr": "BOS",
+      "conference": "Liberty",
+      "division": "Colonial",
+      "colors": {
+        "primary": "#1E3F7A",
+        "secondary": "#B87333",
+        "accent": "#F5F0E1",
+        "helmet": "#1E3F7A"
+      },
+      "logoSeed": 1000,
+      "region": "northeast",
+      "marketSize": "large",
+      "stadium": {
+        "name": "Harbor Point Field",
+        "capacity": 66500,
+        "fieldType": "grass",
+        "roof": "open",
+        "climate": "cold",
+        "atmosphere": 84,
+        "yearBuilt": 1998
+      },
+      "rivalAbbrs": [
+        "NYC",
+        "BUF"
+      ]
+    },
+    {
+      "city": "New York",
+      "name": "Vanguard",
+      "abbr": "NYC",
+      "conference": "Liberty",
+      "division": "Colonial",
+      "colors": {
+        "primary": "#101820",
+        "secondary": "#F2C75C",
+        "accent": "#FFFFFF",
+        "helmet": "#101820"
+      },
+      "logoSeed": 1037,
+      "region": "northeast",
+      "marketSize": "large",
+      "stadium": {
+        "name": "Skyline Stadium",
+        "capacity": 78000,
+        "fieldType": "turf",
+        "roof": "open",
+        "climate": "temperate",
+        "atmosphere": 80,
+        "yearBuilt": 2009
+      },
+      "rivalAbbrs": [
+        "BOS",
+        "PHI"
+      ]
+    },
+    {
+      "city": "Philadelphia",
+      "name": "Founders",
+      "abbr": "PHI",
+      "conference": "Liberty",
+      "division": "Colonial",
+      "colors": {
+        "primary": "#6E1E2E",
+        "secondary": "#D9C08C",
+        "accent": "#FFFFFF",
+        "helmet": "#6E1E2E"
+      },
+      "logoSeed": 1074,
+      "region": "midAtlantic",
+      "marketSize": "large",
+      "stadium": {
+        "name": "Founders Field",
+        "capacity": 70000,
+        "fieldType": "grass",
+        "roof": "open",
+        "climate": "temperate",
+        "atmosphere": 88,
+        "yearBuilt": 2003
+      },
+      "rivalAbbrs": [
+        "NYC"
+      ]
+    },
+    {
+      "city": "Buffalo",
+      "name": "Icebreakers",
+      "abbr": "BUF",
+      "conference": "Liberty",
+      "division": "Colonial",
+      "colors": {
+        "primary": "#2E6DB4",
+        "secondary": "#FFFFFF",
+        "accent": "#C0392B",
+        "helmet": "#FFFFFF"
+      },
+      "logoSeed": 1111,
+      "region": "northeast",
+      "marketSize": "small",
+      "stadium": {
+        "name": "Lakewind Stadium",
+        "capacity": 62000,
+        "fieldType": "turf",
+        "roof": "open",
+        "climate": "cold",
+        "atmosphere": 90,
+        "yearBuilt": 1974
+      },
+      "rivalAbbrs": [
+        "BOS"
+      ]
+    },
+    {
+      "city": "Baltimore",
+      "name": "Ramparts",
+      "abbr": "BAL",
+      "conference": "Liberty",
+      "division": "Harbor",
+      "colors": {
+        "primary": "#8B1E3F",
+        "secondary": "#1C1C1C",
+        "accent": "#F4C542",
+        "helmet": "#1C1C1C"
+      },
+      "logoSeed": 1148,
+      "region": "midAtlantic",
+      "marketSize": "medium",
+      "stadium": {
+        "name": "Rampart Field",
+        "capacity": 68000,
+        "fieldType": "grass",
+        "roof": "open",
+        "climate": "coastal",
+        "atmosphere": 85,
+        "yearBuilt": 1999
+      },
+      "rivalAbbrs": [
+        "WAS",
+        "PIT"
+      ]
+    },
+    {
+      "city": "Washington",
+      "name": "Envoys",
+      "abbr": "WAS",
+      "conference": "Liberty",
+      "division": "Harbor",
+      "colors": {
+        "primary": "#1F3A5F",
+        "secondary": "#C41E3A",
+        "accent": "#FFFFFF",
+        "helmet": "#FFFFFF"
+      },
+      "logoSeed": 1185,
+      "region": "midAtlantic",
+      "marketSize": "large",
+      "stadium": {
+        "name": "Capitol Commons Stadium",
+        "capacity": 74000,
+        "fieldType": "grass",
+        "roof": "open",
+        "climate": "temperate",
+        "atmosphere": 72,
+        "yearBuilt": 1997
+      },
+      "rivalAbbrs": [
+        "BAL"
+      ]
+    },
+    {
+      "city": "Pittsburgh",
+      "name": "Ironworks",
+      "abbr": "PIT",
+      "conference": "Liberty",
+      "division": "Harbor",
+      "colors": {
+        "primary": "#F0A202",
+        "secondary": "#1A1A1A",
+        "accent": "#FFFFFF",
+        "helmet": "#1A1A1A"
+      },
+      "logoSeed": 1222,
+      "region": "midAtlantic",
+      "marketSize": "medium",
+      "stadium": {
+        "name": "Forge Field",
+        "capacity": 65500,
+        "fieldType": "grass",
+        "roof": "open",
+        "climate": "cold",
+        "atmosphere": 87,
+        "yearBuilt": 2001
+      },
+      "rivalAbbrs": [
+        "BAL",
+        "CLT"
+      ]
+    },
+    {
+      "city": "Charlotte",
+      "name": "Crowns",
+      "abbr": "CLT",
+      "conference": "Liberty",
+      "division": "Harbor",
+      "colors": {
+        "primary": "#4B2A8C",
+        "secondary": "#C9A227",
+        "accent": "#FFFFFF",
+        "helmet": "#4B2A8C"
+      },
+      "logoSeed": 1259,
+      "region": "southeast",
+      "marketSize": "medium",
+      "stadium": {
+        "name": "Crown Court Stadium",
+        "capacity": 71000,
+        "fieldType": "grass",
+        "roof": "open",
+        "climate": "temperate",
+        "atmosphere": 74,
+        "yearBuilt": 1996
+      },
+      "rivalAbbrs": [
+        "WAS"
+      ]
+    },
+    {
+      "city": "Atlanta",
+      "name": "Embers",
+      "abbr": "ATL",
+      "conference": "Liberty",
+      "division": "Delta",
+      "colors": {
+        "primary": "#D7263D",
+        "secondary": "#2B2B2B",
+        "accent": "#F9A825",
+        "helmet": "#2B2B2B"
+      },
+      "logoSeed": 1296,
+      "region": "southeast",
+      "marketSize": "large",
+      "stadium": {
+        "name": "Peachtree Pavilion",
+        "capacity": 71500,
+        "fieldType": "turf",
+        "roof": "retractable",
+        "climate": "warm",
+        "atmosphere": 79,
+        "yearBuilt": 2017
+      },
+      "rivalAbbrs": [
+        "NOL",
+        "MIA"
+      ]
+    },
+    {
+      "city": "Miami",
+      "name": "Wavebreakers",
+      "abbr": "MIA",
+      "conference": "Liberty",
+      "division": "Delta",
+      "colors": {
+        "primary": "#0FA3B1",
+        "secondary": "#F26419",
+        "accent": "#FFFFFF",
+        "helmet": "#FFFFFF"
+      },
+      "logoSeed": 1333,
+      "region": "florida",
+      "marketSize": "large",
+      "stadium": {
+        "name": "Tidewater Stadium",
+        "capacity": 65000,
+        "fieldType": "grass",
+        "roof": "open",
+        "climate": "coastal",
+        "atmosphere": 76,
+        "yearBuilt": 1987
+      },
+      "rivalAbbrs": [
+        "ATL"
+      ]
+    },
+    {
+      "city": "New Orleans",
+      "name": "Revelers",
+      "abbr": "NOL",
+      "conference": "Liberty",
+      "division": "Delta",
+      "colors": {
+        "primary": "#5B2C83",
+        "secondary": "#F4C542",
+        "accent": "#3CB371",
+        "helmet": "#5B2C83"
+      },
+      "logoSeed": 1370,
+      "region": "southCentral",
+      "marketSize": "small",
+      "stadium": {
+        "name": "Crescent City Dome",
+        "capacity": 73000,
+        "fieldType": "turf",
+        "roof": "dome",
+        "climate": "warm",
+        "atmosphere": 91,
+        "yearBuilt": 1975
+      },
+      "rivalAbbrs": [
+        "ATL",
+        "NSH"
+      ]
+    },
+    {
+      "city": "Nashville",
+      "name": "Troubadours",
+      "abbr": "NSH",
+      "conference": "Liberty",
+      "division": "Delta",
+      "colors": {
+        "primary": "#C9A227",
+        "secondary": "#1F2A44",
+        "accent": "#FFFFFF",
+        "helmet": "#1F2A44"
+      },
+      "logoSeed": 1407,
+      "region": "southeast",
+      "marketSize": "medium",
+      "stadium": {
+        "name": "Cumberland Bend Stadium",
+        "capacity": 69000,
+        "fieldType": "grass",
+        "roof": "open",
+        "climate": "temperate",
+        "atmosphere": 81,
+        "yearBuilt": 1999
+      },
+      "rivalAbbrs": [
+        "NOL"
+      ]
+    },
+    {
+      "city": "Chicago",
+      "name": "Gales",
+      "abbr": "CHI",
+      "conference": "Liberty",
+      "division": "Lakes",
+      "colors": {
+        "primary": "#2E5090",
+        "secondary": "#E8E8E8",
+        "accent": "#C8102E",
+        "helmet": "#2E5090"
+      },
+      "logoSeed": 1444,
+      "region": "greatLakes",
+      "marketSize": "large",
+      "stadium": {
+        "name": "Lakefront Stadium",
+        "capacity": 61500,
+        "fieldType": "grass",
+        "roof": "open",
+        "climate": "cold",
+        "atmosphere": 83,
+        "yearBuilt": 1931
+      },
+      "rivalAbbrs": [
+        "DET"
+      ]
+    },
+    {
+      "city": "Detroit",
+      "name": "Motormen",
+      "abbr": "DET",
+      "conference": "Liberty",
+      "division": "Lakes",
+      "colors": {
+        "primary": "#7A8896",
+        "secondary": "#E63946",
+        "accent": "#101820",
+        "helmet": "#101820"
+      },
+      "logoSeed": 1481,
+      "region": "greatLakes",
+      "marketSize": "medium",
+      "stadium": {
+        "name": "Motor City Dome",
+        "capacity": 65000,
+        "fieldType": "turf",
+        "roof": "dome",
+        "climate": "cold",
+        "atmosphere": 78,
+        "yearBuilt": 2002
+      },
+      "rivalAbbrs": [
+        "CHI",
+        "CLE"
+      ]
+    },
+    {
+      "city": "Cleveland",
+      "name": "Lakehawks",
+      "abbr": "CLE",
+      "conference": "Liberty",
+      "division": "Lakes",
+      "colors": {
+        "primary": "#E86A10",
+        "secondary": "#1B365D",
+        "accent": "#FFFFFF",
+        "helmet": "#1B365D"
+      },
+      "logoSeed": 1518,
+      "region": "greatLakes",
+      "marketSize": "medium",
+      "stadium": {
+        "name": "Erie Shore Stadium",
+        "capacity": 67000,
+        "fieldType": "grass",
+        "roof": "open",
+        "climate": "cold",
+        "atmosphere": 86,
+        "yearBuilt": 1999
+      },
+      "rivalAbbrs": [
+        "CIN",
+        "DET"
+      ]
+    },
+    {
+      "city": "Cincinnati",
+      "name": "Sternwheelers",
+      "abbr": "CIN",
+      "conference": "Liberty",
+      "division": "Lakes",
+      "colors": {
+        "primary": "#A61E3B",
+        "secondary": "#F5E6C8",
+        "accent": "#1A1A1A",
+        "helmet": "#F5E6C8"
+      },
+      "logoSeed": 1555,
+      "region": "greatLakes",
+      "marketSize": "small",
+      "stadium": {
+        "name": "Paddlewheel Park",
+        "capacity": 65500,
+        "fieldType": "turf",
+        "roof": "open",
+        "climate": "temperate",
+        "atmosphere": 77,
+        "yearBuilt": 2000
+      },
+      "rivalAbbrs": [
+        "CLE"
+      ]
+    },
+    {
+      "city": "Minneapolis",
+      "name": "Voyageurs",
+      "abbr": "MSP",
+      "conference": "Frontier",
+      "division": "Prairie",
+      "colors": {
+        "primary": "#1B3A6B",
+        "secondary": "#E8B04B",
+        "accent": "#FFFFFF",
+        "helmet": "#1B3A6B"
+      },
+      "logoSeed": 1592,
+      "region": "heartland",
+      "marketSize": "medium",
+      "stadium": {
+        "name": "Northern Lights Dome",
+        "capacity": 66500,
+        "fieldType": "turf",
+        "roof": "dome",
+        "climate": "cold",
+        "atmosphere": 80,
+        "yearBuilt": 2016
+      },
+      "rivalAbbrs": [
+        "KCM"
+      ]
+    },
+    {
+      "city": "Kansas City",
+      "name": "Outriders",
+      "abbr": "KCM",
+      "conference": "Frontier",
+      "division": "Prairie",
+      "colors": {
+        "primary": "#B5651D",
+        "secondary": "#2B2B2B",
+        "accent": "#F5DEB3",
+        "helmet": "#2B2B2B"
+      },
+      "logoSeed": 1629,
+      "region": "heartland",
+      "marketSize": "medium",
+      "stadium": {
+        "name": "Stockyard Stadium",
+        "capacity": 76000,
+        "fieldType": "grass",
+        "roof": "open",
+        "climate": "temperate",
+        "atmosphere": 93,
+        "yearBuilt": 1972
+      },
+      "rivalAbbrs": [
+        "STL",
+        "MSP"
+      ]
+    },
+    {
+      "city": "St. Louis",
+      "name": "Ferrymen",
+      "abbr": "STL",
+      "conference": "Frontier",
+      "division": "Prairie",
+      "colors": {
+        "primary": "#7B3FA0",
+        "secondary": "#C0C0C0",
+        "accent": "#FFFFFF",
+        "helmet": "#C0C0C0"
+      },
+      "logoSeed": 1666,
+      "region": "heartland",
+      "marketSize": "medium",
+      "stadium": {
+        "name": "Gateway Dome",
+        "capacity": 66000,
+        "fieldType": "turf",
+        "roof": "dome",
+        "climate": "temperate",
+        "atmosphere": 70,
+        "yearBuilt": 1995
+      },
+      "rivalAbbrs": [
+        "KCM"
+      ]
+    },
+    {
+      "city": "Indianapolis",
+      "name": "Speedsters",
+      "abbr": "IND",
+      "conference": "Frontier",
+      "division": "Prairie",
+      "colors": {
+        "primary": "#D62839",
+        "secondary": "#FFFFFF",
+        "accent": "#101820",
+        "helmet": "#FFFFFF"
+      },
+      "logoSeed": 1703,
+      "region": "greatLakes",
+      "marketSize": "medium",
+      "stadium": {
+        "name": "Victory Lane Stadium",
+        "capacity": 63000,
+        "fieldType": "turf",
+        "roof": "retractable",
+        "climate": "temperate",
+        "atmosphere": 82,
+        "yearBuilt": 2008
+      },
+      "rivalAbbrs": [
+        "STL"
+      ]
+    },
+    {
+      "city": "Denver",
+      "name": "Prospectors",
+      "abbr": "DEN",
+      "conference": "Frontier",
+      "division": "Summit",
+      "colors": {
+        "primary": "#C8891A",
+        "secondary": "#3B2314",
+        "accent": "#FFFFFF",
+        "helmet": "#3B2314"
+      },
+      "logoSeed": 1740,
+      "region": "mountainWest",
+      "marketSize": "medium",
+      "stadium": {
+        "name": "Timberline Field",
+        "capacity": 76000,
+        "fieldType": "grass",
+        "roof": "open",
+        "climate": "cold",
+        "atmosphere": 89,
+        "yearBuilt": 2001
+      },
+      "rivalAbbrs": [
+        "SLC"
+      ]
+    },
+    {
+      "city": "Salt Lake City",
+      "name": "Snowcaps",
+      "abbr": "SLC",
+      "conference": "Frontier",
+      "division": "Summit",
+      "colors": {
+        "primary": "#2A6F97",
+        "secondary": "#F4F4F4",
+        "accent": "#C9A227",
+        "helmet": "#2A6F97"
+      },
+      "logoSeed": 1777,
+      "region": "mountainWest",
+      "marketSize": "small",
+      "stadium": {
+        "name": "Wasatch Field",
+        "capacity": 58000,
+        "fieldType": "grass",
+        "roof": "open",
+        "climate": "cold",
+        "atmosphere": 79,
+        "yearBuilt": 1998
+      },
+      "rivalAbbrs": [
+        "DEN"
+      ]
+    },
+    {
+      "city": "Phoenix",
+      "name": "Saguaros",
+      "abbr": "PHX",
+      "conference": "Frontier",
+      "division": "Summit",
+      "colors": {
+        "primary": "#B7410E",
+        "secondary": "#F2D16B",
+        "accent": "#2B2B2B",
+        "helmet": "#B7410E"
+      },
+      "logoSeed": 1814,
+      "region": "mountainWest",
+      "marketSize": "large",
+      "stadium": {
+        "name": "Sonoran Pavilion",
+        "capacity": 63500,
+        "fieldType": "grass",
+        "roof": "retractable",
+        "climate": "desert",
+        "atmosphere": 75,
+        "yearBuilt": 2006
+      },
+      "rivalAbbrs": [
+        "LVN"
+      ]
+    },
+    {
+      "city": "Las Vegas",
+      "name": "Highrollers",
+      "abbr": "LVN",
+      "conference": "Frontier",
+      "division": "Summit",
+      "colors": {
+        "primary": "#101010",
+        "secondary": "#FF2D95",
+        "accent": "#00E5FF",
+        "helmet": "#101010"
+      },
+      "logoSeed": 1851,
+      "region": "mountainWest",
+      "marketSize": "medium",
+      "stadium": {
+        "name": "Neon Dome",
+        "capacity": 65000,
+        "fieldType": "turf",
+        "roof": "dome",
+        "climate": "desert",
+        "atmosphere": 78,
+        "yearBuilt": 2020
+      },
+      "rivalAbbrs": [
+        "PHX",
+        "DEN"
+      ]
+    },
+    {
+      "city": "Dallas",
+      "name": "Drovers",
+      "abbr": "DAL",
+      "conference": "Frontier",
+      "division": "Mesa",
+      "colors": {
+        "primary": "#5C3A21",
+        "secondary": "#D9B382",
+        "accent": "#FFFFFF",
+        "helmet": "#D9B382"
+      },
+      "logoSeed": 1888,
+      "region": "southCentral",
+      "marketSize": "large",
+      "stadium": {
+        "name": "Trailhead Stadium",
+        "capacity": 80000,
+        "fieldType": "turf",
+        "roof": "retractable",
+        "climate": "warm",
+        "atmosphere": 84,
+        "yearBuilt": 2009
+      },
+      "rivalAbbrs": [
+        "HOU"
+      ]
+    },
+    {
+      "city": "Houston",
+      "name": "Orbiters",
+      "abbr": "HOU",
+      "conference": "Frontier",
+      "division": "Mesa",
+      "colors": {
+        "primary": "#0B3D91",
+        "secondary": "#FC3D21",
+        "accent": "#FFFFFF",
+        "helmet": "#FFFFFF"
+      },
+      "logoSeed": 1925,
+      "region": "southCentral",
+      "marketSize": "large",
+      "stadium": {
+        "name": "Launchpad Stadium",
+        "capacity": 72000,
+        "fieldType": "grass",
+        "roof": "retractable",
+        "climate": "warm",
+        "atmosphere": 81,
+        "yearBuilt": 2002
+      },
+      "rivalAbbrs": [
+        "DAL",
+        "SAT"
+      ]
+    },
+    {
+      "city": "San Antonio",
+      "name": "Rancheros",
+      "abbr": "SAT",
+      "conference": "Frontier",
+      "division": "Mesa",
+      "colors": {
+        "primary": "#C1272D",
+        "secondary": "#F4E1B5",
+        "accent": "#1A1A1A",
+        "helmet": "#F4E1B5"
+      },
+      "logoSeed": 1962,
+      "region": "southCentral",
+      "marketSize": "medium",
+      "stadium": {
+        "name": "Mission Field",
+        "capacity": 64000,
+        "fieldType": "grass",
+        "roof": "open",
+        "climate": "warm",
+        "atmosphere": 80,
+        "yearBuilt": 1993
+      },
+      "rivalAbbrs": [
+        "HOU",
+        "DAL"
+      ]
+    },
+    {
+      "city": "Oklahoma City",
+      "name": "Derricks",
+      "abbr": "OKC",
+      "conference": "Frontier",
+      "division": "Mesa",
+      "colors": {
+        "primary": "#1C1C1C",
+        "secondary": "#E0A800",
+        "accent": "#B22234",
+        "helmet": "#1C1C1C"
+      },
+      "logoSeed": 1999,
+      "region": "southCentral",
+      "marketSize": "small",
+      "stadium": {
+        "name": "Derrick Field",
+        "capacity": 60000,
+        "fieldType": "turf",
+        "roof": "open",
+        "climate": "temperate",
+        "atmosphere": 85,
+        "yearBuilt": 2005
+      },
+      "rivalAbbrs": [
+        "DAL"
+      ]
+    },
+    {
+      "city": "Seattle",
+      "name": "Rainmakers",
+      "abbr": "SEA",
+      "conference": "Frontier",
+      "division": "Cascade",
+      "colors": {
+        "primary": "#1F4E79",
+        "secondary": "#9ED8DB",
+        "accent": "#F2F2F2",
+        "helmet": "#1F4E79"
+      },
+      "logoSeed": 2036,
+      "region": "pacificNorthwest",
+      "marketSize": "medium",
+      "stadium": {
+        "name": "Puget Sound Stadium",
+        "capacity": 68000,
+        "fieldType": "turf",
+        "roof": "open",
+        "climate": "coastal",
+        "atmosphere": 94,
+        "yearBuilt": 2002
+      },
+      "rivalAbbrs": [
+        "PDX"
+      ]
+    },
+    {
+      "city": "Portland",
+      "name": "Cascadians",
+      "abbr": "PDX",
+      "conference": "Frontier",
+      "division": "Cascade",
+      "colors": {
+        "primary": "#7C8A93",
+        "secondary": "#D6336C",
+        "accent": "#1A1A1A",
+        "helmet": "#7C8A93"
+      },
+      "logoSeed": 2073,
+      "region": "pacificNorthwest",
+      "marketSize": "medium",
+      "stadium": {
+        "name": "Rose City Field",
+        "capacity": 58500,
+        "fieldType": "turf",
+        "roof": "open",
+        "climate": "temperate",
+        "atmosphere": 83,
+        "yearBuilt": 2011
+      },
+      "rivalAbbrs": [
+        "SEA"
+      ]
+    },
+    {
+      "city": "San Francisco",
+      "name": "Foghorns",
+      "abbr": "SFO",
+      "conference": "Frontier",
+      "division": "Cascade",
+      "colors": {
+        "primary": "#6D2E8C",
+        "secondary": "#E9E4D4",
+        "accent": "#F26B1D",
+        "helmet": "#E9E4D4"
+      },
+      "logoSeed": 2110,
+      "region": "westCoast",
+      "marketSize": "large",
+      "stadium": {
+        "name": "Fog Harbor Stadium",
+        "capacity": 68500,
+        "fieldType": "grass",
+        "roof": "open",
+        "climate": "coastal",
+        "atmosphere": 76,
+        "yearBuilt": 2014
+      },
+      "rivalAbbrs": [
+        "LAX"
+      ]
+    },
+    {
+      "city": "Los Angeles",
+      "name": "Surfriders",
+      "abbr": "LAX",
+      "conference": "Frontier",
+      "division": "Cascade",
+      "colors": {
+        "primary": "#FF7F11",
+        "secondary": "#0077B6",
+        "accent": "#FFFFFF",
+        "helmet": "#FFFFFF"
+      },
+      "logoSeed": 2147,
+      "region": "westCoast",
+      "marketSize": "large",
+      "stadium": {
+        "name": "Sunset Coast Stadium",
+        "capacity": 70500,
+        "fieldType": "grass",
+        "roof": "open",
+        "climate": "warm",
+        "atmosphere": 73,
+        "yearBuilt": 2020
+      },
+      "rivalAbbrs": [
+        "SFO",
+        "SEA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "QB": { "throwAccuracy": 0.28, "throwPower": 0.18, "awareness": 0.18, "vision": 0.14, "reaction": 0.06, "agility": 0.05, "speed": 0.04, "acceleration": 0.03, "strength": 0.02, "balance": 0.02 },
+  "RB": { "speed": 0.16, "acceleration": 0.14, "agility": 0.14, "carrying": 0.14, "vision": 0.12, "balance": 0.10, "strength": 0.06, "catching": 0.05, "awareness": 0.04, "stamina": 0.03, "blocking": 0.02 },
+  "FB": { "blocking": 0.25, "strength": 0.20, "carrying": 0.12, "balance": 0.12, "awareness": 0.08, "catching": 0.07, "speed": 0.05, "acceleration": 0.05, "agility": 0.03, "vision": 0.03 },
+  "WR": { "catching": 0.18, "routeRunning": 0.16, "speed": 0.16, "release": 0.10, "hands": 0.10, "acceleration": 0.08, "agility": 0.08, "awareness": 0.05, "jumping": 0.05, "balance": 0.02, "stamina": 0.02 },
+  "TE": { "catching": 0.16, "blocking": 0.16, "strength": 0.12, "routeRunning": 0.12, "hands": 0.10, "awareness": 0.08, "speed": 0.07, "jumping": 0.06, "release": 0.05, "balance": 0.04, "acceleration": 0.04 },
+  "OT": { "blocking": 0.36, "strength": 0.22, "awareness": 0.12, "balance": 0.10, "agility": 0.08, "reaction": 0.06, "acceleration": 0.03, "stamina": 0.03 },
+  "OG": { "blocking": 0.34, "strength": 0.26, "awareness": 0.12, "balance": 0.10, "agility": 0.06, "reaction": 0.06, "acceleration": 0.03, "stamina": 0.03 },
+  "C": { "blocking": 0.32, "strength": 0.22, "awareness": 0.18, "balance": 0.10, "reaction": 0.08, "agility": 0.05, "acceleration": 0.02, "stamina": 0.03 },
+  "DE": { "passRush": 0.24, "strength": 0.16, "pursuit": 0.12, "tackling": 0.12, "acceleration": 0.10, "speed": 0.08, "awareness": 0.06, "reaction": 0.06, "agility": 0.04, "stamina": 0.02 },
+  "DT": { "strength": 0.28, "passRush": 0.18, "tackling": 0.16, "awareness": 0.10, "balance": 0.08, "reaction": 0.08, "pursuit": 0.05, "acceleration": 0.04, "stamina": 0.03 },
+  "OLB": { "tackling": 0.16, "pursuit": 0.14, "speed": 0.12, "passRush": 0.12, "coverage": 0.12, "awareness": 0.10, "reaction": 0.08, "strength": 0.08, "acceleration": 0.05, "agility": 0.03 },
+  "MLB": { "tackling": 0.20, "awareness": 0.16, "pursuit": 0.14, "reaction": 0.12, "coverage": 0.10, "strength": 0.10, "speed": 0.08, "acceleration": 0.05, "agility": 0.03, "balance": 0.02 },
+  "CB": { "coverage": 0.24, "speed": 0.18, "reaction": 0.12, "agility": 0.12, "acceleration": 0.10, "awareness": 0.08, "jumping": 0.06, "tackling": 0.04, "catching": 0.03, "pursuit": 0.03 },
+  "FS": { "coverage": 0.20, "awareness": 0.16, "speed": 0.14, "reaction": 0.12, "pursuit": 0.10, "tackling": 0.08, "agility": 0.06, "jumping": 0.06, "acceleration": 0.05, "catching": 0.03 },
+  "SS": { "tackling": 0.18, "coverage": 0.16, "awareness": 0.14, "pursuit": 0.12, "speed": 0.10, "reaction": 0.10, "strength": 0.08, "acceleration": 0.05, "agility": 0.04, "jumping": 0.03 },
+  "K": { "kickAccuracy": 0.48, "kickPower": 0.40, "awareness": 0.08, "balance": 0.04 },
+  "P": { "kickPower": 0.46, "kickAccuracy": 0.40, "awareness": 0.08, "balance": 0.06 }
+}

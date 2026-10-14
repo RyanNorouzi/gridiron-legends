@@ -1,0 +1,14 @@
+{
+  "referenceCap": 225000000,
+  "picksPerRound": 32,
+  "undraftedYears": 3,
+  "rounds": [
+    { "round": 1, "years": 4, "topSalary": 9600000, "bottomSalary": 2950000, "guaranteedFraction": 1.0, "bonusFraction": 0.55, "curve": 1.6 },
+    { "round": 2, "years": 4, "topSalary": 2400000, "bottomSalary": 1500000, "guaranteedFraction": 0.6, "bonusFraction": 0.35, "curve": 1.2 },
+    { "round": 3, "years": 4, "topSalary": 1420000, "bottomSalary": 1120000, "guaranteedFraction": 0.35, "bonusFraction": 0.2, "curve": 1.0 },
+    { "round": 4, "years": 4, "topSalary": 1100000, "bottomSalary": 990000, "guaranteedFraction": 0.2, "bonusFraction": 0.12, "curve": 1.0 },
+    { "round": 5, "years": 4, "topSalary": 980000, "bottomSalary": 930000, "guaranteedFraction": 0.12, "bonusFraction": 0.08, "curve": 1.0 },
+    { "round": 6, "years": 4, "topSalary": 920000, "bottomSalary": 880000, "guaranteedFraction": 0.08, "bonusFraction": 0.05, "curve": 1.0 },
+    { "round": 7, "years": 4, "topSalary": 870000, "bottomSalary": 830000, "guaranteedFraction": 0.05, "bonusFraction": 0.03, "curve": 1.0 }
+  ]
+}

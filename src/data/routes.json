@@ -1,0 +1,573 @@
+[
+  {
+    "id": "go",
+    "type": "go",
+    "waypoints": [
+      {
+        "dx": 0,
+        "dy": 5
+      },
+      {
+        "dx": 0.5,
+        "dy": 15,
+        "isBreak": true
+      },
+      {
+        "dx": 0.5,
+        "dy": 35
+      }
+    ],
+    "breakTime": 2.3,
+    "depth": 15,
+    "scramble": "continue"
+  },
+  {
+    "id": "fade",
+    "type": "fade",
+    "waypoints": [
+      {
+        "dx": 1.5,
+        "dy": 4
+      },
+      {
+        "dx": 3,
+        "dy": 10,
+        "isBreak": true
+      },
+      {
+        "dx": 3.5,
+        "dy": 35
+      }
+    ],
+    "breakTime": 1.5,
+    "depth": 10,
+    "scramble": "continue"
+  },
+  {
+    "id": "post",
+    "type": "post",
+    "waypoints": [
+      {
+        "dx": 0,
+        "dy": 12,
+        "isBreak": true
+      },
+      {
+        "dx": -6,
+        "dy": 20
+      },
+      {
+        "dx": -11,
+        "dy": 32
+      }
+    ],
+    "breakTime": 1.8,
+    "depth": 12,
+    "scramble": "continue"
+  },
+  {
+    "id": "skinnyPost",
+    "type": "post",
+    "waypoints": [
+      {
+        "dx": 0,
+        "dy": 12,
+        "isBreak": true
+      },
+      {
+        "dx": -3,
+        "dy": 22
+      },
+      {
+        "dx": -5,
+        "dy": 34
+      }
+    ],
+    "breakTime": 1.8,
+    "depth": 12,
+    "scramble": "continue"
+  },
+  {
+    "id": "corner",
+    "type": "corner",
+    "waypoints": [
+      {
+        "dx": 0,
+        "dy": 12,
+        "isBreak": true
+      },
+      {
+        "dx": 5,
+        "dy": 19
+      },
+      {
+        "dx": 9,
+        "dy": 30
+      }
+    ],
+    "breakTime": 1.8,
+    "depth": 12,
+    "scramble": "continue"
+  },
+  {
+    "id": "seam",
+    "type": "seam",
+    "waypoints": [
+      {
+        "dx": 0,
+        "dy": 5
+      },
+      {
+        "dx": -1.5,
+        "dy": 12,
+        "isBreak": true
+      },
+      {
+        "dx": -2.5,
+        "dy": 35
+      }
+    ],
+    "breakTime": 1.7,
+    "depth": 12,
+    "scramble": "continue"
+  },
+  {
+    "id": "out",
+    "type": "out",
+    "waypoints": [
+      {
+        "dx": 0,
+        "dy": 10,
+        "isBreak": true
+      },
+      {
+        "dx": 7,
+        "dy": 10.5
+      },
+      {
+        "dx": 14,
+        "dy": 11
+      }
+    ],
+    "breakTime": 1.6,
+    "depth": 10,
+    "scramble": "settle"
+  },
+  {
+    "id": "quickOut",
+    "type": "out",
+    "waypoints": [
+      {
+        "dx": 0,
+        "dy": 5,
+        "isBreak": true
+      },
+      {
+        "dx": 6,
+        "dy": 5.5
+      },
+      {
+        "dx": 12,
+        "dy": 6
+      }
+    ],
+    "breakTime": 1,
+    "depth": 5,
+    "scramble": "settle"
+  },
+  {
+    "id": "deepOut",
+    "type": "out",
+    "waypoints": [
+      {
+        "dx": 0,
+        "dy": 15,
+        "isBreak": true
+      },
+      {
+        "dx": 7,
+        "dy": 15.5
+      },
+      {
+        "dx": 14,
+        "dy": 16
+      }
+    ],
+    "breakTime": 2.2,
+    "depth": 15,
+    "scramble": "settle"
+  },
+  {
+    "id": "in",
+    "type": "in",
+    "waypoints": [
+      {
+        "dx": 0,
+        "dy": 10,
+        "isBreak": true
+      },
+      {
+        "dx": -7,
+        "dy": 10.5
+      },
+      {
+        "dx": -16,
+        "dy": 11
+      }
+    ],
+    "breakTime": 1.6,
+    "depth": 10,
+    "scramble": "settle"
+  },
+  {
+    "id": "dig",
+    "type": "dig",
+    "waypoints": [
+      {
+        "dx": 0,
+        "dy": 14,
+        "isBreak": true
+      },
+      {
+        "dx": -8,
+        "dy": 14.5
+      },
+      {
+        "dx": -18,
+        "dy": 15
+      }
+    ],
+    "breakTime": 2.1,
+    "depth": 14,
+    "scramble": "settle"
+  },
+  {
+    "id": "slant",
+    "type": "slant",
+    "waypoints": [
+      {
+        "dx": 0,
+        "dy": 3,
+        "isBreak": true
+      },
+      {
+        "dx": -4,
+        "dy": 7
+      },
+      {
+        "dx": -9,
+        "dy": 12
+      }
+    ],
+    "breakTime": 0.7,
+    "depth": 3,
+    "scramble": "continue"
+  },
+  {
+    "id": "curl",
+    "type": "curl",
+    "waypoints": [
+      {
+        "dx": 0,
+        "dy": 12
+      },
+      {
+        "dx": -1.5,
+        "dy": 10,
+        "isBreak": true
+      }
+    ],
+    "breakTime": 1.9,
+    "depth": 10,
+    "scramble": "settle"
+  },
+  {
+    "id": "hitch",
+    "type": "hitch",
+    "waypoints": [
+      {
+        "dx": 0,
+        "dy": 6
+      },
+      {
+        "dx": -0.5,
+        "dy": 5,
+        "isBreak": true
+      }
+    ],
+    "breakTime": 1.1,
+    "depth": 5,
+    "scramble": "settle"
+  },
+  {
+    "id": "comeback",
+    "type": "comeback",
+    "waypoints": [
+      {
+        "dx": 0,
+        "dy": 15
+      },
+      {
+        "dx": 2.5,
+        "dy": 12,
+        "isBreak": true
+      }
+    ],
+    "breakTime": 2.3,
+    "depth": 12,
+    "scramble": "settle"
+  },
+  {
+    "id": "drag",
+    "type": "drag",
+    "waypoints": [
+      {
+        "dx": -3,
+        "dy": 3
+      },
+      {
+        "dx": -10,
+        "dy": 4,
+        "isBreak": true
+      },
+      {
+        "dx": -24,
+        "dy": 5
+      }
+    ],
+    "breakTime": 1.4,
+    "depth": 4,
+    "scramble": "continue"
+  },
+  {
+    "id": "cross",
+    "type": "cross",
+    "waypoints": [
+      {
+        "dx": -2,
+        "dy": 6
+      },
+      {
+        "dx": -8,
+        "dy": 10,
+        "isBreak": true
+      },
+      {
+        "dx": -22,
+        "dy": 15
+      }
+    ],
+    "breakTime": 1.6,
+    "depth": 10,
+    "scramble": "continue"
+  },
+  {
+    "id": "flat",
+    "type": "flat",
+    "waypoints": [
+      {
+        "dx": 4,
+        "dy": 1
+      },
+      {
+        "dx": 9,
+        "dy": 3,
+        "isBreak": true
+      },
+      {
+        "dx": 15,
+        "dy": 4
+      }
+    ],
+    "breakTime": 1,
+    "depth": 3,
+    "scramble": "settle"
+  },
+  {
+    "id": "wheel",
+    "type": "wheel",
+    "waypoints": [
+      {
+        "dx": 5,
+        "dy": 1.5
+      },
+      {
+        "dx": 8,
+        "dy": 6,
+        "isBreak": true
+      },
+      {
+        "dx": 8.5,
+        "dy": 18
+      },
+      {
+        "dx": 8.5,
+        "dy": 35
+      }
+    ],
+    "breakTime": 1.5,
+    "depth": 6,
+    "scramble": "continue"
+  },
+  {
+    "id": "swing",
+    "type": "swing",
+    "waypoints": [
+      {
+        "dx": 5,
+        "dy": -1
+      },
+      {
+        "dx": 9,
+        "dy": 0,
+        "isBreak": true
+      },
+      {
+        "dx": 14,
+        "dy": 3
+      }
+    ],
+    "breakTime": 1.1,
+    "depth": 0,
+    "scramble": "settle"
+  },
+  {
+    "id": "angle",
+    "type": "angle",
+    "waypoints": [
+      {
+        "dx": 3,
+        "dy": 1
+      },
+      {
+        "dx": 5,
+        "dy": 3,
+        "isBreak": true
+      },
+      {
+        "dx": 0,
+        "dy": 8
+      }
+    ],
+    "breakTime": 1.3,
+    "depth": 3,
+    "scramble": "settle"
+  },
+  {
+    "id": "stick",
+    "type": "stick",
+    "waypoints": [
+      {
+        "dx": 0,
+        "dy": 5
+      },
+      {
+        "dx": 2,
+        "dy": 6,
+        "isBreak": true
+      }
+    ],
+    "breakTime": 1,
+    "depth": 6,
+    "scramble": "settle"
+  },
+  {
+    "id": "screen",
+    "type": "screen",
+    "waypoints": [
+      {
+        "dx": 2,
+        "dy": -1
+      },
+      {
+        "dx": 5,
+        "dy": -2.5,
+        "isBreak": true
+      },
+      {
+        "dx": 9,
+        "dy": 4
+      }
+    ],
+    "breakTime": 1.6,
+    "depth": -2.5,
+    "scramble": "settle"
+  },
+  {
+    "id": "bubble",
+    "type": "screen",
+    "waypoints": [
+      {
+        "dx": 2,
+        "dy": -1
+      },
+      {
+        "dx": 5,
+        "dy": -1.5,
+        "isBreak": true
+      },
+      {
+        "dx": 9,
+        "dy": 2
+      }
+    ],
+    "breakTime": 0.6,
+    "depth": -1.5,
+    "scramble": "settle"
+  },
+  {
+    "id": "checkRelease",
+    "type": "checkRelease",
+    "waypoints": [
+      {
+        "dx": 1,
+        "dy": 0,
+        "speed": 0.4
+      },
+      {
+        "dx": 3,
+        "dy": 2,
+        "isBreak": true,
+        "speed": 0.8
+      },
+      {
+        "dx": 8,
+        "dy": 4
+      }
+    ],
+    "breakTime": 2.2,
+    "depth": 2,
+    "scramble": "settle"
+  },
+  {
+    "id": "block",
+    "type": "block",
+    "waypoints": [
+      {
+        "dx": 0,
+        "dy": 0.5
+      }
+    ],
+    "breakTime": 0.3,
+    "depth": 0.5,
+    "scramble": "settle"
+  },
+  {
+    "id": "stalkBlock",
+    "type": "block",
+    "waypoints": [
+      {
+        "dx": 0,
+        "dy": 4
+      },
+      {
+        "dx": 0.5,
+        "dy": 7,
+        "isBreak": true
+      }
+    ],
+    "breakTime": 1.2,
+    "depth": 7,
+    "scramble": "settle"
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "referenceCap": 225000000,
+  "moneyStep": 10000,
+  "minimumByExperience": [
+    { "maxExperience": 0, "mult": 1.0 },
+    { "maxExperience": 1, "mult": 1.1 },
+    { "maxExperience": 3, "mult": 1.25 },
+    { "maxExperience": 6, "mult": 1.4 },
+    { "maxExperience": 99, "mult": 1.5 }
+  ],
+  "tag": { "franchiseTopN": 5, "transitionTopN": 10, "franchiseRaise": 1.2, "transitionRaise": 1.05 },
+  "market": {
+    "overallBands": [
+      { "overall": 99, "capPct": 0.22 },
+      { "overall": 95, "capPct": 0.19 },
+      { "overall": 90, "capPct": 0.15 },
+      { "overall": 85, "capPct": 0.1 },
+      { "overall": 80, "capPct": 0.062 },
+      { "overall": 75, "capPct": 0.036 },
+      { "overall": 70, "capPct": 0.02 },
+      { "overall": 65, "capPct": 0.011 },
+      { "overall": 60, "capPct": 0.006 },
+      { "overall": 50, "capPct": 0.0035 }
+    ],
+    "positionTiers": {
+      "QB": "premium", "OT": "high", "DE": "high", "WR": "high", "CB": "high",
+      "OLB": "mid", "DT": "mid", "TE": "mid", "OG": "mid", "C": "mid", "RB": "mid",
+      "MLB": "low", "FS": "low", "SS": "low", "FB": "minimal", "K": "specialist", "P": "specialist"
+    },
+    "tierMultipliers": { "premium": 1.0, "high": 0.62, "mid": 0.45, "low": 0.38, "minimal": 0.15, "specialist": 0.12 },
+    "potentialWeight": 0.35,
+    "potentialMaxAge": 26,
+    "ageMultipliers": [
+      { "maxAge": 30, "mult": 1.0 },
+      { "maxAge": 32, "mult": 0.85 },
+      { "maxAge": 34, "mult": 0.7 },
+      { "maxAge": 99, "mult": 0.55 }
+    ],
+    "askBlend": { "market": 0.6, "development": 0.4 },
+    "yearsByAge": [
+      { "maxAge": 25, "min": 3, "max": 5 },
+      { "maxAge": 28, "min": 3, "max": 4 },
+      { "maxAge": 31, "min": 2, "max": 3 },
+      { "maxAge": 33, "min": 1, "max": 2 },
+      { "maxAge": 99, "min": 1, "max": 1 }
+    ],
+    "roleThresholds": { "franchise": 86, "starter": 74, "rotation": 64, "backup": 55 },
+    "guaranteeByRole": { "franchise": 0.7, "starter": 0.5, "rotation": 0.35, "backup": 0.2, "developmental": 0.25 },
+    "bonusByRole": { "franchise": 0.3, "starter": 0.22, "rotation": 0.12, "backup": 0.05, "developmental": 0.08 },
+    "askDecayPerRound": 0.08,
+    "askFloorFraction": 0.55
+  },
+  "tradeValue": {
+    "pickChart": [
+      [1, 3000], [2, 2600], [3, 2200], [4, 1800], [5, 1700], [6, 1600], [7, 1500], [8, 1400],
+      [9, 1350], [10, 1300], [12, 1200], [16, 1000], [20, 850], [24, 740], [28, 660], [32, 590],
+      [40, 500], [48, 420], [56, 340], [64, 270], [72, 230], [80, 190], [96, 116], [112, 74],
+      [128, 43], [144, 34], [160, 27], [176, 20], [192, 14], [208, 8], [224, 3], [256, 1]
+    ],
+    "futurePickDiscount": 0.8,
+    "talentScale": 0.00047,
+    "talentFloorOverall": 45,
+    "talentExponent": 4,
+    "positionPremium": { "premium": 1.4, "high": 1.0, "mid": 0.75, "low": 0.62, "minimal": 0.25, "specialist": 0.2 },
+    "youthPotentialWeight": 0.6,
+    "contractSurplusWeight": 0.35,
+    "packageDecay": 0.1,
+    "packageFloor": 0.5,
+    "aiMargin": 0.03,
+    "userMarginByDifficulty": { "rookie": 0.0, "pro": 0.06, "allPro": 0.12, "legend": 0.2 },
+    "untouchableOverall": 86,
+    "untouchableMaxAge": 30,
+    "untouchablePremium": 1.5
+  }
+}

@@ -1,0 +1,1255 @@
+[
+  {
+    "id": "iForm",
+    "name": "I-Form",
+    "personnel": "21",
+    "qbAlignment": "underCenter",
+    "slots": [
+      {
+        "role": "QB",
+        "position": "QB",
+        "x": 0,
+        "y": -1.1,
+        "eligible": false
+      },
+      {
+        "role": "FB",
+        "position": "FB",
+        "x": 0,
+        "y": -4.5,
+        "eligible": true
+      },
+      {
+        "role": "RB",
+        "position": "RB",
+        "x": 0,
+        "y": -7,
+        "eligible": true
+      },
+      {
+        "role": "TE1",
+        "position": "TE",
+        "x": 3.8,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "WR1",
+        "position": "WR",
+        "x": -14,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "WR2",
+        "position": "WR",
+        "x": 12,
+        "y": -1.5,
+        "eligible": true
+      },
+      {
+        "role": "LT",
+        "position": "OT",
+        "x": -2.3,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "LG",
+        "position": "OG",
+        "x": -1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "C",
+        "position": "C",
+        "x": 0,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RG",
+        "position": "OG",
+        "x": 1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RT",
+        "position": "OT",
+        "x": 2.3,
+        "y": -0.6,
+        "eligible": false
+      }
+    ]
+  },
+  {
+    "id": "singleback",
+    "name": "Singleback",
+    "personnel": "11",
+    "qbAlignment": "underCenter",
+    "slots": [
+      {
+        "role": "QB",
+        "position": "QB",
+        "x": 0,
+        "y": -1.1,
+        "eligible": false
+      },
+      {
+        "role": "RB",
+        "position": "RB",
+        "x": 0,
+        "y": -6,
+        "eligible": true
+      },
+      {
+        "role": "TE1",
+        "position": "TE",
+        "x": 3.8,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "WR1",
+        "position": "WR",
+        "x": -15,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "WR2",
+        "position": "WR",
+        "x": 15,
+        "y": -1.5,
+        "eligible": true
+      },
+      {
+        "role": "WR3",
+        "position": "WR",
+        "x": -8,
+        "y": -1.5,
+        "eligible": true
+      },
+      {
+        "role": "LT",
+        "position": "OT",
+        "x": -2.3,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "LG",
+        "position": "OG",
+        "x": -1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "C",
+        "position": "C",
+        "x": 0,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RG",
+        "position": "OG",
+        "x": 1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RT",
+        "position": "OT",
+        "x": 2.3,
+        "y": -0.6,
+        "eligible": false
+      }
+    ]
+  },
+  {
+    "id": "shotgun",
+    "name": "Shotgun 2x2",
+    "personnel": "11",
+    "qbAlignment": "shotgun",
+    "slots": [
+      {
+        "role": "QB",
+        "position": "QB",
+        "x": 0,
+        "y": -5,
+        "eligible": false
+      },
+      {
+        "role": "RB",
+        "position": "RB",
+        "x": 1.6,
+        "y": -5,
+        "eligible": true
+      },
+      {
+        "role": "TE1",
+        "position": "TE",
+        "x": 3.8,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "WR1",
+        "position": "WR",
+        "x": -16,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "WR2",
+        "position": "WR",
+        "x": 16,
+        "y": -1.5,
+        "eligible": true
+      },
+      {
+        "role": "WR3",
+        "position": "WR",
+        "x": -8,
+        "y": -1.5,
+        "eligible": true
+      },
+      {
+        "role": "LT",
+        "position": "OT",
+        "x": -2.3,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "LG",
+        "position": "OG",
+        "x": -1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "C",
+        "position": "C",
+        "x": 0,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RG",
+        "position": "OG",
+        "x": 1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RT",
+        "position": "OT",
+        "x": 2.3,
+        "y": -0.6,
+        "eligible": false
+      }
+    ]
+  },
+  {
+    "id": "shotgunTrips",
+    "name": "Shotgun Trips",
+    "personnel": "11",
+    "qbAlignment": "shotgun",
+    "slots": [
+      {
+        "role": "QB",
+        "position": "QB",
+        "x": 0,
+        "y": -5,
+        "eligible": false
+      },
+      {
+        "role": "RB",
+        "position": "RB",
+        "x": -1.6,
+        "y": -5,
+        "eligible": true
+      },
+      {
+        "role": "TE1",
+        "position": "TE",
+        "x": -3.8,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "WR1",
+        "position": "WR",
+        "x": 17,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "WR2",
+        "position": "WR",
+        "x": 11,
+        "y": -1.5,
+        "eligible": true
+      },
+      {
+        "role": "WR3",
+        "position": "WR",
+        "x": 6,
+        "y": -1.5,
+        "eligible": true
+      },
+      {
+        "role": "LT",
+        "position": "OT",
+        "x": -2.3,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "LG",
+        "position": "OG",
+        "x": -1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "C",
+        "position": "C",
+        "x": 0,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RG",
+        "position": "OG",
+        "x": 1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RT",
+        "position": "OT",
+        "x": 2.3,
+        "y": -0.6,
+        "eligible": false
+      }
+    ]
+  },
+  {
+    "id": "shotgunBunch",
+    "name": "Shotgun Bunch",
+    "personnel": "11",
+    "qbAlignment": "shotgun",
+    "slots": [
+      {
+        "role": "QB",
+        "position": "QB",
+        "x": 0,
+        "y": -5,
+        "eligible": false
+      },
+      {
+        "role": "RB",
+        "position": "RB",
+        "x": -1.6,
+        "y": -5,
+        "eligible": true
+      },
+      {
+        "role": "TE1",
+        "position": "TE",
+        "x": -3.8,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "WR1",
+        "position": "WR",
+        "x": 9,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "WR2",
+        "position": "WR",
+        "x": 11.5,
+        "y": -1.7,
+        "eligible": true
+      },
+      {
+        "role": "WR3",
+        "position": "WR",
+        "x": 6.5,
+        "y": -1.7,
+        "eligible": true
+      },
+      {
+        "role": "LT",
+        "position": "OT",
+        "x": -2.3,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "LG",
+        "position": "OG",
+        "x": -1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "C",
+        "position": "C",
+        "x": 0,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RG",
+        "position": "OG",
+        "x": 1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RT",
+        "position": "OT",
+        "x": 2.3,
+        "y": -0.6,
+        "eligible": false
+      }
+    ]
+  },
+  {
+    "id": "pistol",
+    "name": "Pistol",
+    "personnel": "11",
+    "qbAlignment": "pistol",
+    "slots": [
+      {
+        "role": "QB",
+        "position": "QB",
+        "x": 0,
+        "y": -3.5,
+        "eligible": false
+      },
+      {
+        "role": "RB",
+        "position": "RB",
+        "x": 0,
+        "y": -6.5,
+        "eligible": true
+      },
+      {
+        "role": "TE1",
+        "position": "TE",
+        "x": 3.8,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "WR1",
+        "position": "WR",
+        "x": -15,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "WR2",
+        "position": "WR",
+        "x": 15,
+        "y": -1.5,
+        "eligible": true
+      },
+      {
+        "role": "WR3",
+        "position": "WR",
+        "x": 9,
+        "y": -1.5,
+        "eligible": true
+      },
+      {
+        "role": "LT",
+        "position": "OT",
+        "x": -2.3,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "LG",
+        "position": "OG",
+        "x": -1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "C",
+        "position": "C",
+        "x": 0,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RG",
+        "position": "OG",
+        "x": 1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RT",
+        "position": "OT",
+        "x": 2.3,
+        "y": -0.6,
+        "eligible": false
+      }
+    ]
+  },
+  {
+    "id": "trips",
+    "name": "Trips Right",
+    "personnel": "11",
+    "qbAlignment": "underCenter",
+    "slots": [
+      {
+        "role": "QB",
+        "position": "QB",
+        "x": 0,
+        "y": -1.1,
+        "eligible": false
+      },
+      {
+        "role": "RB",
+        "position": "RB",
+        "x": 0,
+        "y": -6,
+        "eligible": true
+      },
+      {
+        "role": "TE1",
+        "position": "TE",
+        "x": -3.8,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "WR1",
+        "position": "WR",
+        "x": 17,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "WR2",
+        "position": "WR",
+        "x": 12,
+        "y": -1.5,
+        "eligible": true
+      },
+      {
+        "role": "WR3",
+        "position": "WR",
+        "x": 7,
+        "y": -1.5,
+        "eligible": true
+      },
+      {
+        "role": "LT",
+        "position": "OT",
+        "x": -2.3,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "LG",
+        "position": "OG",
+        "x": -1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "C",
+        "position": "C",
+        "x": 0,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RG",
+        "position": "OG",
+        "x": 1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RT",
+        "position": "OT",
+        "x": 2.3,
+        "y": -0.6,
+        "eligible": false
+      }
+    ]
+  },
+  {
+    "id": "empty",
+    "name": "Empty 3x2",
+    "personnel": "00",
+    "qbAlignment": "shotgun",
+    "slots": [
+      {
+        "role": "QB",
+        "position": "QB",
+        "x": 0,
+        "y": -5,
+        "eligible": false
+      },
+      {
+        "role": "WR1",
+        "position": "WR",
+        "x": -17,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "WR2",
+        "position": "WR",
+        "x": 17,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "WR3",
+        "position": "WR",
+        "x": -10,
+        "y": -1.5,
+        "eligible": true
+      },
+      {
+        "role": "WR4",
+        "position": "WR",
+        "x": 9,
+        "y": -1.5,
+        "eligible": true
+      },
+      {
+        "role": "WR5",
+        "position": "WR",
+        "x": -5,
+        "y": -1.5,
+        "eligible": true
+      },
+      {
+        "role": "LT",
+        "position": "OT",
+        "x": -2.3,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "LG",
+        "position": "OG",
+        "x": -1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "C",
+        "position": "C",
+        "x": 0,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RG",
+        "position": "OG",
+        "x": 1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RT",
+        "position": "OT",
+        "x": 2.3,
+        "y": -0.6,
+        "eligible": false
+      }
+    ]
+  },
+  {
+    "id": "twoTE",
+    "name": "Ace Twin TE",
+    "personnel": "12",
+    "qbAlignment": "underCenter",
+    "slots": [
+      {
+        "role": "QB",
+        "position": "QB",
+        "x": 0,
+        "y": -1.1,
+        "eligible": false
+      },
+      {
+        "role": "RB",
+        "position": "RB",
+        "x": 0,
+        "y": -6,
+        "eligible": true
+      },
+      {
+        "role": "TE1",
+        "position": "TE",
+        "x": 3.8,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "TE2",
+        "position": "TE",
+        "x": -3.8,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "WR1",
+        "position": "WR",
+        "x": -16,
+        "y": -1.5,
+        "eligible": true
+      },
+      {
+        "role": "WR2",
+        "position": "WR",
+        "x": 16,
+        "y": -1.5,
+        "eligible": true
+      },
+      {
+        "role": "LT",
+        "position": "OT",
+        "x": -2.3,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "LG",
+        "position": "OG",
+        "x": -1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "C",
+        "position": "C",
+        "x": 0,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RG",
+        "position": "OG",
+        "x": 1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RT",
+        "position": "OT",
+        "x": 2.3,
+        "y": -0.6,
+        "eligible": false
+      }
+    ]
+  },
+  {
+    "id": "heavy",
+    "name": "Heavy I",
+    "personnel": "22",
+    "qbAlignment": "underCenter",
+    "slots": [
+      {
+        "role": "QB",
+        "position": "QB",
+        "x": 0,
+        "y": -1.1,
+        "eligible": false
+      },
+      {
+        "role": "FB",
+        "position": "FB",
+        "x": 0,
+        "y": -4.5,
+        "eligible": true
+      },
+      {
+        "role": "RB",
+        "position": "RB",
+        "x": 0,
+        "y": -7,
+        "eligible": true
+      },
+      {
+        "role": "TE1",
+        "position": "TE",
+        "x": 3.8,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "TE2",
+        "position": "TE",
+        "x": -3.8,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "WR1",
+        "position": "WR",
+        "x": 14,
+        "y": -1.5,
+        "eligible": true
+      },
+      {
+        "role": "LT",
+        "position": "OT",
+        "x": -2.3,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "LG",
+        "position": "OG",
+        "x": -1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "C",
+        "position": "C",
+        "x": 0,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RG",
+        "position": "OG",
+        "x": 1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RT",
+        "position": "OT",
+        "x": 2.3,
+        "y": -0.6,
+        "eligible": false
+      }
+    ]
+  },
+  {
+    "id": "goalLine",
+    "name": "Goal Line Jumbo",
+    "personnel": "23",
+    "qbAlignment": "underCenter",
+    "slots": [
+      {
+        "role": "QB",
+        "position": "QB",
+        "x": 0,
+        "y": -1.1,
+        "eligible": false
+      },
+      {
+        "role": "FB",
+        "position": "FB",
+        "x": 0,
+        "y": -3.8,
+        "eligible": true
+      },
+      {
+        "role": "RB",
+        "position": "RB",
+        "x": 0,
+        "y": -6,
+        "eligible": true
+      },
+      {
+        "role": "TE1",
+        "position": "TE",
+        "x": 3.8,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "TE2",
+        "position": "TE",
+        "x": -3.8,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "TE3",
+        "position": "TE",
+        "x": 5.3,
+        "y": -1.5,
+        "eligible": true
+      },
+      {
+        "role": "LT",
+        "position": "OT",
+        "x": -2.3,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "LG",
+        "position": "OG",
+        "x": -1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "C",
+        "position": "C",
+        "x": 0,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RG",
+        "position": "OG",
+        "x": 1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RT",
+        "position": "OT",
+        "x": 2.3,
+        "y": -0.6,
+        "eligible": false
+      }
+    ]
+  },
+  {
+    "id": "kickoff",
+    "name": "Kickoff",
+    "personnel": "21",
+    "qbAlignment": "underCenter",
+    "slots": [
+      {
+        "role": "K",
+        "position": "K",
+        "x": 0,
+        "y": -7
+      },
+      {
+        "role": "KC1",
+        "position": "CB",
+        "x": -20,
+        "y": -1.5
+      },
+      {
+        "role": "KC2",
+        "position": "SS",
+        "x": -16,
+        "y": -1.5
+      },
+      {
+        "role": "KC3",
+        "position": "OLB",
+        "x": -12,
+        "y": -1.5
+      },
+      {
+        "role": "KC4",
+        "position": "TE",
+        "x": -8,
+        "y": -1.5
+      },
+      {
+        "role": "KC5",
+        "position": "FB",
+        "x": -4,
+        "y": -1.5
+      },
+      {
+        "role": "KC6",
+        "position": "MLB",
+        "x": 4,
+        "y": -1.5
+      },
+      {
+        "role": "KC7",
+        "position": "RB",
+        "x": 8,
+        "y": -1.5
+      },
+      {
+        "role": "KC8",
+        "position": "OLB",
+        "x": 12,
+        "y": -1.5
+      },
+      {
+        "role": "KC9",
+        "position": "SS",
+        "x": 16,
+        "y": -1.5
+      },
+      {
+        "role": "KC10",
+        "position": "CB",
+        "x": 20,
+        "y": -1.5
+      }
+    ]
+  },
+  {
+    "id": "kickoffOnside",
+    "name": "Onside Kick",
+    "personnel": "21",
+    "qbAlignment": "underCenter",
+    "slots": [
+      {
+        "role": "K",
+        "position": "K",
+        "x": -1,
+        "y": -7
+      },
+      {
+        "role": "KC1",
+        "position": "CB",
+        "x": -8,
+        "y": -1.5
+      },
+      {
+        "role": "KC2",
+        "position": "SS",
+        "x": -4,
+        "y": -1.5
+      },
+      {
+        "role": "KC3",
+        "position": "OLB",
+        "x": 1,
+        "y": -1.5
+      },
+      {
+        "role": "KC4",
+        "position": "TE",
+        "x": 3.5,
+        "y": -1.5
+      },
+      {
+        "role": "KC5",
+        "position": "FB",
+        "x": 6,
+        "y": -1.5
+      },
+      {
+        "role": "KC6",
+        "position": "MLB",
+        "x": 8.5,
+        "y": -1.5
+      },
+      {
+        "role": "KC7",
+        "position": "RB",
+        "x": 11,
+        "y": -1.5
+      },
+      {
+        "role": "KC8",
+        "position": "OLB",
+        "x": 13.5,
+        "y": -1.5
+      },
+      {
+        "role": "KC9",
+        "position": "SS",
+        "x": 16,
+        "y": -1.5
+      },
+      {
+        "role": "KC10",
+        "position": "CB",
+        "x": 19,
+        "y": -1.5
+      }
+    ]
+  },
+  {
+    "id": "punt",
+    "name": "Punt Spread",
+    "personnel": "12",
+    "qbAlignment": "shotgun",
+    "slots": [
+      {
+        "role": "LS",
+        "position": "C",
+        "x": 0,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "LG",
+        "position": "OG",
+        "x": -1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RG",
+        "position": "OG",
+        "x": 1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "LT",
+        "position": "OT",
+        "x": -2.3,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RT",
+        "position": "OT",
+        "x": 2.3,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "W1",
+        "position": "TE",
+        "x": -3.5,
+        "y": -1.2,
+        "eligible": true
+      },
+      {
+        "role": "W2",
+        "position": "TE",
+        "x": 3.5,
+        "y": -1.2,
+        "eligible": true
+      },
+      {
+        "role": "PP",
+        "position": "RB",
+        "x": 1.5,
+        "y": -6,
+        "eligible": true
+      },
+      {
+        "role": "P",
+        "position": "P",
+        "x": 0,
+        "y": -14,
+        "eligible": true
+      },
+      {
+        "role": "G1",
+        "position": "CB",
+        "x": -20,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "G2",
+        "position": "WR",
+        "x": 20,
+        "y": -0.6,
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "id": "fieldGoal",
+    "name": "Field Goal",
+    "personnel": "22",
+    "qbAlignment": "shotgun",
+    "slots": [
+      {
+        "role": "LS",
+        "position": "C",
+        "x": 0,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "LG",
+        "position": "OG",
+        "x": -1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RG",
+        "position": "OG",
+        "x": 1.15,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "LT",
+        "position": "OT",
+        "x": -2.3,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "RT",
+        "position": "OT",
+        "x": 2.3,
+        "y": -0.6,
+        "eligible": false
+      },
+      {
+        "role": "TE1",
+        "position": "TE",
+        "x": -3.4,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "TE2",
+        "position": "TE",
+        "x": 3.4,
+        "y": -0.6,
+        "eligible": true
+      },
+      {
+        "role": "W1",
+        "position": "RB",
+        "x": -4.6,
+        "y": -1.4,
+        "eligible": true
+      },
+      {
+        "role": "W2",
+        "position": "FB",
+        "x": 4.6,
+        "y": -1.4,
+        "eligible": true
+      },
+      {
+        "role": "H",
+        "position": "P",
+        "x": 0,
+        "y": -7,
+        "eligible": true
+      },
+      {
+        "role": "K",
+        "position": "K",
+        "x": -1.5,
+        "y": -9.5,
+        "eligible": true
+      }
+    ]
+  }
+]

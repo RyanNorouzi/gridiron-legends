@@ -1,0 +1,133 @@
+import { describe, expect, it } from 'vitest';
+import { createRng } from '@/core/rng';
+import { availableCoaches, coachAsk, STAFF_TUNING, teamStaff } from '@/franchise/staff';
+import type { League } from '@/franchise/types';
+import { ChoiceDialog, ConfirmDialog, StepperDialog } from '@/ui/franchise/kit/dialogs';
+import {
+  ROLE_LABELS, coachDetail, defaultHireYears, effectLines, firePreview, fireStaff, hireStaff, incumbent, marketRows, minimumOffer, ratingsLine, refreshMarket,
+  signedPct, staffRows,
+} from '@/ui/franchise/team/staff-model';
+import { StaffTab, marketColumns, staffColumns } from '@/ui/franchise/team/staff-tab';
+import { baseLeague, mount, press, rcFor, topAs, userId } from './helpers';
+
+const withMarket = (league: League): League => refreshMarket(league, createRng(5)).league;
+
+describe('staff view-models', () => {
+  it('lists every role, vacancies, the market and the effects', () => {
+    const league = withMarket(baseLeague());
+    const team = userId(league);
+    const rows = staffRows(league, team);
+    expect(rows.map((r) => r.role)).toEqual(Object.keys(ROLE_LABELS));
+    expect(rows.every((r) => r.coach !== null)).toBe(true);
+    const hc = rows[0];
+    if (!hc?.coach) throw new Error('hc');
+    expect(coachDetail(hc).text).toContain(ratingsLine(hc.coach));
+    const market = marketRows(league);
+    expect(market.length).toBe(availableCoaches(league).length);
+    expect(market.length).toBeGreaterThan(0);
+    expect(market.every((r) => r.ask === coachAsk(league, r.coach as never))).toBe(true);
+    expect(marketRows(league, 'OC').every((r) => r.role === 'OC')).toBe(true);
+    const lines = effectLines(league, team);
+    expect(lines.map((l) => l.id)).toEqual(expect.arrayContaining(['devBonus', 'gm', 'mot', 'con', 'inj', 'scout', 'payTotal']));
+    expect(signedPct(0.034)).toEqual({ text: '+3.4%', tone: 'success' });
+    expect(signedPct(-0.01).tone).toBe('danger');
+    expect(defaultHireYears('HC')).toBe(5);
+    expect(staffRows(league, 't_x' as never)).toEqual([]);
+  });
+  it('fires with dead money and hires with terms or replaces the incumbent', () => {
+    const league = withMarket(baseLeague());
+    const team = userId(league);
+    const oc = incumbent(league, team, 'OC');
+    if (!oc) throw new Error('oc');
+    const prev = firePreview(league, team, oc.id);
+    expect(prev.ok).toBe(true);
+    const fired = fireStaff(league, team, oc.id);
+    expect(fired.ok).toBe(true);
+    expect(staffRows(fired.league, team).find((r) => r.role === 'OC')?.coach).toBeNull();
+    expect(fired.message).toContain('Fired');
+    const candidate = marketRows(fired.league, 'OC')[0]?.coach;
+    if (!candidate) throw new Error('market OC');
+    const min = minimumOffer(fired.league, candidate);
+    expect(min).toBeGreaterThanOrEqual(coachAsk(fired.league, candidate) * STAFF_TUNING.minimumOfferShare);
+    expect(hireStaff(fired.league, team, candidate.id, Math.floor(min * 0.8), 2, false).ok).toBe(false);
+    const hired = hireStaff(fired.league, team, candidate.id, min, 2, false);
+    expect(hired.ok).toBe(true);
+    const t = hired.league.teams[team];
+    expect(t && teamStaff(hired.league, t).OC?.id).toBe(candidate.id);
+    const other = marketRows(hired.league, 'OC')[0]?.coach;
+    if (!other) throw new Error('second OC');
+    expect(hireStaff(hired.league, team, other.id, coachAsk(hired.league, other), 2, false).reason).toContain('filled');
+    const replaced = hireStaff(hired.league, team, other.id, coachAsk(hired.league, other), 2, true);
+    expect(replaced.ok).toBe(true);
+    expect(fireStaff(league, team, other.id).ok).toBe(false);
+  });
+});
+
+describe('StaffTab', () => {
+  it('auto-fills an empty market, hires through the stepper and fires with confirmation', () => {
+    const league = baseLeague();
+    expect(availableCoaches(league)).toHaveLength(0);
+    const { fc, screen } = mount(league, (f) => new StaffTab(f));
+    const rc = rcFor(fc);
+    screen.render(rc);
+    expect(screen.summary().text).toContain('every role filled');
+    press(fc, 'audible');
+    expect(screen.chips.current).toBe('market');
+    expect(fc.commits.at(-1)?.reason).toBe('edit');
+    expect(screen.market.table.rows.length).toBeGreaterThan(0);
+    press(fc, 'audible');
+    press(fc, 'audible');
+    expect(screen.chips.current).toBe('staff');
+    press(fc, 'confirm');
+    const choice = topAs(fc, ChoiceDialog);
+    expect(choice.list.items.map((i) => i.id)).toEqual(['fire', 'replace']);
+    choice.choose('fire');
+    topAs(fc, ConfirmDialog).choose(true);
+    expect(fc.commits.at(-1)?.reason).toBe('signing');
+    const hcRow = screen.staff.table.rows.find((r) => r.role === 'HC');
+    expect(hcRow?.coach).toBeNull();
+    expect(screen.summary().text).toContain('vacanc');
+    screen.staff.table.selectById('role-HC');
+    press(fc, 'confirm');
+    expect(screen.chips.current).toBe('market');
+    expect(screen.marketRole).toBe('HC');
+    expect(screen.market.table.rows.length).toBeGreaterThan(1);
+    expect(screen.market.table.rows.every((r) => r.role === 'HC')).toBe(true);
+    screen.render(rc);
+    press(fc, 'confirm');
+    const stepper = topAs(fc, StepperDialog);
+    expect(stepper.summary).toContain('Fee');
+    stepper.render(rc);
+    press(fc, 'confirm');
+    expect(fc.commits.at(-1)?.reason).toBe('signing');
+    expect(fc.toasts.at(-1)).toContain('Hired');
+    expect(staffRows(fc.league(), userId(league)).find((r) => r.role === 'HC')?.coach).not.toBeNull();
+  });
+  it('confirms replacing a filled role and runs the tab menu', () => {
+    const league = withMarket(baseLeague());
+    const { fc, screen } = mount(league, (f) => new StaffTab(f, { view: 'market' }));
+    screen.onMenu('role');
+    topAs(fc, ChoiceDialog).choose('DC');
+    expect(screen.marketRole).toBe('DC');
+    const target = screen.market.table.rows[0];
+    if (!target?.coach) throw new Error('dc');
+    screen.hire(target);
+    press(fc, 'confirm');
+    const confirm = topAs(fc, ConfirmDialog);
+    expect(confirm.message).toContain('still owed');
+    confirm.choose(true);
+    expect(staffRows(fc.league(), userId(league)).find((r) => r.role === 'DC')?.coach?.id).toBe(target.coach.id);
+    screen.onMenu('refresh');
+    expect(screen.chips.current).toBe('market');
+    screen.showView('effects');
+    screen.render(rcFor(fc));
+    expect(screen.summary().text).toContain('Growth');
+    expect(screen.menu().map((m) => m.id)).toEqual(['refresh', 'role']);
+    expect(staffColumns(true)).toHaveLength(6);
+    expect(staffColumns(false)).toHaveLength(4);
+    expect(marketColumns(true)).toHaveLength(6);
+    const big = mount(league, (f) => new StaffTab(f), { settings: { textSize: 'large' } });
+    big.screen.render(rcFor(big.fc));
+    expect(big.screen.staff.isWide).toBe(false);
+  });
+});

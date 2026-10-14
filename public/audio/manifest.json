@@ -1,0 +1,1302 @@
+{
+  "version": 1,
+  "format": "AAC-LC in .m4a (afconvert). Paths are relative to /audio/. gain = suggested linear playback gain (0-1).",
+  "sounds": [
+    {
+      "id": "sfx.tackle_light",
+      "category": "sfx",
+      "file": "sfx/tackle_light_1.m4a",
+      "variants": [
+        {
+          "file": "sfx/tackle_light_1.m4a",
+          "duration": 0.291,
+          "peakDb": -1,
+          "rmsDb": -22.6,
+          "notes": "light body thud on clothing - arm/wrap tackle"
+        },
+        {
+          "file": "sfx/tackle_light_2.m4a",
+          "duration": 0.277,
+          "peakDb": -1,
+          "rmsDb": -26.8,
+          "notes": "light clothed body hit (person wearing backpack), soft pad slap"
+        },
+        {
+          "file": "sfx/tackle_light_3.m4a",
+          "duration": 0.603,
+          "peakDb": -1,
+          "rmsDb": -22.7,
+          "notes": "body against wall, dull mid thump"
+        },
+        {
+          "file": "sfx/tackle_light_4.m4a",
+          "duration": 0.311,
+          "peakDb": -1,
+          "rmsDb": -17.8,
+          "notes": "soft cloth thump + clothed hit layer"
+        },
+        {
+          "file": "sfx/tackle_light_5.m4a",
+          "duration": 0.281,
+          "peakDb": -1,
+          "rmsDb": -15.7,
+          "notes": "short foley body punch + cloth thud"
+        }
+      ],
+      "gain": 0.7,
+      "loop": null,
+      "trigger": "tackle (light / arm / wrap tackle)",
+      "notes": "Light shoulder-pad / body contact. Real cloth and body foley; no voice.",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "sfx.tackle_solid",
+      "category": "sfx",
+      "file": "sfx/tackle_solid_1.m4a",
+      "variants": [
+        {
+          "file": "sfx/tackle_solid_1.m4a",
+          "duration": 0.696,
+          "peakDb": -1,
+          "rmsDb": -21.7,
+          "notes": "real soccer-tackle foley: impact + short grass scuffle"
+        },
+        {
+          "file": "sfx/tackle_solid_2.m4a",
+          "duration": 0.508,
+          "peakDb": -1,
+          "rmsDb": -19.7,
+          "notes": "real soccer-tackle foley: double body contact"
+        },
+        {
+          "file": "sfx/tackle_solid_3.m4a",
+          "duration": 0.306,
+          "peakDb": -1,
+          "rmsDb": -17.7,
+          "notes": "layered body-impact punch, low heavy thump"
+        },
+        {
+          "file": "sfx/tackle_solid_4.m4a",
+          "duration": 0.462,
+          "peakDb": -1,
+          "rmsDb": -20.2,
+          "notes": "leather whip + kick-drum weight punch with cloth slap"
+        },
+        {
+          "file": "sfx/tackle_solid_5.m4a",
+          "duration": 0.433,
+          "peakDb": -1,
+          "rmsDb": -18.3,
+          "notes": "heavy foley punch + jacket hit with bat"
+        },
+        {
+          "file": "sfx/tackle_solid_6.m4a",
+          "duration": 0.355,
+          "peakDb": -1,
+          "rmsDb": -19.8,
+          "notes": "layered body impact + soft cloth follow"
+        }
+      ],
+      "gain": 0.85,
+      "loop": null,
+      "trigger": "tackle (normal solid hit)",
+      "notes": "Solid body impact; variants 1-2 are real soccer-tackle foley including a short grass scuffle.",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "sfx.tackle_big",
+      "category": "sfx",
+      "file": "sfx/tackle_big_1.m4a",
+      "variants": [
+        {
+          "file": "sfx/tackle_big_1.m4a",
+          "duration": 0.779,
+          "peakDb": -1,
+          "rmsDb": -16.9,
+          "notes": "BIG: soccer-tackle body hit + real helmet-clash crack on the transient"
+        },
+        {
+          "file": "sfx/tackle_big_2.m4a",
+          "duration": 0.799,
+          "peakDb": -1,
+          "rmsDb": -19.5,
+          "notes": "BIG: body hit + lower helmet crack + tumble"
+        },
+        {
+          "file": "sfx/tackle_big_3.m4a",
+          "duration": 0.71,
+          "peakDb": -1,
+          "rmsDb": -21.8,
+          "notes": "BIG: heavy body impact + bright helmet crack + turf/dirt fall tail"
+        },
+        {
+          "file": "sfx/tackle_big_4.m4a",
+          "duration": 0.379,
+          "peakDb": -1,
+          "rmsDb": -16.4,
+          "notes": "BIG: heavy punch + leather/kick-drum weight + helmet crack"
+        },
+        {
+          "file": "sfx/tackle_big_5.m4a",
+          "duration": 0.779,
+          "peakDb": -1,
+          "rmsDb": -19.8,
+          "notes": "BIG: body hit + helmet crack + low soft-body weight"
+        }
+      ],
+      "gain": 1,
+      "loop": null,
+      "trigger": "tackle (big hit / sack / big collision)",
+      "notes": "Layered: body impact + real helmet-clash crack (Freesound 816987) on the transient, some with turf tail.",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "sfx.pad_clatter",
+      "category": "sfx",
+      "file": "sfx/pad_clatter_1.m4a",
+      "variants": [
+        {
+          "file": "sfx/pad_clatter_1.m4a",
+          "duration": 0.697,
+          "peakDb": -1,
+          "rmsDb": -18.3,
+          "notes": "composite burst of 6 pad/body impacts over a fight-scuffle cloth bed (seed 3)"
+        },
+        {
+          "file": "sfx/pad_clatter_2.m4a",
+          "duration": 0.697,
+          "peakDb": -1,
+          "rmsDb": -19.1,
+          "notes": "composite burst of 7 pad/body impacts over a fight-scuffle cloth bed (seed 7)"
+        },
+        {
+          "file": "sfx/pad_clatter_3.m4a",
+          "duration": 0.697,
+          "peakDb": -1,
+          "rmsDb": -16.8,
+          "notes": "composite burst of 8 pad/body impacts over a fight-scuffle cloth bed (seed 11)"
+        },
+        {
+          "file": "sfx/pad_clatter_4.m4a",
+          "duration": 0.697,
+          "peakDb": -1,
+          "rmsDb": -23.8,
+          "notes": "composite burst of 6 pad/body impacts over a fight-scuffle cloth bed (seed 21)"
+        }
+      ],
+      "gain": 0.75,
+      "loop": null,
+      "trigger": "snap (line collision)",
+      "notes": "Line colliding at the snap: 6-8 short pad/body impacts spread over ~220 ms on a quiet clothing-scuffle bed. Composites built by seeded script.",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "sfx.turf",
+      "category": "sfx",
+      "file": "sfx/turf_1.m4a",
+      "variants": [
+        {
+          "file": "sfx/turf_1.m4a",
+          "duration": 0.891,
+          "peakDb": -1,
+          "rmsDb": -24.4,
+          "notes": "very heavy body fall on dirt, feet follow"
+        },
+        {
+          "file": "sfx/turf_2.m4a",
+          "duration": 0.539,
+          "peakDb": -1,
+          "rmsDb": -23.2,
+          "notes": "body fall on gym mat - padded, dull"
+        },
+        {
+          "file": "sfx/turf_3.m4a",
+          "duration": 0.648,
+          "peakDb": -1,
+          "rmsDb": -21.5,
+          "notes": "body falling on ground after a hit"
+        },
+        {
+          "file": "sfx/turf_4.m4a",
+          "duration": 0.682,
+          "peakDb": -1,
+          "rmsDb": -15.6,
+          "notes": "heavy bodyfall thump (low end)"
+        },
+        {
+          "file": "sfx/turf_5.m4a",
+          "duration": 0.382,
+          "peakDb": -1,
+          "rmsDb": -16.3,
+          "notes": "soft heavy thud"
+        },
+        {
+          "file": "sfx/turf_6.m4a",
+          "duration": 0.349,
+          "peakDb": -1,
+          "rmsDb": -18.2,
+          "notes": "person falling over, short"
+        }
+      ],
+      "gain": 0.7,
+      "loop": null,
+      "trigger": "ball carrier / player hits the ground",
+      "notes": "Bodyfalls: dirt, mat, ground; dull and padded.",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "sfx.helmet_clack",
+      "category": "sfx",
+      "file": "sfx/helmet_clack_1.m4a",
+      "variants": [
+        {
+          "file": "sfx/helmet_clack_1.m4a",
+          "duration": 0.34,
+          "peakDb": -1,
+          "rmsDb": -20.5,
+          "notes": "real helmet clash (piezo contact mic)"
+        },
+        {
+          "file": "sfx/helmet_clack_2.m4a",
+          "duration": 0.342,
+          "peakDb": -1,
+          "rmsDb": -20,
+          "notes": "helmet clash, slowed 12% (deeper shell)"
+        },
+        {
+          "file": "sfx/helmet_clack_3.m4a",
+          "duration": 0.262,
+          "peakDb": -1,
+          "rmsDb": -19.8,
+          "notes": "helmet clash, sped 15% (tighter clack)"
+        },
+        {
+          "file": "sfx/helmet_clack_4.m4a",
+          "duration": 0.238,
+          "peakDb": -1,
+          "rmsDb": -24.6,
+          "notes": "hard plastic tap/knock"
+        },
+        {
+          "file": "sfx/helmet_clack_5.m4a",
+          "duration": 0.269,
+          "peakDb": -1,
+          "rmsDb": -21.8,
+          "notes": "light hard impact + plastic knock"
+        }
+      ],
+      "gain": 0.6,
+      "loop": null,
+      "trigger": "helmet contact accent / pile-up sweetener",
+      "notes": "Hard shell clacks. Variants 1-3 are one real helmet clash at three playback speeds; 4-5 hard plastic knocks.",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "sfx.grunt_hit",
+      "category": "sfx",
+      "file": "sfx/grunt_hit_1.m4a",
+      "variants": [
+        {
+          "file": "sfx/grunt_hit_1.m4a",
+          "duration": 0.354,
+          "peakDb": -1,
+          "rmsDb": -18.1,
+          "notes": "male grunt, as if punched"
+        },
+        {
+          "file": "sfx/grunt_hit_2.m4a",
+          "duration": 0.238,
+          "peakDb": -3.8,
+          "rmsDb": -18,
+          "notes": "short male pain grunt"
+        },
+        {
+          "file": "sfx/grunt_hit_3.m4a",
+          "duration": 0.607,
+          "peakDb": -8.1,
+          "rmsDb": -18,
+          "notes": "strong male grunt taking heavy damage"
+        },
+        {
+          "file": "sfx/grunt_hit_4.m4a",
+          "duration": 0.416,
+          "peakDb": -2.7,
+          "rmsDb": -18,
+          "notes": "male grunting in pain after being hit"
+        },
+        {
+          "file": "sfx/grunt_hit_5.m4a",
+          "duration": 0.506,
+          "peakDb": -4.1,
+          "rmsDb": -18,
+          "notes": "male pain grunt"
+        }
+      ],
+      "gain": 0.5,
+      "loop": null,
+      "trigger": "player takes a hit (layer under tackle_*)",
+      "notes": "Short non-verbal male pain grunts, no words. Levelled to about -18 dBFS RMS.",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "sfx.grunt_effort",
+      "category": "sfx",
+      "file": "sfx/grunt_effort_1.m4a",
+      "variants": [
+        {
+          "file": "sfx/grunt_effort_1.m4a",
+          "duration": 0.434,
+          "peakDb": -1.8,
+          "rmsDb": -18,
+          "notes": "male attack/exertion grunt"
+        },
+        {
+          "file": "sfx/grunt_effort_2.m4a",
+          "duration": 0.454,
+          "peakDb": -7.6,
+          "rmsDb": -18,
+          "notes": "male exertion grunt (1st of pair)"
+        },
+        {
+          "file": "sfx/grunt_effort_3.m4a",
+          "duration": 0.43,
+          "peakDb": -6.8,
+          "rmsDb": -18,
+          "notes": "male exertion grunt (2nd of pair)"
+        },
+        {
+          "file": "sfx/grunt_effort_4.m4a",
+          "duration": 0.357,
+          "peakDb": -2.9,
+          "rmsDb": -18,
+          "notes": "pushing-effort grunt"
+        },
+        {
+          "file": "sfx/grunt_effort_5.m4a",
+          "duration": 0.191,
+          "peakDb": -5.7,
+          "rmsDb": -18,
+          "notes": "short pushing-effort grunt"
+        },
+        {
+          "file": "sfx/grunt_effort_6.m4a",
+          "duration": 0.315,
+          "peakDb": -5.3,
+          "rmsDb": -18,
+          "notes": "effort grunt as if lifting/pushing"
+        }
+      ],
+      "gain": 0.45,
+      "loop": null,
+      "trigger": "exertion (snap push, stiff-arm, throw, kick)",
+      "notes": "Short non-verbal male effort grunts, no words. Levelled to about -18 dBFS RMS.",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "sfx.whistle_short",
+      "category": "sfx",
+      "file": "sfx/whistle_short_1.m4a",
+      "variants": [
+        {
+          "file": "sfx/whistle_short_1.m4a",
+          "duration": 0.419,
+          "peakDb": -9.7,
+          "rmsDb": -16,
+          "notes": "referee whistle, short blast"
+        },
+        {
+          "file": "sfx/whistle_short_2.m4a",
+          "duration": 0.514,
+          "peakDb": -7.3,
+          "rmsDb": -16,
+          "notes": "pea whistle (Trillerpfeife), one strong blast"
+        },
+        {
+          "file": "sfx/whistle_short_3.m4a",
+          "duration": 0.483,
+          "peakDb": -7,
+          "rmsDb": -17,
+          "notes": "coach whistle cut to a short blast"
+        }
+      ],
+      "gain": 0.55,
+      "loop": null,
+      "trigger": "whistle (play dead / short)",
+      "notes": "Single short pea-whistle blasts, levelled to about -16 dBFS RMS.",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "sfx.whistle_long",
+      "category": "sfx",
+      "file": "sfx/whistle_long_1.m4a",
+      "variants": [
+        {
+          "file": "sfx/whistle_long_1.m4a",
+          "duration": 1.462,
+          "peakDb": -6.7,
+          "rmsDb": -16,
+          "notes": "coach whistle, ~1.4 s steady blast"
+        },
+        {
+          "file": "sfx/whistle_long_2.m4a",
+          "duration": 1.507,
+          "peakDb": -4.9,
+          "rmsDb": -16,
+          "notes": "referee whistle blow in a gym, natural decay"
+        },
+        {
+          "file": "sfx/whistle_long_3.m4a",
+          "duration": 1.532,
+          "peakDb": -5.3,
+          "rmsDb": -16,
+          "notes": "long whistle"
+        },
+        {
+          "file": "sfx/whistle_long_4.m4a",
+          "duration": 1.339,
+          "peakDb": -1,
+          "rmsDb": -20.6,
+          "notes": "sport whistle in a gym, roomy decay"
+        }
+      ],
+      "gain": 0.55,
+      "loop": null,
+      "trigger": "whistle (quarter/half/game end, penalty, long)",
+      "notes": "Long ~1.3-1.5 s whistle blasts; 2 and 4 carry natural gym decay.",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "sfx.catch",
+      "category": "sfx",
+      "file": "sfx/catch_1.m4a",
+      "variants": [
+        {
+          "file": "sfx/catch_1.m4a",
+          "duration": 0.167,
+          "peakDb": -1,
+          "rmsDb": -20,
+          "notes": "ball caught in bare hands - tight slap"
+        },
+        {
+          "file": "sfx/catch_2.m4a",
+          "duration": 0.178,
+          "peakDb": -1,
+          "rmsDb": -28.2,
+          "notes": "leather glove catch - soft smack"
+        },
+        {
+          "file": "sfx/catch_3.m4a",
+          "duration": 0.254,
+          "peakDb": -1,
+          "rmsDb": -18.5,
+          "notes": "hand-on-ball thwack (volleyball spike, contact mic)"
+        },
+        {
+          "file": "sfx/catch_4.m4a",
+          "duration": 0.263,
+          "peakDb": -1,
+          "rmsDb": -25.4,
+          "notes": "basketball grab into hands"
+        },
+        {
+          "file": "sfx/catch_5.m4a",
+          "duration": 0.417,
+          "peakDb": -1,
+          "rmsDb": -20.8,
+          "notes": "basketball grab, second take"
+        }
+      ],
+      "gain": 0.7,
+      "loop": null,
+      "trigger": "pass caught / ball secured",
+      "notes": "Ball-into-hands slaps and thwacks.",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "sfx.kick",
+      "category": "sfx",
+      "file": "sfx/kick_1.m4a",
+      "variants": [
+        {
+          "file": "sfx/kick_1.m4a",
+          "duration": 0.178,
+          "peakDb": -1,
+          "rmsDb": -22.2,
+          "notes": "ball kick, clean thump"
+        },
+        {
+          "file": "sfx/kick_2.m4a",
+          "duration": 0.375,
+          "peakDb": -1,
+          "rmsDb": -20.5,
+          "notes": "ball kick, deep"
+        },
+        {
+          "file": "sfx/kick_3.m4a",
+          "duration": 0.158,
+          "peakDb": -1,
+          "rmsDb": -16.5,
+          "notes": "soccer ball kick (contact mic)"
+        },
+        {
+          "file": "sfx/kick_4.m4a",
+          "duration": 0.11,
+          "peakDb": -1,
+          "rmsDb": -17,
+          "notes": "football kick, short"
+        },
+        {
+          "file": "sfx/kick_5.m4a",
+          "duration": 0.124,
+          "peakDb": -1,
+          "rmsDb": -23.7,
+          "notes": "ball kick in a sports hall, slight room"
+        },
+        {
+          "file": "sfx/kick_6.m4a",
+          "duration": 0.1,
+          "peakDb": -1,
+          "rmsDb": -16.7,
+          "notes": "outdoor soccer kick, tight"
+        }
+      ],
+      "gain": 0.85,
+      "loop": null,
+      "trigger": "kickoff / punt / field goal / PAT",
+      "notes": "Real ball kicks (soccer balls); short, punchy thumps.",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "sfx.snap",
+      "category": "sfx",
+      "file": "sfx/snap_1.m4a",
+      "variants": [
+        {
+          "file": "sfx/snap_1.m4a",
+          "duration": 0.204,
+          "peakDb": -1,
+          "rmsDb": -19.3,
+          "notes": "ball slapped into hands + soft stomp"
+        },
+        {
+          "file": "sfx/snap_2.m4a",
+          "duration": 0.292,
+          "peakDb": -1,
+          "rmsDb": -25.3,
+          "notes": "ball grab, slightly lowered"
+        },
+        {
+          "file": "sfx/snap_3.m4a",
+          "duration": 0.337,
+          "peakDb": -1,
+          "rmsDb": -17.9,
+          "notes": "hand on ball, lowered + cloth thump"
+        }
+      ],
+      "gain": 0.6,
+      "loop": null,
+      "trigger": "ball snapped into QB hands",
+      "notes": "Quiet ball-into-hands slap for the snap itself.",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "sfx.stomp",
+      "category": "sfx",
+      "file": "sfx/stomp_1.m4a",
+      "variants": [
+        {
+          "file": "sfx/stomp_1.m4a",
+          "duration": 0.379,
+          "peakDb": -1,
+          "rmsDb": -20,
+          "notes": "foot stomp on mulch/ground - cadence thud"
+        },
+        {
+          "file": "sfx/stomp_2.m4a",
+          "duration": 0.157,
+          "peakDb": -1,
+          "rmsDb": -13.3,
+          "notes": "soft single foot stomp"
+        },
+        {
+          "file": "sfx/stomp_3.m4a",
+          "duration": 0.094,
+          "peakDb": -1,
+          "rmsDb": -21.9,
+          "notes": "foot stomp outdoors"
+        },
+        {
+          "file": "sfx/stomp_4.m4a",
+          "duration": 0.133,
+          "peakDb": -1,
+          "rmsDb": -23.8,
+          "notes": "foot stomp outdoors, variant"
+        }
+      ],
+      "gain": 0.5,
+      "loop": null,
+      "trigger": "pre-snap cadence thud / QB foot tap",
+      "notes": "Single foot stomps (no speech), usable as a cadence or hut-free timing thud.",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "sfx.footstep_grass",
+      "category": "sfx",
+      "file": "sfx/footstep_grass_1.m4a",
+      "variants": [
+        {
+          "file": "sfx/footstep_grass_1.m4a",
+          "duration": 0.153,
+          "peakDb": -3,
+          "rmsDb": -23.3,
+          "notes": "footstep on grass #0"
+        },
+        {
+          "file": "sfx/footstep_grass_2.m4a",
+          "duration": 0.134,
+          "peakDb": -3,
+          "rmsDb": -19.6,
+          "notes": "footstep on grass #1"
+        },
+        {
+          "file": "sfx/footstep_grass_3.m4a",
+          "duration": 0.137,
+          "peakDb": -4.4,
+          "rmsDb": -20.6,
+          "notes": "footstep on grass #2"
+        },
+        {
+          "file": "sfx/footstep_grass_4.m4a",
+          "duration": 0.13,
+          "peakDb": -5,
+          "rmsDb": -20.6,
+          "notes": "footstep on grass #3"
+        },
+        {
+          "file": "sfx/footstep_grass_5.m4a",
+          "duration": 0.119,
+          "peakDb": -3,
+          "rmsDb": -20.2,
+          "notes": "footstep on grass #4"
+        }
+      ],
+      "gain": 0.3,
+      "loop": null,
+      "trigger": "footsteps / running on grass (optional)",
+      "notes": "Single grass footsteps from the Kenney Impact Sounds pack (CC0); randomise and pitch-vary.",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "crowd.bed_murmur",
+      "category": "crowd",
+      "file": "crowd/bed_murmur_1.m4a",
+      "variants": [
+        {
+          "file": "crowd/bed_murmur_1.m4a",
+          "duration": 36,
+          "peakDb": -7.5,
+          "rmsDb": -24,
+          "channels": 2,
+          "source": "freesound:829456",
+          "notes": "Hamburg Millerntor stadium (29,546 fans) between plays: diffuse murmur, distant calls, no chant/drum periodicity detected",
+          "loopStart": 0.5,
+          "loopEnd": 35.5
+        },
+        {
+          "file": "crowd/bed_murmur_2.m4a",
+          "duration": 37,
+          "peakDb": -9.5,
+          "rmsDb": -24,
+          "channels": 2,
+          "source": "freesound:360703",
+          "notes": "about a thousand people chatting in a big high-ceiling space: dense even walla, no distinct dialogue (pre-game / between-plays murmur)",
+          "loopStart": 0.5,
+          "loopEnd": 36.5
+        }
+      ],
+      "gain": 0.55,
+      "loop": {
+        "seamless": true,
+        "points": "per variant: loopStart/loopEnd in seconds (0.5 s ring padding either side absorbs AAC priming)",
+        "crossfadeSec": 1.5
+      },
+      "trigger": "ambience bed - low intensity (pre-snap, early game, quiet moments)",
+      "notes": "Real crowd murmur beds; loop seamlessly between loopStart/loopEnd. Stereo AAC 96 kbps; baked relative level murmur -24 / engaged -20 / loud -17 dBFS RMS.",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "crowd.bed_engaged",
+      "category": "crowd",
+      "file": "crowd/bed_engaged_1.m4a",
+      "variants": [
+        {
+          "file": "crowd/bed_engaged_1.m4a",
+          "duration": 31,
+          "peakDb": -5.7,
+          "rmsDb": -20.1,
+          "channels": 2,
+          "source": "freesound:829454",
+          "notes": "Millerntor stadium general ambience: steady engaged roar with small swells, whistles; periodicity check clean",
+          "loopStart": 0.5,
+          "loopEnd": 30.5
+        },
+        {
+          "file": "crowd/bed_engaged_2.m4a",
+          "duration": 36,
+          "peakDb": -5.2,
+          "rmsDb": -20,
+          "channels": 2,
+          "source": "freesound:829454",
+          "notes": "Millerntor stadium general ambience, busier section: rolling roar and scattered shouts",
+          "loopStart": 0.5,
+          "loopEnd": 35.5
+        }
+      ],
+      "gain": 0.6,
+      "loop": {
+        "seamless": true,
+        "points": "per variant: loopStart/loopEnd in seconds (0.5 s ring padding either side absorbs AAC priming)",
+        "crossfadeSec": 1.5
+      },
+      "trigger": "ambience bed - medium intensity (normal play, drives in progress)",
+      "notes": "Engaged stadium crowd, constant roar with waves; seamless loops. Stereo AAC 96 kbps; baked relative level murmur -24 / engaged -20 / loud -17 dBFS RMS.",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "crowd.bed_loud",
+      "category": "crowd",
+      "file": "crowd/bed_loud_1.m4a",
+      "variants": [
+        {
+          "file": "crowd/bed_loud_1.m4a",
+          "duration": 29,
+          "peakDb": -5.2,
+          "rmsDb": -17.1,
+          "channels": 2,
+          "source": "freesound:829454",
+          "notes": "Millerntor stadium at full voice: dense sustained roar, bright vowel band ~800 Hz, whistles",
+          "loopStart": 0.5,
+          "loopEnd": 28.5
+        },
+        {
+          "file": "crowd/bed_loud_2.m4a",
+          "duration": 31,
+          "peakDb": -1.9,
+          "rmsDb": -16.9,
+          "channels": 2,
+          "source": "freesound:829454",
+          "notes": "Millerntor stadium at full voice, second window: dense roar with surges",
+          "loopStart": 0.5,
+          "loopEnd": 30.5
+        }
+      ],
+      "gain": 0.65,
+      "loop": {
+        "seamless": true,
+        "points": "per variant: loopStart/loopEnd in seconds (0.5 s ring padding either side absorbs AAC priming)",
+        "crossfadeSec": 1.5
+      },
+      "trigger": "ambience bed - high intensity (red zone, 4th quarter, close game)",
+      "notes": "Loud, rocking stadium; seamless loops. Stereo AAC 96 kbps; baked relative level murmur -24 / engaged -20 / loud -17 dBFS RMS.",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "crowd.cheer",
+      "category": "crowd",
+      "file": "crowd/cheer_1.m4a",
+      "variants": [
+        {
+          "file": "crowd/cheer_1.m4a",
+          "duration": 4.6,
+          "peakDb": -2,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:829453",
+          "notes": "stadium excited reaction swell, 29k fans"
+        },
+        {
+          "file": "crowd/cheer_2.m4a",
+          "duration": 4.7,
+          "peakDb": -2.7,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:829453",
+          "notes": "stadium excited reaction swell, brighter"
+        },
+        {
+          "file": "crowd/cheer_3.m4a",
+          "duration": 5.2,
+          "peakDb": -2.1,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:829453",
+          "notes": "stadium excited reaction, longer tail"
+        },
+        {
+          "file": "crowd/cheer_4.m4a",
+          "duration": 5.2,
+          "peakDb": -3.4,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:829453",
+          "notes": "stadium excited reaction, sharp onset"
+        },
+        {
+          "file": "crowd/cheer_5.m4a",
+          "duration": 7,
+          "peakDb": -2.6,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:130568",
+          "notes": "large roaring audience cheer + applause (concert crowd, no music)"
+        }
+      ],
+      "gain": 0.8,
+      "loop": null,
+      "trigger": "crowdCheer - first down, good gain, big catch",
+      "notes": "Short real stadium cheers (rise and fall, 3-7 s). Mono AAC 80 kbps, RMS-normalised to about -18 dBFS (peak <= -1 dBFS).",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "crowd.roar",
+      "category": "crowd",
+      "file": "crowd/roar_1.m4a",
+      "variants": [
+        {
+          "file": "crowd/roar_1.m4a",
+          "duration": 13.5,
+          "peakDb": -4.3,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:829455",
+          "notes": "stadium eruption, 29k fans, full decay"
+        },
+        {
+          "file": "crowd/roar_2.m4a",
+          "duration": 13.9,
+          "peakDb": -3.4,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:829455",
+          "notes": "stadium eruption, long sustained"
+        },
+        {
+          "file": "crowd/roar_3.m4a",
+          "duration": 14.1,
+          "peakDb": -2.6,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:829455",
+          "notes": "stadium eruption, sustained with shouts"
+        },
+        {
+          "file": "crowd/roar_4.m4a",
+          "duration": 8.1,
+          "peakDb": -2.6,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:829455",
+          "notes": "stadium eruption, shorter"
+        },
+        {
+          "file": "crowd/roar_5.m4a",
+          "duration": 10,
+          "peakDb": -3.1,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:829453",
+          "notes": "stadium explosive reaction with long decay"
+        }
+      ],
+      "gain": 0.9,
+      "loop": null,
+      "trigger": "crowdRoar - touchdown, pick-six, game winner",
+      "notes": "Huge real stadium eruptions (home goal reactions), 8-14 s with natural decay. Mono AAC 80 kbps, RMS-normalised to about -18 dBFS (peak <= -1 dBFS).",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "crowd.swell",
+      "category": "crowd",
+      "file": "crowd/swell_1.m4a",
+      "variants": [
+        {
+          "file": "crowd/swell_1.m4a",
+          "duration": 6.4,
+          "peakDb": -1,
+          "rmsDb": -20.6,
+          "channels": 1,
+          "source": "freesound:829453",
+          "notes": "stadium slow build from murmur to roar (real)"
+        },
+        {
+          "file": "crowd/swell_2.m4a",
+          "duration": 7.6,
+          "peakDb": -2.5,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:763882",
+          "notes": "crowd excitement build-up (performed, medium crowd)"
+        },
+        {
+          "file": "crowd/swell_3.m4a",
+          "duration": 2.7,
+          "peakDb": -2.7,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:763881",
+          "notes": "short quick excitement build"
+        },
+        {
+          "file": "crowd/swell_4.m4a",
+          "duration": 7,
+          "peakDb": -2.7,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:829454",
+          "notes": "stadium roar with a 6 s rising gain ramp (-20 dB to 0)"
+        }
+      ],
+      "gain": 0.75,
+      "loop": null,
+      "trigger": "anticipation - deep pass in the air, breakaway run, long FG in flight",
+      "notes": "Rising anticipation swells ending near the peak with a short fade; follow with roar or groan. Mono AAC 80 kbps, RMS-normalised to about -18 dBFS (peak <= -1 dBFS).",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "crowd.groan",
+      "category": "crowd",
+      "file": "crowd/groan_1.m4a",
+      "variants": [
+        {
+          "file": "crowd/groan_1.m4a",
+          "duration": 8.5,
+          "peakDb": -1,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:829452",
+          "notes": "stadium near-miss: rising ooh collapsing into groan"
+        },
+        {
+          "file": "crowd/groan_2.m4a",
+          "duration": 7.3,
+          "peakDb": -2.2,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:829452",
+          "notes": "stadium near-miss groan"
+        },
+        {
+          "file": "crowd/groan_3.m4a",
+          "duration": 7.2,
+          "peakDb": -1.6,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:829452",
+          "notes": "stadium near-miss groan, heavier"
+        },
+        {
+          "file": "crowd/groan_4.m4a",
+          "duration": 8.7,
+          "peakDb": -3.2,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:829452",
+          "notes": "stadium long disappointed groan"
+        },
+        {
+          "file": "crowd/groan_5.m4a",
+          "duration": 7.7,
+          "peakDb": -1.1,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:763808",
+          "notes": "medium crowd intense groan of disagreement (performed, no words)"
+        },
+        {
+          "file": "crowd/groan_6.m4a",
+          "duration": 9.7,
+          "peakDb": -3.9,
+          "rmsDb": -22,
+          "channels": 1,
+          "source": "freesound:763880",
+          "notes": "medium crowd sighing in disappointment (soft)"
+        }
+      ],
+      "gain": 0.8,
+      "loop": null,
+      "trigger": "crowdGroan - incompletion on a big play, missed FG, turnover against home",
+      "notes": "Disappointment: real stadium near-miss \"ohhh\" reactions plus performed groans. Mono AAC 80 kbps, RMS-normalised to about -18 dBFS (peak <= -1 dBFS).",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "crowd.oooh",
+      "category": "crowd",
+      "file": "crowd/oooh_1.m4a",
+      "variants": [
+        {
+          "file": "crowd/oooh_1.m4a",
+          "duration": 5.5,
+          "peakDb": -1,
+          "rmsDb": -18.1,
+          "channels": 1,
+          "source": "freesound:829452",
+          "notes": "stadium \"OOOH\" rising then fading (real, 29k fans)"
+        },
+        {
+          "file": "crowd/oooh_2.m4a",
+          "duration": 4,
+          "peakDb": -3.3,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:829452",
+          "notes": "stadium short sharp \"OOOH\""
+        },
+        {
+          "file": "crowd/oooh_3.m4a",
+          "duration": 2.6,
+          "peakDb": -3.4,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:763827",
+          "notes": "large crowd unison surprise \"ooh\" (performed)"
+        },
+        {
+          "file": "crowd/oooh_4.m4a",
+          "duration": 2.2,
+          "peakDb": -2.6,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:763876",
+          "notes": "crowd voiced gasp"
+        },
+        {
+          "file": "crowd/oooh_5.m4a",
+          "duration": 2.4,
+          "peakDb": -1.2,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:763875",
+          "notes": "crowd voiced gasp, softer"
+        }
+      ],
+      "gain": 0.8,
+      "loop": null,
+      "trigger": "big hit / near interception / spectacular play (short \"OOOH\")",
+      "notes": "Short collective \"oooh\" / gasp reactions. Mono AAC 80 kbps, RMS-normalised to about -18 dBFS (peak <= -1 dBFS).",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "crowd.boo",
+      "category": "crowd",
+      "file": "crowd/boo_1.m4a",
+      "variants": [
+        {
+          "file": "crowd/boo_1.m4a",
+          "duration": 11.3,
+          "peakDb": -4.2,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:763807",
+          "notes": "medium crowd angry sustained booing (performed)"
+        },
+        {
+          "file": "crowd/boo_2.m4a",
+          "duration": 9.6,
+          "peakDb": -1.8,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:557189",
+          "notes": "booing at a sport event"
+        },
+        {
+          "file": "crowd/boo_3.m4a",
+          "duration": 5,
+          "peakDb": -4.4,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:577098",
+          "notes": "real hockey arena crowd outrage/boo at a non-call"
+        },
+        {
+          "file": "crowd/boo_4.m4a",
+          "duration": 8.9,
+          "peakDb": -2.4,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:678539",
+          "notes": "crowd boo and hiss (basketball)"
+        },
+        {
+          "file": "crowd/boo_5.m4a",
+          "duration": 9,
+          "peakDb": -5.7,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:264378",
+          "notes": "small crowd (~20) loud boo"
+        }
+      ],
+      "gain": 0.75,
+      "loop": null,
+      "trigger": "booing - bad call, penalty on home team, visiting score",
+      "notes": "Crowd booing; no words intended (listen-free QC, see CREDITS). Mono AAC 80 kbps, RMS-normalised to about -18 dBFS (peak <= -1 dBFS).",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "crowd.applause",
+      "category": "crowd",
+      "file": "crowd/applause_1.m4a",
+      "variants": [
+        {
+          "file": "crowd/applause_1.m4a",
+          "duration": 10.7,
+          "peakDb": -1,
+          "rmsDb": -20.2,
+          "channels": 1,
+          "source": "freesound:706732",
+          "notes": "real NHL arena applause with cheers and whistles"
+        },
+        {
+          "file": "crowd/applause_2.m4a",
+          "duration": 11,
+          "peakDb": -1,
+          "rmsDb": -18.7,
+          "channels": 1,
+          "source": "freesound:706732",
+          "notes": "real NHL arena applause after a cheer burst"
+        },
+        {
+          "file": "crowd/applause_3.m4a",
+          "duration": 9.6,
+          "peakDb": -1,
+          "rmsDb": -20.4,
+          "channels": 1,
+          "source": "freesound:763813",
+          "notes": "loud applause (medium crowd)"
+        },
+        {
+          "file": "crowd/applause_4.m4a",
+          "duration": 10,
+          "peakDb": -6.9,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:160493",
+          "notes": "large crowd applause + cheering (concert crowd, no music)"
+        }
+      ],
+      "gain": 0.7,
+      "loop": null,
+      "trigger": "applause - injured player walks off, halftime, good special-teams play",
+      "notes": "Applause with light cheering. Mono AAC 80 kbps, RMS-normalised to about -18 dBFS (peak <= -1 dBFS).",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "crowd.defense_build",
+      "category": "crowd",
+      "file": "crowd/defense_build_1.m4a",
+      "variants": [
+        {
+          "file": "crowd/defense_build_1.m4a",
+          "duration": 10,
+          "peakDb": -1,
+          "rmsDb": -18.3,
+          "channels": 1,
+          "source": "freesound:829454",
+          "notes": "stadium roar ramped -16 dB to 0 over 7.5 s"
+        },
+        {
+          "file": "crowd/defense_build_2.m4a",
+          "duration": 10,
+          "peakDb": -2.2,
+          "rmsDb": -18,
+          "channels": 1,
+          "source": "freesound:829454 + freesound:763829",
+          "notes": "stadium roar + crowd whistling/cheering layer ramped up"
+        },
+        {
+          "file": "crowd/defense_build_3.m4a",
+          "duration": 10,
+          "peakDb": -1,
+          "rmsDb": -21.6,
+          "channels": 1,
+          "source": "freesound:829454 + freesound:763816",
+          "notes": "stadium roar + loud cheering/whistling layer ramped up"
+        }
+      ],
+      "gain": 0.75,
+      "loop": null,
+      "trigger": "home defense on 3rd/4th down - crowd gets loud before the snap",
+      "notes": "Real stadium roar with an 8 s rising gain ramp, holds loud at the end; stop/crossfade on the snap. Mono AAC 80 kbps, RMS-normalised to about -18 dBFS (peak <= -1 dBFS).",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "crowd.horn",
+      "category": "crowd",
+      "file": "crowd/horn_1.m4a",
+      "variants": [
+        {
+          "file": "crowd/horn_1.m4a",
+          "duration": 3.5,
+          "peakDb": -2.5,
+          "rmsDb": -16,
+          "channels": 1,
+          "source": "freesound:705658",
+          "notes": "stadium compressed-air can horn, reverberant"
+        },
+        {
+          "file": "crowd/horn_2.m4a",
+          "duration": 3.6,
+          "peakDb": -4.8,
+          "rmsDb": -16,
+          "channels": 1,
+          "source": "freesound:385922",
+          "notes": "bright air horn long blast"
+        },
+        {
+          "file": "crowd/horn_3.m4a",
+          "duration": 4.7,
+          "peakDb": -6.7,
+          "rmsDb": -16,
+          "channels": 1,
+          "source": "freesound:702099",
+          "notes": "arena goal horn blast over crowd applause"
+        }
+      ],
+      "gain": 0.6,
+      "loop": null,
+      "trigger": "stadium air horn - touchdown / big defensive stop sting",
+      "notes": "Air horn blasts (no melody). Mono AAC 80 kbps, RMS-normalised to about -18 dBFS (peak <= -1 dBFS).",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "crowd.drum",
+      "category": "crowd",
+      "file": "crowd/drum_1.m4a",
+      "variants": [
+        {
+          "file": "crowd/drum_1.m4a",
+          "duration": 1.6,
+          "peakDb": -1,
+          "rmsDb": -15.9,
+          "channels": 1,
+          "source": "freesound:139506",
+          "notes": "large drum hit, dark"
+        },
+        {
+          "file": "crowd/drum_2.m4a",
+          "duration": 1.6,
+          "peakDb": -1,
+          "rmsDb": -20,
+          "channels": 1,
+          "source": "freesound:139507",
+          "notes": "large drum hit, brighter attack"
+        }
+      ],
+      "gain": 0.7,
+      "loop": null,
+      "trigger": "big bass-drum hit (defense hype / kickoff)",
+      "notes": "Single large drum hits. Mono AAC 80 kbps, RMS-normalised to about -18 dBFS (peak <= -1 dBFS).",
+      "license": "CC0-1.0"
+    }
+  ]
+}

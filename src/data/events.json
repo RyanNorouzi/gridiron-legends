@@ -1,0 +1,242 @@
+{
+  "limits": { "maxPerWeek": 3, "autoResolveWeeks": 2, "keepAiEventYears": 1 },
+  "types": {
+    "tradeDemand": {
+      "priority": 9, "cooldownWeeks": 8, "teamCooldownWeeks": 2, "defaultChoice": "ignore",
+      "title": "{player} wants out",
+      "description": "Frustrated by the {record} record, {position} {player} ({overall} OVR) has asked {team} to trade him.",
+      "choices": [
+        { "id": "meet", "label": "Meet with him", "description": "Hear him out and give him a bigger voice. Lifts his mood, but the locker room notices the special treatment.",
+          "effects": [ { "kind": "playerMorale", "value": 10 }, { "kind": "coachRelationship", "value": 4 }, { "kind": "teamChemistry", "value": -1 }, { "kind": "removeFlag", "flag": "disgruntled" } ] },
+        { "id": "ignore", "label": "Ignore the request", "description": "Stand firm. He may sour further and could refuse to report.",
+          "effects": [ { "kind": "playerMorale", "value": -6 }, { "kind": "teamChemistry", "value": -2 }, { "kind": "addFlag", "flag": "disgruntled" }, { "kind": "addFlag", "flag": "holdout", "chance": 0.25 } ] },
+        { "id": "shop", "label": "Shop him", "description": "Put him on the trade block and tell him so.",
+          "effects": [ { "kind": "addFlag", "flag": "tradeBlock" }, { "kind": "playerMorale", "value": 4 } ] }
+      ]
+    },
+    "extensionRequest": {
+      "priority": 6, "cooldownWeeks": 10, "teamCooldownWeeks": 3, "defaultChoice": "later",
+      "title": "{player} wants a new deal",
+      "description": "{position} {player} is in the last year of his contract after a strong season and wants to talk about an extension.",
+      "choices": [
+        { "id": "talks", "label": "Open extension talks", "description": "Signal that he is part of the plan. Contract talks can start now.",
+          "effects": [ { "kind": "addFlag", "flag": "extensionTalks" }, { "kind": "playerMorale", "value": 6 } ] },
+        { "id": "later", "label": "Talk after the season", "description": "Keep the focus on football for now.",
+          "effects": [ { "kind": "playerMorale", "value": -3 } ] },
+        { "id": "refuse", "label": "No extension", "description": "Tell him the club is going another way.",
+          "effects": [ { "kind": "playerMorale", "value": -8 }, { "kind": "addFlag", "flag": "disgruntled", "chance": 0.35 } ] }
+      ]
+    },
+    "rookieBreakout": {
+      "priority": 5, "cooldownWeeks": 20, "teamCooldownWeeks": 0, "defaultChoice": "praise",
+      "title": "{player} is breaking out",
+      "description": "Young {position} {player} made a huge jump this offseason and now rates {overall} overall.",
+      "choices": [
+        { "id": "praise", "label": "Praise him publicly", "description": "A boost for his confidence and for the fans.",
+          "effects": [ { "kind": "playerMorale", "value": 5 }, { "kind": "playerConfidence", "value": 4 }, { "kind": "fanExcitement", "value": 2 } ] },
+        { "id": "biggerRole", "label": "Promise a bigger role", "description": "Move him to the top of the depth chart at his position.",
+          "effects": [ { "kind": "promoteDepth" }, { "kind": "playerMorale", "value": 8 }, { "kind": "playerConfidence", "value": 6 }, { "kind": "fanExcitement", "value": 3 } ] },
+        { "id": "grounded", "label": "Keep him grounded", "description": "Quietly remind him there is more work to do.",
+          "effects": [ { "kind": "playerConfidence", "value": 2 }, { "kind": "teamChemistry", "value": 1 } ] }
+      ]
+    },
+    "veteranDecline": {
+      "priority": 4, "cooldownWeeks": 20, "teamCooldownWeeks": 0, "defaultChoice": "support",
+      "title": "{player} is slowing down",
+      "description": "At {age}, {position} {player} lost a step this offseason and now rates {overall} overall.",
+      "choices": [
+        { "id": "support", "label": "Stand by him", "description": "Show loyalty to a respected veteran.",
+          "effects": [ { "kind": "playerMorale", "value": 4 }, { "kind": "teamChemistry", "value": 1 } ] },
+        { "id": "reduceRole", "label": "Reduce his role", "description": "Tell him younger players will get more snaps.",
+          "effects": [ { "kind": "playerMorale", "value": -6 }, { "kind": "playerConfidence", "value": -4 } ] },
+        { "id": "shop", "label": "Shop him", "description": "See what a contender would give for him.",
+          "effects": [ { "kind": "addFlag", "flag": "tradeBlock" }, { "kind": "playerMorale", "value": -3 } ] }
+      ]
+    },
+    "playerSlump": {
+      "priority": 4, "cooldownWeeks": 20, "teamCooldownWeeks": 0, "defaultChoice": "backHim",
+      "title": "{player} regressed",
+      "description": "{position} {player} slipped to {overall} overall this offseason.",
+      "choices": [
+        { "id": "backHim", "label": "Back him", "description": "Publicly support him and trust him to bounce back.",
+          "effects": [ { "kind": "playerConfidence", "value": 5 }, { "kind": "playerMorale", "value": 2 } ] },
+        { "id": "extraWork", "label": "Extra film sessions", "description": "Pay for extra coaching time. He will grumble about it.",
+          "effects": [ { "kind": "playerConfidence", "value": 3 }, { "kind": "playerMorale", "value": -2 }, { "kind": "cash", "value": -100000 } ] },
+        { "id": "openJob", "label": "Open the competition", "description": "Tell him his job is up for grabs.",
+          "effects": [ { "kind": "playerMorale", "value": -6 }, { "kind": "playerConfidence", "value": -6 }, { "kind": "teamChemistry", "value": 1 } ] }
+      ]
+    },
+    "playerJump": {
+      "priority": 3, "cooldownWeeks": 20, "teamCooldownWeeks": 0, "defaultChoice": "praise",
+      "title": "{player} took a leap",
+      "description": "{position} {player} improved to {overall} overall this offseason.",
+      "choices": [
+        { "id": "praise", "label": "Praise his work", "description": "Recognise the effort he put in.",
+          "effects": [ { "kind": "playerMorale", "value": 5 }, { "kind": "playerConfidence", "value": 3 } ] },
+        { "id": "feature", "label": "Feature him", "description": "Build part of the game plan around him.",
+          "effects": [ { "kind": "promoteDepth" }, { "kind": "playerConfidence", "value": 6 }, { "kind": "fanExcitement", "value": 2 } ] }
+      ]
+    },
+    "lockerRoomConflict": {
+      "priority": 8, "cooldownWeeks": 6, "teamCooldownWeeks": 3, "defaultChoice": "mediate",
+      "title": "Locker-room flare-up",
+      "description": "With {team} on a {streak}-game skid, {player} got into a shouting match with teammates.",
+      "choices": [
+        { "id": "mediate", "label": "Mediate", "description": "Get everyone in a room and clear the air.",
+          "effects": [ { "kind": "teamChemistry", "value": 2 }, { "kind": "playerMorale", "value": 1 } ] },
+        { "id": "discipline", "label": "Discipline him", "description": "Fine him and make an example of him.",
+          "effects": [ { "kind": "playerMorale", "value": -6 }, { "kind": "coachRelationship", "value": -4 }, { "kind": "teamChemistry", "value": 3 } ] },
+        { "id": "shop", "label": "Shop the troublemaker", "description": "Put him on the trade block.",
+          "effects": [ { "kind": "addFlag", "flag": "tradeBlock" }, { "kind": "teamChemistry", "value": 1 }, { "kind": "playerMorale", "value": -4 } ] }
+      ]
+    },
+    "injury": {
+      "priority": 7, "cooldownWeeks": 1, "teamCooldownWeeks": 0, "defaultChoice": "recover",
+      "title": "{player} injured",
+      "description": "{position} {player} {outlook} ({severity} {area} injury).",
+      "choices": [
+        { "id": "recover", "label": "Let him heal fully", "description": "No shortcuts. He appreciates the patience.",
+          "effects": [ { "kind": "playerMorale", "value": 3 } ] },
+        { "id": "specialist", "label": "Send him to a specialist", "description": "Pay for top-level treatment to save a week.",
+          "effects": [ { "kind": "cash", "value": -300000 }, { "kind": "injuryWeeks", "value": -1 } ] },
+        { "id": "rush", "label": "Push for an early return", "description": "Save two weeks, but he resents being rushed back.",
+          "effects": [ { "kind": "injuryWeeks", "value": -2 }, { "kind": "playerConfidence", "value": -4 }, { "kind": "coachRelationship", "value": -3 } ] }
+      ]
+    },
+    "coachDisagreement": {
+      "priority": 6, "cooldownWeeks": 6, "teamCooldownWeeks": 4, "defaultChoice": "backHeadCoach",
+      "title": "Staff split over play-calling",
+      "description": "{coach} disagrees with the head coach's approach after {team} averaged {value} points per game.",
+      "choices": [
+        { "id": "backHeadCoach", "label": "Back the head coach", "description": "The head coach has the final say.",
+          "effects": [ { "kind": "teamChemistry", "value": -1 } ] },
+        { "id": "backCoordinator", "label": "Side with the coordinator", "description": "Change the approach; the head coach loses some authority.",
+          "effects": [ { "kind": "teamCoachRelationship", "value": -3 }, { "kind": "teamChemistry", "value": 2 } ] },
+        { "id": "retreat", "label": "Staff retreat", "description": "Pay for a few days away to get everyone aligned.",
+          "effects": [ { "kind": "cash", "value": -150000 }, { "kind": "teamChemistry", "value": 1 } ] }
+      ]
+    },
+    "targetsRequest": {
+      "priority": 5, "cooldownWeeks": 6, "teamCooldownWeeks": 4, "defaultChoice": "explain",
+      "title": "{player} wants the ball",
+      "description": "{position} {player} has seen only {value}% of the team's targets and wants a bigger share.",
+      "choices": [
+        { "id": "promise", "label": "Promise more targets", "description": "He will hold you to it.",
+          "effects": [ { "kind": "addFlag", "flag": "targetsPromised" }, { "kind": "playerMorale", "value": 6 } ] },
+        { "id": "explain", "label": "Explain the game plan", "description": "Walk him through why the ball goes elsewhere.",
+          "effects": [ { "kind": "playerMorale", "value": -2 } ] },
+        { "id": "dismiss", "label": "Tell him to earn it", "description": "Blunt, but it may light a fire.",
+          "effects": [ { "kind": "playerMorale", "value": -5 }, { "kind": "playerConfidence", "value": 2 } ] }
+      ]
+    },
+    "unhappyPlayer": {
+      "priority": 6, "cooldownWeeks": 5, "teamCooldownWeeks": 2, "defaultChoice": "ignore",
+      "title": "{player} unhappy with his role",
+      "description": "{position} {player} ({overall} OVR) believes he should be starting.",
+      "choices": [
+        { "id": "start", "label": "Name him the starter", "description": "Move him to the top of the depth chart.",
+          "effects": [ { "kind": "promoteDepth" }, { "kind": "playerMorale", "value": 8 } ] },
+        { "id": "meet", "label": "Meet with him", "description": "Explain the plan and his path to the field.",
+          "effects": [ { "kind": "playerMorale", "value": 4 }, { "kind": "coachRelationship", "value": 3 } ] },
+        { "id": "ignore", "label": "Ignore it", "description": "He may turn sour.",
+          "effects": [ { "kind": "playerMorale", "value": -5 }, { "kind": "addFlag", "flag": "disgruntled", "chance": 0.3 } ] }
+      ]
+    },
+    "winningStreak": {
+      "priority": 4, "cooldownWeeks": 3, "teamCooldownWeeks": 0, "defaultChoice": "focus",
+      "title": "{team} have won {streak} straight",
+      "description": "The buzz around {team} is growing after {streak} wins in a row.",
+      "choices": [
+        { "id": "celebrate", "label": "Team dinner", "description": "Treat the squad. Good for spirits, a small cost.",
+          "effects": [ { "kind": "teamMorale", "value": 3 }, { "kind": "cash", "value": -150000 } ] },
+        { "id": "focus", "label": "Stay focused", "description": "One game at a time.",
+          "effects": [ { "kind": "teamConfidence", "value": 2 } ] }
+      ]
+    },
+    "losingStreak": {
+      "priority": 7, "cooldownWeeks": 3, "teamCooldownWeeks": 0, "defaultChoice": "meeting",
+      "title": "{team} have lost {streak} straight",
+      "description": "Pressure is mounting after {streak} losses in a row.",
+      "choices": [
+        { "id": "meeting", "label": "Team meeting", "description": "Remind everyone what they are playing for.",
+          "effects": [ { "kind": "teamMorale", "value": 2 } ] },
+        { "id": "practice", "label": "Tough practices", "description": "Hard work builds bonds, even if nobody enjoys it.",
+          "effects": [ { "kind": "teamMorale", "value": -2 }, { "kind": "teamChemistry", "value": 2 }, { "kind": "teamConfidence", "value": 1 } ] },
+        { "id": "shakeup", "label": "Shake things up", "description": "Change the routine; the fans like the energy.",
+          "effects": [ { "kind": "teamChemistry", "value": -2 }, { "kind": "fanExcitement", "value": 2 } ] }
+      ]
+    },
+    "rivalryGame": {
+      "priority": 3, "cooldownWeeks": 1, "teamCooldownWeeks": 0, "defaultChoice": "business",
+      "title": "Rivalry week: {opponent}",
+      "description": "{team} face {opponent} next. The fans have had this one circled for months.",
+      "choices": [
+        { "id": "hype", "label": "Embrace the hype", "description": "Talk it up all week.",
+          "effects": [ { "kind": "fanExcitement", "value": 4 }, { "kind": "teamMorale", "value": 2 } ] },
+        { "id": "business", "label": "Just another game", "description": "Keep the team calm.",
+          "effects": [ { "kind": "teamConfidence", "value": 1 } ] }
+      ]
+    },
+    "recordBroken": {
+      "priority": 5, "cooldownWeeks": 1, "teamCooldownWeeks": 0, "defaultChoice": "celebrate",
+      "title": "{player} sets a record",
+      "description": "{player} now holds the league record for {stat} with {value}.",
+      "choices": [
+        { "id": "celebrate", "label": "Celebrate the milestone", "description": "A moment for the fans.",
+          "effects": [ { "kind": "playerMorale", "value": 5 }, { "kind": "fanExcitement", "value": 3 } ] },
+        { "id": "gameBall", "label": "Present the game ball", "description": "Keep it in the locker room.",
+          "effects": [ { "kind": "playerMorale", "value": 4 }, { "kind": "teamChemistry", "value": 1 } ] }
+      ]
+    },
+    "holdout": {
+      "priority": 9, "cooldownWeeks": 8, "teamCooldownWeeks": 2, "defaultChoice": "wait",
+      "title": "{player} threatens a holdout",
+      "description": "{position} {player} wants {amount} a year and says he will not report until he gets it.",
+      "choices": [
+        { "id": "negotiate", "label": "Negotiate", "description": "Open talks on a new deal.",
+          "effects": [ { "kind": "addFlag", "flag": "extensionTalks" }, { "kind": "removeFlag", "flag": "holdout" }, { "kind": "playerMorale", "value": 5 } ] },
+        { "id": "fine", "label": "Threaten fines", "description": "Hardball: it may bring him in, but it will not make him happy.",
+          "effects": [ { "kind": "playerMorale", "value": -8 }, { "kind": "teamChemistry", "value": -2 }, { "kind": "addFlag", "flag": "holdout", "chance": 0.5 } ] },
+        { "id": "wait", "label": "Wait him out", "description": "He stays home for now.",
+          "effects": [ { "kind": "playerMorale", "value": -3 }, { "kind": "addFlag", "flag": "holdout" } ] }
+      ]
+    },
+    "retirementAnnounced": {
+      "priority": 5, "cooldownWeeks": 20, "teamCooldownWeeks": 0, "defaultChoice": "honor",
+      "title": "{player} plans to retire",
+      "description": "{age}-year-old {position} {player} has told {team} he intends to retire.",
+      "choices": [
+        { "id": "honor", "label": "Honor his career", "description": "Give him a proper send-off.",
+          "effects": [ { "kind": "addFlag", "flag": "retiring" }, { "kind": "teamChemistry", "value": 2 }, { "kind": "fanSupport", "value": 1 } ] },
+        { "id": "persuade", "label": "Ask him to reconsider", "description": "He might give it one more year.",
+          "effects": [ { "kind": "addFlag", "flag": "retiring", "chance": 0.5 }, { "kind": "playerMorale", "value": 2 } ] }
+      ]
+    },
+    "fanUnrest": {
+      "priority": 7, "cooldownWeeks": 6, "teamCooldownWeeks": 0, "defaultChoice": "pressConference",
+      "title": "Fans are restless",
+      "description": "Fan support for {team} has fallen to {value}. Empty seats are showing.",
+      "choices": [
+        { "id": "discount", "label": "Cut ticket prices 10%", "description": "Win some goodwill back at the gate.",
+          "effects": [ { "kind": "ticketPrice", "factor": 0.9 }, { "kind": "fanSupport", "value": 4 } ] },
+        { "id": "pressConference", "label": "Hold a press conference", "description": "Promise better days ahead.",
+          "effects": [ { "kind": "fanSupport", "value": 1 } ] },
+        { "id": "ignore", "label": "Ignore the critics", "description": "Winning is the only answer.",
+          "effects": [ { "kind": "fanSupport", "value": -2 } ] }
+      ]
+    },
+    "sponsorOffer": {
+      "priority": 2, "cooldownWeeks": 4, "teamCooldownWeeks": 4, "defaultChoice": "decline",
+      "title": "Sponsorship offer",
+      "description": "A regional company offers {amount} to become an official partner of {team}.",
+      "choices": [
+        { "id": "accept", "label": "Accept", "description": "Take the money.",
+          "effects": [ { "kind": "sponsor", "share": 1 } ] },
+        { "id": "negotiate", "label": "Negotiate for more", "description": "Ask for 30% more; they may walk away.",
+          "effects": [ { "kind": "sponsor", "share": 1.3, "chance": 0.5 } ] },
+        { "id": "decline", "label": "Decline", "description": "Not the right partner.",
+          "effects": [] }
+      ]
+    }
+  }
+}

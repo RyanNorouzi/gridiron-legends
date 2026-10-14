@@ -1,0 +1,742 @@
+[
+  {
+    "id": "43",
+    "name": "4-3 Over",
+    "base": "4-3",
+    "boxCount": 7,
+    "slots": [
+      {
+        "role": "DE1",
+        "position": "DE",
+        "x": -3.6,
+        "y": 1
+      },
+      {
+        "role": "DT1",
+        "position": "DT",
+        "x": -1.8,
+        "y": 1
+      },
+      {
+        "role": "DT2",
+        "position": "DT",
+        "x": 1.2,
+        "y": 1
+      },
+      {
+        "role": "DE2",
+        "position": "DE",
+        "x": 3.6,
+        "y": 1
+      },
+      {
+        "role": "OLB1",
+        "position": "OLB",
+        "x": -4.5,
+        "y": 4.5
+      },
+      {
+        "role": "MLB",
+        "position": "MLB",
+        "x": 0,
+        "y": 5
+      },
+      {
+        "role": "OLB2",
+        "position": "OLB",
+        "x": 4.5,
+        "y": 4.5
+      },
+      {
+        "role": "CB1",
+        "position": "CB",
+        "x": -14,
+        "y": 6.5
+      },
+      {
+        "role": "CB2",
+        "position": "CB",
+        "x": 14,
+        "y": 6.5
+      },
+      {
+        "role": "FS",
+        "position": "FS",
+        "x": 0,
+        "y": 13
+      },
+      {
+        "role": "SS",
+        "position": "SS",
+        "x": 5,
+        "y": 10
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "name": "3-4 Base",
+    "base": "3-4",
+    "boxCount": 7,
+    "slots": [
+      {
+        "role": "DE1",
+        "position": "DE",
+        "x": -2.9,
+        "y": 1
+      },
+      {
+        "role": "DT1",
+        "position": "DT",
+        "x": 0,
+        "y": 1
+      },
+      {
+        "role": "DE2",
+        "position": "DE",
+        "x": 2.9,
+        "y": 1
+      },
+      {
+        "role": "OLB1",
+        "position": "OLB",
+        "x": -5,
+        "y": 1.5
+      },
+      {
+        "role": "OLB2",
+        "position": "OLB",
+        "x": 5,
+        "y": 1.5
+      },
+      {
+        "role": "MLB",
+        "position": "MLB",
+        "x": -1.8,
+        "y": 4.8
+      },
+      {
+        "role": "MLB2",
+        "position": "MLB",
+        "x": 1.8,
+        "y": 4.8
+      },
+      {
+        "role": "CB1",
+        "position": "CB",
+        "x": -14,
+        "y": 6.5
+      },
+      {
+        "role": "CB2",
+        "position": "CB",
+        "x": 14,
+        "y": 6.5
+      },
+      {
+        "role": "FS",
+        "position": "FS",
+        "x": 0,
+        "y": 13
+      },
+      {
+        "role": "SS",
+        "position": "SS",
+        "x": 5,
+        "y": 10
+      }
+    ]
+  },
+  {
+    "id": "425",
+    "name": "4-2-5 Overhang",
+    "base": "4-2-5",
+    "boxCount": 7,
+    "slots": [
+      {
+        "role": "DE1",
+        "position": "DE",
+        "x": -3.6,
+        "y": 1
+      },
+      {
+        "role": "DT1",
+        "position": "DT",
+        "x": -1.8,
+        "y": 1
+      },
+      {
+        "role": "DT2",
+        "position": "DT",
+        "x": 1.2,
+        "y": 1
+      },
+      {
+        "role": "DE2",
+        "position": "DE",
+        "x": 3.6,
+        "y": 1
+      },
+      {
+        "role": "OLB1",
+        "position": "OLB",
+        "x": -2.5,
+        "y": 4.8
+      },
+      {
+        "role": "MLB",
+        "position": "MLB",
+        "x": 2,
+        "y": 4.8
+      },
+      {
+        "role": "CB1",
+        "position": "CB",
+        "x": -14,
+        "y": 6.5
+      },
+      {
+        "role": "CB2",
+        "position": "CB",
+        "x": 14,
+        "y": 6.5
+      },
+      {
+        "role": "CB3",
+        "position": "CB",
+        "x": 8,
+        "y": 5.5
+      },
+      {
+        "role": "FS",
+        "position": "FS",
+        "x": 0,
+        "y": 13
+      },
+      {
+        "role": "SS",
+        "position": "SS",
+        "x": -5,
+        "y": 7.5
+      }
+    ]
+  },
+  {
+    "id": "nickel",
+    "name": "Nickel",
+    "base": "nickel",
+    "boxCount": 6,
+    "slots": [
+      {
+        "role": "DE1",
+        "position": "DE",
+        "x": -3.6,
+        "y": 1
+      },
+      {
+        "role": "DT1",
+        "position": "DT",
+        "x": -1.8,
+        "y": 1
+      },
+      {
+        "role": "DT2",
+        "position": "DT",
+        "x": 1.2,
+        "y": 1
+      },
+      {
+        "role": "DE2",
+        "position": "DE",
+        "x": 3.6,
+        "y": 1
+      },
+      {
+        "role": "OLB1",
+        "position": "OLB",
+        "x": -2,
+        "y": 5
+      },
+      {
+        "role": "MLB",
+        "position": "MLB",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "role": "CB1",
+        "position": "CB",
+        "x": -14,
+        "y": 7
+      },
+      {
+        "role": "CB2",
+        "position": "CB",
+        "x": 14,
+        "y": 7
+      },
+      {
+        "role": "CB3",
+        "position": "CB",
+        "x": 8,
+        "y": 5.5
+      },
+      {
+        "role": "FS",
+        "position": "FS",
+        "x": -6,
+        "y": 12
+      },
+      {
+        "role": "SS",
+        "position": "SS",
+        "x": 6,
+        "y": 12
+      }
+    ]
+  },
+  {
+    "id": "dime",
+    "name": "Dime",
+    "base": "dime",
+    "boxCount": 5,
+    "slots": [
+      {
+        "role": "DE1",
+        "position": "DE",
+        "x": -3.6,
+        "y": 1
+      },
+      {
+        "role": "DT1",
+        "position": "DT",
+        "x": -1.8,
+        "y": 1
+      },
+      {
+        "role": "DT2",
+        "position": "DT",
+        "x": 1.2,
+        "y": 1
+      },
+      {
+        "role": "DE2",
+        "position": "DE",
+        "x": 3.6,
+        "y": 1
+      },
+      {
+        "role": "MLB",
+        "position": "MLB",
+        "x": 0,
+        "y": 5
+      },
+      {
+        "role": "CB1",
+        "position": "CB",
+        "x": -15,
+        "y": 7
+      },
+      {
+        "role": "CB2",
+        "position": "CB",
+        "x": 15,
+        "y": 7
+      },
+      {
+        "role": "CB3",
+        "position": "CB",
+        "x": 8,
+        "y": 5.5
+      },
+      {
+        "role": "CB4",
+        "position": "CB",
+        "x": -8,
+        "y": 5.5
+      },
+      {
+        "role": "FS",
+        "position": "FS",
+        "x": -7,
+        "y": 13
+      },
+      {
+        "role": "SS",
+        "position": "SS",
+        "x": 7,
+        "y": 13
+      }
+    ]
+  },
+  {
+    "id": "goalLine",
+    "name": "Goal Line 6-2",
+    "base": "goalLine",
+    "boxCount": 9,
+    "slots": [
+      {
+        "role": "DE1",
+        "position": "DE",
+        "x": -3.5,
+        "y": 0.9
+      },
+      {
+        "role": "DT1",
+        "position": "DT",
+        "x": -1.2,
+        "y": 0.9
+      },
+      {
+        "role": "DT2",
+        "position": "DT",
+        "x": 1.2,
+        "y": 0.9
+      },
+      {
+        "role": "DE2",
+        "position": "DE",
+        "x": 3.5,
+        "y": 0.9
+      },
+      {
+        "role": "OLB1",
+        "position": "OLB",
+        "x": -6,
+        "y": 1.2
+      },
+      {
+        "role": "OLB2",
+        "position": "OLB",
+        "x": 6,
+        "y": 1.2
+      },
+      {
+        "role": "MLB",
+        "position": "MLB",
+        "x": -1.2,
+        "y": 2.8
+      },
+      {
+        "role": "MLB2",
+        "position": "MLB",
+        "x": 1.2,
+        "y": 2.8
+      },
+      {
+        "role": "CB1",
+        "position": "CB",
+        "x": -8,
+        "y": 3
+      },
+      {
+        "role": "CB2",
+        "position": "CB",
+        "x": 8,
+        "y": 3
+      },
+      {
+        "role": "SS",
+        "position": "SS",
+        "x": 0,
+        "y": 5.5
+      }
+    ]
+  },
+  {
+    "id": "prevent",
+    "name": "Prevent 3-1-7",
+    "base": "prevent",
+    "boxCount": 4,
+    "slots": [
+      {
+        "role": "DE1",
+        "position": "DE",
+        "x": -3.6,
+        "y": 1
+      },
+      {
+        "role": "DT1",
+        "position": "DT",
+        "x": 0,
+        "y": 1
+      },
+      {
+        "role": "DE2",
+        "position": "DE",
+        "x": 3.6,
+        "y": 1
+      },
+      {
+        "role": "MLB",
+        "position": "MLB",
+        "x": 0,
+        "y": 6
+      },
+      {
+        "role": "CB1",
+        "position": "CB",
+        "x": -16,
+        "y": 8
+      },
+      {
+        "role": "CB2",
+        "position": "CB",
+        "x": 16,
+        "y": 8
+      },
+      {
+        "role": "CB3",
+        "position": "CB",
+        "x": -8,
+        "y": 9
+      },
+      {
+        "role": "CB4",
+        "position": "CB",
+        "x": 8,
+        "y": 9
+      },
+      {
+        "role": "CB5",
+        "position": "CB",
+        "x": 0,
+        "y": 10
+      },
+      {
+        "role": "FS",
+        "position": "FS",
+        "x": -9,
+        "y": 18
+      },
+      {
+        "role": "SS",
+        "position": "SS",
+        "x": 9,
+        "y": 18
+      }
+    ]
+  },
+  {
+    "id": "kickReturn",
+    "name": "Kick Return",
+    "base": "kickReturn",
+    "boxCount": 0,
+    "slots": [
+      {
+        "role": "L1",
+        "position": "OLB",
+        "x": -16,
+        "y": 12
+      },
+      {
+        "role": "L2",
+        "position": "TE",
+        "x": -8,
+        "y": 12
+      },
+      {
+        "role": "L3",
+        "position": "MLB",
+        "x": 0,
+        "y": 12
+      },
+      {
+        "role": "L4",
+        "position": "TE",
+        "x": 8,
+        "y": 12
+      },
+      {
+        "role": "L5",
+        "position": "OLB",
+        "x": 16,
+        "y": 12
+      },
+      {
+        "role": "M1",
+        "position": "FB",
+        "x": -12,
+        "y": 24
+      },
+      {
+        "role": "M2",
+        "position": "SS",
+        "x": -4,
+        "y": 25
+      },
+      {
+        "role": "M3",
+        "position": "SS",
+        "x": 4,
+        "y": 25
+      },
+      {
+        "role": "M4",
+        "position": "CB",
+        "x": 12,
+        "y": 24
+      },
+      {
+        "role": "KR2",
+        "position": "RB",
+        "x": -6,
+        "y": 50
+      },
+      {
+        "role": "KR",
+        "position": "WR",
+        "x": 0,
+        "y": 62
+      }
+    ]
+  },
+  {
+    "id": "puntReturn",
+    "name": "Punt Return",
+    "base": "puntReturn",
+    "boxCount": 6,
+    "slots": [
+      {
+        "role": "CB1",
+        "position": "CB",
+        "x": -19.5,
+        "y": 1.2
+      },
+      {
+        "role": "CB2",
+        "position": "CB",
+        "x": 19.5,
+        "y": 1.2
+      },
+      {
+        "role": "DE1",
+        "position": "DE",
+        "x": -3.6,
+        "y": 1
+      },
+      {
+        "role": "DT1",
+        "position": "DT",
+        "x": -1.2,
+        "y": 1
+      },
+      {
+        "role": "DT2",
+        "position": "DT",
+        "x": 1.2,
+        "y": 1
+      },
+      {
+        "role": "DE2",
+        "position": "DE",
+        "x": 3.6,
+        "y": 1
+      },
+      {
+        "role": "OLB1",
+        "position": "OLB",
+        "x": -5.5,
+        "y": 1.2
+      },
+      {
+        "role": "OLB2",
+        "position": "OLB",
+        "x": 5.5,
+        "y": 1.2
+      },
+      {
+        "role": "CB3",
+        "position": "CB",
+        "x": -9,
+        "y": 8
+      },
+      {
+        "role": "MLB",
+        "position": "MLB",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "role": "PR",
+        "position": "WR",
+        "x": 0,
+        "y": 40
+      }
+    ]
+  },
+  {
+    "id": "fgBlock",
+    "name": "Field Goal Block",
+    "base": "fgBlock",
+    "boxCount": 10,
+    "slots": [
+      {
+        "role": "DE1",
+        "position": "DE",
+        "x": -4,
+        "y": 1
+      },
+      {
+        "role": "DT1",
+        "position": "DT",
+        "x": -1.3,
+        "y": 1
+      },
+      {
+        "role": "DT2",
+        "position": "DT",
+        "x": 1.3,
+        "y": 1
+      },
+      {
+        "role": "DE2",
+        "position": "DE",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "role": "OLB1",
+        "position": "OLB",
+        "x": -6,
+        "y": 1
+      },
+      {
+        "role": "OLB2",
+        "position": "OLB",
+        "x": 6,
+        "y": 1
+      },
+      {
+        "role": "MLB",
+        "position": "MLB",
+        "x": -0.6,
+        "y": 2.2
+      },
+      {
+        "role": "MLB2",
+        "position": "MLB",
+        "x": 0.6,
+        "y": 2.2
+      },
+      {
+        "role": "CB1",
+        "position": "CB",
+        "x": -8,
+        "y": 1.5
+      },
+      {
+        "role": "CB2",
+        "position": "CB",
+        "x": 8,
+        "y": 1.5
+      },
+      {
+        "role": "FS",
+        "position": "FS",
+        "x": 0,
+        "y": 12
+      }
+    ]
+  }
+]

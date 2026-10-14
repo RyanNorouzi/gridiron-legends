@@ -1,0 +1,91 @@
+{
+  "production": {
+    "passing": { "yards": 0.04, "touchdowns": 4, "interceptions": -2, "sacks": -0.25 },
+    "rushing": { "yards": 0.1, "touchdowns": 6, "fumbles": -1 },
+    "receiving": { "yards": 0.1, "touchdowns": 6, "receptions": 0.5 },
+    "fumblesLost": -2
+  },
+  "defense": {
+    "weights": { "tackles": 1, "tfl": 2, "sacks": 8, "interceptions": 10, "passBreakups": 2.5, "forcedFumbles": 6, "fumbleRecoveries": 4, "touchdowns": 10 },
+    "positionFactor": { "DE": 1.0, "DT": 1.2, "OLB": 1.0, "MLB": 0.9, "CB": 1.15, "FS": 1.1, "SS": 1.0 }
+  },
+  "blocking": { "gamesStarted": 2, "pancakes": 0.5, "sacksAllowed": -3, "pressuresAllowed": -0.25 },
+  "kicking": { "fgMade": 3, "fgMissed": -2, "xpMade": 1, "xpMissed": -1, "fgLong": 0.2 },
+  "punting": { "puntYards": 0.012, "puntsInside20": 1.5 },
+  "eligibility": { "minGamesFraction": 0.5 },
+  "mvp": { "teamBase": 0.6, "teamWeight": 0.8, "defenseDiscount": 0.75, "championBonus": 0.05, "qbFactor": 1.15 },
+  "coy": { "winPctPerRating": 0.03, "minWinPct": 0.1, "maxWinPct": 0.9 },
+  "best": { "productionWeight": 0.75, "overallWeight": 0.25 },
+  "allPro": {
+    "slots": { "QB": 1, "RB": 1, "FB": 0, "WR": 2, "TE": 1, "OT": 2, "OG": 2, "C": 1, "DE": 2, "DT": 2, "OLB": 2, "MLB": 1, "CB": 2, "FS": 1, "SS": 1, "K": 1, "P": 1 },
+    "overallWeight": 1.5,
+    "positionScale": { "QB": 1, "RB": 1, "FB": 1, "WR": 1, "TE": 1.3, "OT": 3, "OG": 3, "C": 3, "DE": 1, "DT": 1, "OLB": 1, "MLB": 1, "CB": 1, "FS": 1, "SS": 1, "K": 1.2, "P": 2 }
+  },
+  "hallOfFame": {
+    "benchmarks": { "QB": 3500, "RB": 2200, "FB": 700, "WR": 2400, "TE": 1600, "OT": 450, "OG": 450, "C": 450, "DE": 2000, "DT": 1700, "OLB": 1900, "MLB": 1900, "CB": 1500, "FS": 1500, "SS": 1600, "K": 2300, "P": 900 },
+    "thresholds": { "QB": 72, "RB": 70, "FB": 75, "WR": 70, "TE": 70, "OT": 68, "OG": 68, "C": 68, "DE": 70, "DT": 70, "OLB": 70, "MLB": 70, "CB": 70, "FS": 70, "SS": 70, "K": 78, "P": 80 },
+    "productionPoints": 40,
+    "productionCap": 1.5,
+    "awardPoints": { "MVP": 12, "OPOY": 8, "DPOY": 8, "OROY": 2, "DROY": 2, "COY": 0, "bestQB": 4, "bestRB": 4, "bestWR": 4, "bestDefender": 4 },
+    "allProPoints": 5,
+    "championshipPoints": 3,
+    "peakFloor": 80,
+    "peakPoints": 1.5,
+    "seasonPoints": 1,
+    "seasonCap": 15,
+    "minSeasons": 5,
+    "candidateMinExperience": 5
+  },
+  "retirement": {
+    "minAge": 27,
+    "ageMidOffset": 1.5,
+    "ageScale": 1.5,
+    "maxChance": 0.97,
+    "starOverall": 85,
+    "starMultiplier": 0.7,
+    "declineThreshold": 3,
+    "declineBonus": 0.08,
+    "lowOverall": 60,
+    "lowOverallMinAge": 29,
+    "lowOverallBonus": 0.12,
+    "careerThreateningBonus": 0.25,
+    "severeInjuryBonus": 0.03,
+    "underContractMultiplier": 0.65,
+    "freeAgentMultiplier": 1.3,
+    "freeAgentBonus": 0.04,
+    "championBonus": 0.08,
+    "washoutOverall": 55,
+    "washoutPotential": 62,
+    "washoutChance": 0.5,
+    "traitMultipliers": { "competitive": 0.85, "workhorse": 0.9, "lazy": 1.15, "leader": 0.95 },
+    "coach": { "minAge": 60, "baseChance": 0.01, "perYearOver": 0.06, "maxChance": 0.85, "replacementQuality": [0.3, 0.7] }
+  },
+  "progression": {
+    "freeAgentCoachRating": 35,
+    "freeAgentFacilityLevel": 1,
+    "freeAgentTeamSuccess": 0.4,
+    "snapsPerStart": 55,
+    "snapsPerGame": 20,
+    "championSuccessBonus": 0.15,
+    "playoffSuccessBonus": 0.05,
+    "facilityBlend": { "development": 0.7, "training": 0.3 },
+    "moraleGrowthThreshold": 3,
+    "moraleDeclineThreshold": -3,
+    "weekly": { "maxAge": 24, "chance": 0.05, "snapsForFull": 50 }
+  },
+  "camp": {
+    "reps": 20,
+    "basePoints": 1.2,
+    "focusShare": 0.5,
+    "intensity": {
+      "light": { "gain": 0.5, "contact": 0.15, "fatigue": 0.2 },
+      "normal": { "gain": 1.0, "contact": 0.35, "fatigue": 0.4 },
+      "hard": { "gain": 1.7, "contact": 0.7, "fatigue": 0.75 }
+    },
+    "strengthCoachRange": [0.8, 1.25],
+    "veteranFactor": 0.4,
+    "battleMargin": 3,
+    "rookieSettleSd": 1.5,
+    "rookieSettleMax": 3
+  }
+}

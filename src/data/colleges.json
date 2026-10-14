@@ -1,0 +1,410 @@
+[
+  {
+    "name": "Harborview University",
+    "region": "northeast"
+  },
+  {
+    "name": "Stonebridge College",
+    "region": "northeast"
+  },
+  {
+    "name": "Northgate University",
+    "region": "northeast"
+  },
+  {
+    "name": "Pilgrim Bay State",
+    "region": "northeast"
+  },
+  {
+    "name": "Granite Ridge College",
+    "region": "northeast"
+  },
+  {
+    "name": "Alder Point University",
+    "region": "northeast"
+  },
+  {
+    "name": "Corbridge University",
+    "region": "northeast"
+  },
+  {
+    "name": "Winslow University",
+    "region": "northeast"
+  },
+  {
+    "name": "Bellwether College",
+    "region": "northeast"
+  },
+  {
+    "name": "Eastmoor University",
+    "region": "northeast"
+  },
+  {
+    "name": "Saltmarsh Institute",
+    "region": "northeast"
+  },
+  {
+    "name": "Keystone Valley State",
+    "region": "midAtlantic"
+  },
+  {
+    "name": "Potomac Heights University",
+    "region": "midAtlantic"
+  },
+  {
+    "name": "Ironbridge University",
+    "region": "midAtlantic"
+  },
+  {
+    "name": "Blue Ridge A&M",
+    "region": "midAtlantic"
+  },
+  {
+    "name": "Harrowgate College",
+    "region": "midAtlantic"
+  },
+  {
+    "name": "Delmarva State",
+    "region": "midAtlantic"
+  },
+  {
+    "name": "Coalfield Tech",
+    "region": "midAtlantic"
+  },
+  {
+    "name": "Millbrook University",
+    "region": "midAtlantic"
+  },
+  {
+    "name": "Chesapeake Point University",
+    "region": "midAtlantic"
+  },
+  {
+    "name": "Laurel Highlands College",
+    "region": "midAtlantic"
+  },
+  {
+    "name": "Piedmont Crossing University",
+    "region": "southeast"
+  },
+  {
+    "name": "Cumberland Ridge State",
+    "region": "southeast"
+  },
+  {
+    "name": "Magnolia Bend University",
+    "region": "southeast"
+  },
+  {
+    "name": "Savannah River Tech",
+    "region": "southeast"
+  },
+  {
+    "name": "Lowcountry College",
+    "region": "southeast"
+  },
+  {
+    "name": "Bluegrass Central University",
+    "region": "southeast"
+  },
+  {
+    "name": "Red Clay University",
+    "region": "southeast"
+  },
+  {
+    "name": "Ridgeland State",
+    "region": "southeast"
+  },
+  {
+    "name": "Chattahoochee A&M",
+    "region": "southeast"
+  },
+  {
+    "name": "Smoky Hollow University",
+    "region": "southeast"
+  },
+  {
+    "name": "Coastal Pines University",
+    "region": "southeast"
+  },
+  {
+    "name": "Gulfstream University",
+    "region": "florida"
+  },
+  {
+    "name": "Everglade State",
+    "region": "florida"
+  },
+  {
+    "name": "Palmetto Bay College",
+    "region": "florida"
+  },
+  {
+    "name": "Citrus Grove University",
+    "region": "florida"
+  },
+  {
+    "name": "Keys Atlantic University",
+    "region": "florida"
+  },
+  {
+    "name": "Mangrove State",
+    "region": "florida"
+  },
+  {
+    "name": "Suwannee Valley State",
+    "region": "florida"
+  },
+  {
+    "name": "Sandbar Coast College",
+    "region": "florida"
+  },
+  {
+    "name": "Northern Ridge State",
+    "region": "greatLakes"
+  },
+  {
+    "name": "Lakeshore University",
+    "region": "greatLakes"
+  },
+  {
+    "name": "Ironwood State",
+    "region": "greatLakes"
+  },
+  {
+    "name": "Great Lakes Polytechnic",
+    "region": "greatLakes"
+  },
+  {
+    "name": "Maumee Valley College",
+    "region": "greatLakes"
+  },
+  {
+    "name": "Copper Country University",
+    "region": "greatLakes"
+  },
+  {
+    "name": "Prairie Lake State",
+    "region": "greatLakes"
+  },
+  {
+    "name": "Fort Dearborn University",
+    "region": "greatLakes"
+  },
+  {
+    "name": "Sandusky Bay University",
+    "region": "greatLakes"
+  },
+  {
+    "name": "Kettle Moraine State",
+    "region": "greatLakes"
+  },
+  {
+    "name": "Steel Harbor Tech",
+    "region": "greatLakes"
+  },
+  {
+    "name": "Tallgrass University",
+    "region": "heartland"
+  },
+  {
+    "name": "Great Plains State",
+    "region": "heartland"
+  },
+  {
+    "name": "Flint Hills College",
+    "region": "heartland"
+  },
+  {
+    "name": "Cornbelt University",
+    "region": "heartland"
+  },
+  {
+    "name": "Big Muddy University",
+    "region": "heartland"
+  },
+  {
+    "name": "Prairie Wind College",
+    "region": "heartland"
+  },
+  {
+    "name": "Ozark Highlands University",
+    "region": "heartland"
+  },
+  {
+    "name": "Northern Lights State",
+    "region": "heartland"
+  },
+  {
+    "name": "Twin Rivers University",
+    "region": "heartland"
+  },
+  {
+    "name": "Buffalo Grass Tech",
+    "region": "heartland"
+  },
+  {
+    "name": "Lone Pine University",
+    "region": "southCentral"
+  },
+  {
+    "name": "Brazos Valley State",
+    "region": "southCentral"
+  },
+  {
+    "name": "Red River Tech",
+    "region": "southCentral"
+  },
+  {
+    "name": "Bayou Country University",
+    "region": "southCentral"
+  },
+  {
+    "name": "Big Thicket State",
+    "region": "southCentral"
+  },
+  {
+    "name": "Cross Timbers University",
+    "region": "southCentral"
+  },
+  {
+    "name": "Caprock A&M",
+    "region": "southCentral"
+  },
+  {
+    "name": "Delta Crossing University",
+    "region": "southCentral"
+  },
+  {
+    "name": "Pineywoods State",
+    "region": "southCentral"
+  },
+  {
+    "name": "Gulf Marsh College",
+    "region": "southCentral"
+  },
+  {
+    "name": "Chisholm Trail University",
+    "region": "southCentral"
+  },
+  {
+    "name": "Summit Peak University",
+    "region": "mountainWest"
+  },
+  {
+    "name": "High Desert State",
+    "region": "mountainWest"
+  },
+  {
+    "name": "Timberline College",
+    "region": "mountainWest"
+  },
+  {
+    "name": "Front Range Tech",
+    "region": "mountainWest"
+  },
+  {
+    "name": "Wasatch Crest University",
+    "region": "mountainWest"
+  },
+  {
+    "name": "Painted Mesa University",
+    "region": "mountainWest"
+  },
+  {
+    "name": "Silver Creek State",
+    "region": "mountainWest"
+  },
+  {
+    "name": "Canyonlands College",
+    "region": "mountainWest"
+  },
+  {
+    "name": "Alpine Ridge University",
+    "region": "mountainWest"
+  },
+  {
+    "name": "Saguaro Valley State",
+    "region": "mountainWest"
+  },
+  {
+    "name": "Cascade Falls University",
+    "region": "pacificNorthwest"
+  },
+  {
+    "name": "Puget Bay State",
+    "region": "pacificNorthwest"
+  },
+  {
+    "name": "Rainshadow College",
+    "region": "pacificNorthwest"
+  },
+  {
+    "name": "Salmon Run State",
+    "region": "pacificNorthwest"
+  },
+  {
+    "name": "Douglas Fir Tech",
+    "region": "pacificNorthwest"
+  },
+  {
+    "name": "North Sound University",
+    "region": "pacificNorthwest"
+  },
+  {
+    "name": "Pacific Timber University",
+    "region": "pacificNorthwest"
+  },
+  {
+    "name": "Coastal Fog College",
+    "region": "pacificNorthwest"
+  },
+  {
+    "name": "Glacier Bay Institute",
+    "region": "pacificNorthwest"
+  },
+  {
+    "name": "Golden Shore University",
+    "region": "westCoast"
+  },
+  {
+    "name": "Sierra Foothills State",
+    "region": "westCoast"
+  },
+  {
+    "name": "Redwood Coast University",
+    "region": "westCoast"
+  },
+  {
+    "name": "Bayline Tech",
+    "region": "westCoast"
+  },
+  {
+    "name": "Sunset Strand College",
+    "region": "westCoast"
+  },
+  {
+    "name": "Central Valley A&M",
+    "region": "westCoast"
+  },
+  {
+    "name": "Pacific Coastline University",
+    "region": "westCoast"
+  },
+  {
+    "name": "Mojave Sands University",
+    "region": "westCoast"
+  },
+  {
+    "name": "Mission Hills University",
+    "region": "westCoast"
+  },
+  {
+    "name": "Island Pacific University",
+    "region": "westCoast"
+  },
+  {
+    "name": "Surfside State",
+    "region": "westCoast"
+  }
+]

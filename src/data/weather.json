@@ -1,0 +1,44 @@
+{
+  "indoorTemperatureF": 68,
+  "types": {
+    "clear":       { "windMph": [0, 10],  "temperatureF": [48, 82],  "precipitation": [0, 0],      "visibility": [1, 1],       "fieldSlick": [0, 0.05] },
+    "rain":        { "windMph": [4, 16],  "temperatureF": [42, 68],  "precipitation": [0.25, 0.6], "visibility": [0.75, 0.9],  "fieldSlick": [0.2, 0.4] },
+    "heavyRain":   { "windMph": [10, 25], "temperatureF": [40, 65],  "precipitation": [0.7, 1],    "visibility": [0.5, 0.7],   "fieldSlick": [0.5, 0.8] },
+    "snow":        { "windMph": [3, 18],  "temperatureF": [8, 32],   "precipitation": [0.4, 0.9],  "visibility": [0.45, 0.7],  "fieldSlick": [0.45, 0.7] },
+    "wind":        { "windMph": [18, 35], "temperatureF": [35, 70],  "precipitation": [0, 0.05],   "visibility": [0.9, 1],     "fieldSlick": [0, 0.1] },
+    "extremeCold": { "windMph": [2, 15],  "temperatureF": [-10, 20], "precipitation": [0, 0.1],    "visibility": [0.85, 1],    "fieldSlick": [0.2, 0.4] },
+    "heat":        { "windMph": [0, 8],   "temperatureF": [90, 108], "precipitation": [0, 0],      "visibility": [0.95, 1],    "fieldSlick": [0, 0.05] }
+  },
+  "climates": {
+    "temperate": [
+      { "fromWeek": 1,  "toWeek": 5,  "weights": { "clear": 70, "rain": 14, "heavyRain": 3, "snow": 0,  "wind": 8,  "extremeCold": 0,  "heat": 5 } },
+      { "fromWeek": 6,  "toWeek": 11, "weights": { "clear": 58, "rain": 20, "heavyRain": 6, "snow": 2,  "wind": 12, "extremeCold": 2,  "heat": 0 } },
+      { "fromWeek": 12, "toWeek": 17, "weights": { "clear": 44, "rain": 16, "heavyRain": 5, "snow": 14, "wind": 13, "extremeCold": 8,  "heat": 0 } },
+      { "fromWeek": 18, "toWeek": 30, "weights": { "clear": 38, "rain": 12, "heavyRain": 4, "snow": 20, "wind": 12, "extremeCold": 14, "heat": 0 } }
+    ],
+    "cold": [
+      { "fromWeek": 1,  "toWeek": 5,  "weights": { "clear": 66, "rain": 16, "heavyRain": 4, "snow": 0,  "wind": 12, "extremeCold": 0,  "heat": 2 } },
+      { "fromWeek": 6,  "toWeek": 11, "weights": { "clear": 46, "rain": 18, "heavyRain": 6, "snow": 10, "wind": 14, "extremeCold": 6,  "heat": 0 } },
+      { "fromWeek": 12, "toWeek": 17, "weights": { "clear": 30, "rain": 8,  "heavyRain": 3, "snow": 28, "wind": 13, "extremeCold": 18, "heat": 0 } },
+      { "fromWeek": 18, "toWeek": 30, "weights": { "clear": 22, "rain": 4,  "heavyRain": 2, "snow": 34, "wind": 12, "extremeCold": 26, "heat": 0 } }
+    ],
+    "warm": [
+      { "fromWeek": 1,  "toWeek": 5,  "weights": { "clear": 62, "rain": 14, "heavyRain": 6, "snow": 0,  "wind": 4,  "extremeCold": 0,  "heat": 14 } },
+      { "fromWeek": 6,  "toWeek": 11, "weights": { "clear": 70, "rain": 14, "heavyRain": 5, "snow": 0,  "wind": 6,  "extremeCold": 0,  "heat": 5 } },
+      { "fromWeek": 12, "toWeek": 17, "weights": { "clear": 74, "rain": 14, "heavyRain": 4, "snow": 0,  "wind": 8,  "extremeCold": 0,  "heat": 0 } },
+      { "fromWeek": 18, "toWeek": 30, "weights": { "clear": 72, "rain": 16, "heavyRain": 4, "snow": 0,  "wind": 8,  "extremeCold": 0,  "heat": 0 } }
+    ],
+    "desert": [
+      { "fromWeek": 1,  "toWeek": 5,  "weights": { "clear": 60, "rain": 2,  "heavyRain": 0, "snow": 0,  "wind": 8,  "extremeCold": 0,  "heat": 30 } },
+      { "fromWeek": 6,  "toWeek": 11, "weights": { "clear": 76, "rain": 4,  "heavyRain": 0, "snow": 0,  "wind": 10, "extremeCold": 0,  "heat": 10 } },
+      { "fromWeek": 12, "toWeek": 17, "weights": { "clear": 84, "rain": 4,  "heavyRain": 0, "snow": 0,  "wind": 12, "extremeCold": 0,  "heat": 0 } },
+      { "fromWeek": 18, "toWeek": 30, "weights": { "clear": 82, "rain": 5,  "heavyRain": 1, "snow": 0,  "wind": 12, "extremeCold": 0,  "heat": 0 } }
+    ],
+    "coastal": [
+      { "fromWeek": 1,  "toWeek": 5,  "weights": { "clear": 58, "rain": 18, "heavyRain": 6, "snow": 0,  "wind": 14, "extremeCold": 0,  "heat": 4 } },
+      { "fromWeek": 6,  "toWeek": 11, "weights": { "clear": 50, "rain": 22, "heavyRain": 8, "snow": 0,  "wind": 20, "extremeCold": 0,  "heat": 0 } },
+      { "fromWeek": 12, "toWeek": 17, "weights": { "clear": 44, "rain": 24, "heavyRain": 8, "snow": 2,  "wind": 20, "extremeCold": 2,  "heat": 0 } },
+      { "fromWeek": 18, "toWeek": 30, "weights": { "clear": 40, "rain": 24, "heavyRain": 8, "snow": 4,  "wind": 20, "extremeCold": 4,  "heat": 0 } }
+    ]
+  }
+}

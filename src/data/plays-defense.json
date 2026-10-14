@@ -1,0 +1,3142 @@
+[
+  {
+    "id": "43-cover1-man",
+    "name": "4-3 Cover 1 Man",
+    "formation": "43",
+    "coverage": "cover1",
+    "family": "man",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "manCover",
+        "manTarget": "RB",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHole"
+      },
+      "OLB2": {
+        "type": "manCover",
+        "manTarget": "TE1",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "WR1",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "WR2",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "SS": {
+        "type": "manCover",
+        "manTarget": "WR3",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "base",
+      "thirdDown"
+    ],
+    "audibles": {
+      "zoneShift": "43-cover3-zone",
+      "blitz": "43-cover0-lbBlitz",
+      "spy": "43-cover1-spy",
+      "manShift": "43-cover2-man"
+    }
+  },
+  {
+    "id": "43-cover1-spy",
+    "name": "4-3 Cover 1 Spy",
+    "formation": "43",
+    "coverage": "cover1",
+    "family": "man",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "manCover",
+        "manTarget": "RB",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "MLB": {
+        "type": "spy"
+      },
+      "OLB2": {
+        "type": "manCover",
+        "manTarget": "TE1",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "WR1",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "WR2",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "SS": {
+        "type": "manCover",
+        "manTarget": "WR3",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "base",
+      "mobileQb"
+    ]
+  },
+  {
+    "id": "43-cover2-zone",
+    "name": "4-3 Cover 2",
+    "formation": "43",
+    "coverage": "cover2",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "zone",
+        "zone": "hookCurlLeft"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "OLB2": {
+        "type": "zone",
+        "zone": "hookCurlRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "flatLeft"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "flatRight"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepHalfLeft"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "deepHalfRight"
+      }
+    },
+    "tags": [
+      "base",
+      "longYardage"
+    ],
+    "audibles": {
+      "manShift": "43-cover1-man",
+      "blitz": "43-cover2-zoneBlitz",
+      "zoneShift": "43-cover3-zone",
+      "spy": "43-cover1-spy"
+    }
+  },
+  {
+    "id": "43-cover2-man",
+    "name": "4-3 Cover 2 Man",
+    "formation": "43",
+    "coverage": "cover2",
+    "family": "man",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "manCover",
+        "manTarget": "RB",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "MLB": {
+        "type": "manCover",
+        "manTarget": "TE1",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "OLB2": {
+        "type": "manCover",
+        "manTarget": "WR3",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "WR1",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "WR2",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepHalfLeft"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "deepHalfRight"
+      }
+    },
+    "tags": [
+      "thirdDown",
+      "redZone"
+    ]
+  },
+  {
+    "id": "43-cover3-zone",
+    "name": "4-3 Cover 3 Sky",
+    "formation": "43",
+    "coverage": "cover3",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "OLB2": {
+        "type": "zone",
+        "zone": "hookCurlRight"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "deepThirdLeft"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepThirdRight"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "base"
+    ],
+    "audibles": {
+      "manShift": "43-cover1-man",
+      "blitz": "43-cover3-edgeBlitz",
+      "zoneShift": "43-cover2-zone",
+      "spy": "43-cover1-spy"
+    },
+    "alignTo": "strength"
+  },
+  {
+    "id": "43-cover3-match",
+    "name": "4-3 Cover 3 Match",
+    "formation": "43",
+    "coverage": "cover3",
+    "family": "match",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "OLB2": {
+        "type": "zone",
+        "zone": "hookCurlRight"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "deepThirdLeft"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepThirdRight"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "base",
+      "longYardage"
+    ],
+    "alignTo": "strength"
+  },
+  {
+    "id": "43-cover4-zone",
+    "name": "4-3 Quarters",
+    "formation": "43",
+    "coverage": "cover4",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "OLB2": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "deepQuarter1"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepQuarter2"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "deepQuarter3"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepQuarter4"
+      }
+    },
+    "tags": [
+      "longYardage",
+      "twoMinute"
+    ]
+  },
+  {
+    "id": "43-cover6-zone",
+    "name": "4-3 Cover 6",
+    "formation": "43",
+    "coverage": "cover6",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "zone",
+        "zone": "hookCurlLeft"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "OLB2": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepHalfLeft"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "deepQuarter3"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepQuarter4"
+      }
+    },
+    "tags": [
+      "base"
+    ],
+    "alignTo": "passStrength"
+  },
+  {
+    "id": "43-cover0-lbBlitz",
+    "name": "4-3 Cover 0 LB Blitz",
+    "formation": "43",
+    "coverage": "cover0",
+    "family": "man",
+    "blitz": "lb",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "C-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "C-right"
+      },
+      "OLB1": {
+        "type": "blitz",
+        "gap": "A-left"
+      },
+      "MLB": {
+        "type": "blitz",
+        "gap": "B-right"
+      },
+      "OLB2": {
+        "type": "manCover",
+        "manTarget": "RB",
+        "technique": "off",
+        "hasHelp": false
+      },
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "WR1",
+        "technique": "press",
+        "hasHelp": false
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "WR2",
+        "technique": "press",
+        "hasHelp": false
+      },
+      "SS": {
+        "type": "manCover",
+        "manTarget": "WR3",
+        "technique": "press",
+        "hasHelp": false
+      },
+      "FS": {
+        "type": "manCover",
+        "manTarget": "TE1",
+        "technique": "off",
+        "hasHelp": false
+      }
+    },
+    "tags": [
+      "blitz",
+      "shortYardage",
+      "thirdDown"
+    ],
+    "audibles": {
+      "zoneShift": "43-cover3-zone",
+      "manShift": "43-cover1-man"
+    }
+  },
+  {
+    "id": "43-cover1-doubleAGap",
+    "name": "4-3 Double A Gap",
+    "formation": "43",
+    "coverage": "cover1",
+    "family": "man",
+    "blitz": "doubleAGap",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "B-right"
+      },
+      "DE2": {
+        "type": "manCover",
+        "manTarget": "TE1",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "MLB": {
+        "type": "blitz",
+        "gap": "A-left"
+      },
+      "OLB1": {
+        "type": "blitz",
+        "gap": "A-right"
+      },
+      "OLB2": {
+        "type": "manCover",
+        "manTarget": "RB",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "WR1",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "WR2",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "SS": {
+        "type": "manCover",
+        "manTarget": "WR3",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "blitz",
+      "thirdDown"
+    ]
+  },
+  {
+    "id": "43-cover3-edgeBlitz",
+    "name": "4-3 Cover 3 Edge Fire",
+    "formation": "43",
+    "coverage": "cover3",
+    "family": "zone",
+    "blitz": "edge",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "C-right"
+      },
+      "OLB2": {
+        "type": "blitz",
+        "gap": "D-right"
+      },
+      "OLB1": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "deepThirdLeft"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepThirdRight"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "blitz",
+      "base"
+    ],
+    "alignTo": "strength"
+  },
+  {
+    "id": "43-cover1-safetyBlitz",
+    "name": "4-3 Cover 1 Safety Blitz",
+    "formation": "43",
+    "coverage": "cover1",
+    "family": "man",
+    "blitz": "safety",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "SS": {
+        "type": "blitz",
+        "gap": "C-right"
+      },
+      "OLB1": {
+        "type": "manCover",
+        "manTarget": "RB",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "MLB": {
+        "type": "manCover",
+        "manTarget": "TE1",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "OLB2": {
+        "type": "manCover",
+        "manTarget": "WR3",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "WR1",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "WR2",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "blitz",
+      "thirdDown"
+    ]
+  },
+  {
+    "id": "43-cover2-zoneBlitz",
+    "name": "4-3 Cover 2 Zone Blitz",
+    "formation": "43",
+    "coverage": "cover2",
+    "family": "zone",
+    "blitz": "zone",
+    "assignments": {
+      "DE1": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "OLB1": {
+        "type": "blitz",
+        "gap": "B-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "A-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "OLB2": {
+        "type": "zone",
+        "zone": "hookCurlRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "flatLeft"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "flatRight"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepHalfLeft"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "deepHalfRight"
+      }
+    },
+    "tags": [
+      "blitz",
+      "longYardage"
+    ]
+  },
+  {
+    "id": "43-runStop-cover1",
+    "name": "4-3 Bear Run Stop",
+    "formation": "43",
+    "coverage": "cover1",
+    "family": "man",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "C-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "C-right"
+      },
+      "OLB1": {
+        "type": "runFill",
+        "gap": "B-left"
+      },
+      "MLB": {
+        "type": "runFill",
+        "gap": "A-right"
+      },
+      "OLB2": {
+        "type": "runFill",
+        "gap": "C-right"
+      },
+      "SS": {
+        "type": "runFill",
+        "gap": "D-right"
+      },
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "WR1",
+        "technique": "off",
+        "hasHelp": false
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "WR2",
+        "technique": "off",
+        "hasHelp": false
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "runStop",
+      "shortYardage",
+      "goalLine"
+    ],
+    "audibles": {
+      "zoneShift": "43-cover3-zone",
+      "manShift": "43-cover1-man"
+    },
+    "alignTo": "strength"
+  },
+  {
+    "id": "43-cover9-match",
+    "name": "4-3 Cover 9",
+    "formation": "43",
+    "coverage": "cover9",
+    "family": "match",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "OLB2": {
+        "type": "manCover",
+        "manTarget": "TE1",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "deepThirdLeft"
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "WR2",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "base"
+    ],
+    "alignTo": "passStrength"
+  },
+  {
+    "id": "34-cover3-zone",
+    "name": "3-4 Cover 3",
+    "formation": "34",
+    "coverage": "cover3",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "B-right"
+      },
+      "OLB1": {
+        "type": "contain"
+      },
+      "OLB2": {
+        "type": "zone",
+        "zone": "hookCurlRight"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "MLB2": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "deepThirdLeft"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepThirdRight"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "base"
+    ],
+    "audibles": {
+      "manShift": "34-cover1-edge",
+      "blitz": "34-cover0-allOut",
+      "zoneShift": "34-cover2-zone"
+    },
+    "alignTo": "strength"
+  },
+  {
+    "id": "34-cover2-zone",
+    "name": "3-4 Cover 2",
+    "formation": "34",
+    "coverage": "cover2",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "A-left"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "B-right"
+      },
+      "OLB2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "zone",
+        "zone": "hookCurlLeft"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "MLB2": {
+        "type": "zone",
+        "zone": "hookCurlRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "flatLeft"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "flatRight"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepHalfLeft"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "deepHalfRight"
+      }
+    },
+    "tags": [
+      "base",
+      "longYardage"
+    ],
+    "audibles": {
+      "manShift": "34-cover1-edge",
+      "zoneShift": "34-cover3-zone",
+      "blitz": "34-cover3-zoneBlitz"
+    }
+  },
+  {
+    "id": "34-cover1-edge",
+    "name": "3-4 Cover 1 Edge Blitz",
+    "formation": "34",
+    "coverage": "cover1",
+    "family": "man",
+    "blitz": "edge",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "B-right"
+      },
+      "OLB1": {
+        "type": "blitz",
+        "gap": "D-left"
+      },
+      "OLB2": {
+        "type": "blitz",
+        "gap": "D-right"
+      },
+      "MLB": {
+        "type": "manCover",
+        "manTarget": "RB",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "MLB2": {
+        "type": "manCover",
+        "manTarget": "TE1",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "WR1",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "WR2",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "SS": {
+        "type": "manCover",
+        "manTarget": "WR3",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "blitz",
+      "base"
+    ],
+    "audibles": {
+      "zoneShift": "34-cover3-zone",
+      "blitz": "34-cover0-allOut"
+    }
+  },
+  {
+    "id": "34-cover0-allOut",
+    "name": "3-4 Cover 0 All Out",
+    "formation": "34",
+    "coverage": "cover0",
+    "family": "man",
+    "blitz": "allOut",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "A-left"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "B-right"
+      },
+      "OLB1": {
+        "type": "blitz",
+        "gap": "C-left"
+      },
+      "OLB2": {
+        "type": "blitz",
+        "gap": "C-right"
+      },
+      "MLB": {
+        "type": "blitz",
+        "gap": "A-right"
+      },
+      "MLB2": {
+        "type": "blitz",
+        "gap": "B-right"
+      },
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "WR1",
+        "technique": "press",
+        "hasHelp": false
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "WR2",
+        "technique": "press",
+        "hasHelp": false
+      },
+      "SS": {
+        "type": "manCover",
+        "manTarget": "WR3",
+        "technique": "press",
+        "hasHelp": false
+      },
+      "FS": {
+        "type": "manCover",
+        "manTarget": "TE1",
+        "technique": "off",
+        "hasHelp": false
+      }
+    },
+    "tags": [
+      "blitz",
+      "thirdDown",
+      "shortYardage"
+    ]
+  },
+  {
+    "id": "34-cover4-zone",
+    "name": "3-4 Quarters",
+    "formation": "34",
+    "coverage": "cover4",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "B-right"
+      },
+      "OLB2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "MLB2": {
+        "type": "zone",
+        "zone": "hookCurlRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "deepQuarter1"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepQuarter2"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "deepQuarter3"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepQuarter4"
+      }
+    },
+    "tags": [
+      "longYardage",
+      "twoMinute"
+    ]
+  },
+  {
+    "id": "34-cover6-zone",
+    "name": "3-4 Cover 6",
+    "formation": "34",
+    "coverage": "cover6",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "B-right"
+      },
+      "OLB1": {
+        "type": "contain"
+      },
+      "OLB2": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "hookCurlLeft"
+      },
+      "MLB2": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepHalfLeft"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "deepQuarter3"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepQuarter4"
+      }
+    },
+    "tags": [
+      "base"
+    ],
+    "alignTo": "passStrength"
+  },
+  {
+    "id": "34-cover3-zoneBlitz",
+    "name": "3-4 Fire Zone",
+    "formation": "34",
+    "coverage": "cover3",
+    "family": "zone",
+    "blitz": "zone",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "OLB1": {
+        "type": "blitz",
+        "gap": "C-left"
+      },
+      "OLB2": {
+        "type": "blitz",
+        "gap": "C-right"
+      },
+      "MLB": {
+        "type": "blitz",
+        "gap": "A-left"
+      },
+      "MLB2": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "deepThirdLeft"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepThirdRight"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "blitz",
+      "base"
+    ]
+  },
+  {
+    "id": "34-runStop-cover1",
+    "name": "3-4 Run Stop",
+    "formation": "34",
+    "coverage": "cover1",
+    "family": "man",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "A-left"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "B-right"
+      },
+      "OLB1": {
+        "type": "contain"
+      },
+      "OLB2": {
+        "type": "contain"
+      },
+      "MLB": {
+        "type": "runFill",
+        "gap": "A-right"
+      },
+      "MLB2": {
+        "type": "runFill",
+        "gap": "B-right"
+      },
+      "SS": {
+        "type": "runFill",
+        "gap": "C-right"
+      },
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "WR1",
+        "technique": "off",
+        "hasHelp": false
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "WR2",
+        "technique": "off",
+        "hasHelp": false
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "runStop",
+      "shortYardage",
+      "goalLine"
+    ],
+    "alignTo": "strength"
+  },
+  {
+    "id": "425-cover1-nickelBlitz",
+    "name": "4-2-5 Nickel Blitz",
+    "formation": "425",
+    "coverage": "cover1",
+    "family": "man",
+    "blitz": "nickel",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "CB3": {
+        "type": "blitz",
+        "gap": "D-right"
+      },
+      "OLB1": {
+        "type": "manCover",
+        "manTarget": "RB",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "MLB": {
+        "type": "manCover",
+        "manTarget": "TE1",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "WR1",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "WR2",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "SS": {
+        "type": "manCover",
+        "manTarget": "WR3",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "blitz",
+      "thirdDown"
+    ],
+    "alignTo": "passStrength"
+  },
+  {
+    "id": "425-cover3-zone",
+    "name": "4-2-5 Cover 3",
+    "formation": "425",
+    "coverage": "cover3",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "zone",
+        "zone": "hookCurlLeft"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "CB3": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "deepThirdLeft"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepThirdRight"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "base"
+    ]
+  },
+  {
+    "id": "425-cover2-man",
+    "name": "4-2-5 Cover 2 Man",
+    "formation": "425",
+    "coverage": "cover2",
+    "family": "man",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "manCover",
+        "manTarget": "RB",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "MLB": {
+        "type": "manCover",
+        "manTarget": "TE1",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "CB3": {
+        "type": "manCover",
+        "manTarget": "WR3",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "WR1",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "WR2",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepHalfLeft"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "deepHalfRight"
+      }
+    },
+    "tags": [
+      "thirdDown",
+      "redZone"
+    ]
+  },
+  {
+    "id": "425-cover4-match",
+    "name": "4-2-5 Quarters Match",
+    "formation": "425",
+    "coverage": "cover4",
+    "family": "match",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "CB3": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "deepQuarter1"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepQuarter2"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "deepQuarter3"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepQuarter4"
+      }
+    },
+    "tags": [
+      "base",
+      "longYardage"
+    ]
+  },
+  {
+    "id": "425-runStop-cover3",
+    "name": "4-2-5 Run Stop",
+    "formation": "425",
+    "coverage": "cover3",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "C-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "C-right"
+      },
+      "OLB1": {
+        "type": "runFill",
+        "gap": "A-left"
+      },
+      "MLB": {
+        "type": "runFill",
+        "gap": "B-right"
+      },
+      "SS": {
+        "type": "runFill",
+        "gap": "C-left"
+      },
+      "CB3": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "deepThirdLeft"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepThirdRight"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "runStop",
+      "shortYardage"
+    ]
+  },
+  {
+    "id": "nickel-cover1-man",
+    "name": "Nickel Cover 1",
+    "formation": "nickel",
+    "coverage": "cover1",
+    "family": "man",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "manCover",
+        "manTarget": "RB",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHole"
+      },
+      "CB3": {
+        "type": "manCover",
+        "manTarget": "WR3",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "WR1",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "WR2",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "SS": {
+        "type": "manCover",
+        "manTarget": "TE1",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "base",
+      "thirdDown"
+    ],
+    "audibles": {
+      "zoneShift": "nickel-cover2-zone",
+      "blitz": "nickel-cover0-cbBlitz",
+      "spy": "nickel-cover3-match"
+    },
+    "alignTo": "passStrength"
+  },
+  {
+    "id": "nickel-cover2-zone",
+    "name": "Nickel Cover 2",
+    "formation": "nickel",
+    "coverage": "cover2",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "zone",
+        "zone": "hookCurlLeft"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "CB3": {
+        "type": "zone",
+        "zone": "hookCurlRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "flatLeft"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "flatRight"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepHalfLeft"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "deepHalfRight"
+      }
+    },
+    "tags": [
+      "base",
+      "longYardage"
+    ],
+    "audibles": {
+      "manShift": "nickel-cover1-man",
+      "blitz": "nickel-cover0-cbBlitz",
+      "zoneShift": "nickel-cover4-zone"
+    }
+  },
+  {
+    "id": "nickel-cover3-match",
+    "name": "Nickel Cover 3 Match",
+    "formation": "nickel",
+    "coverage": "cover3",
+    "family": "match",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "CB3": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "hookCurlLeft"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "deepThirdLeft"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepThirdRight"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "base"
+    ]
+  },
+  {
+    "id": "nickel-cover4-zone",
+    "name": "Nickel Quarters",
+    "formation": "nickel",
+    "coverage": "cover4",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "CB3": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "deepQuarter1"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepQuarter2"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "deepQuarter3"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepQuarter4"
+      }
+    },
+    "tags": [
+      "longYardage",
+      "twoMinute"
+    ]
+  },
+  {
+    "id": "nickel-cover6-zone",
+    "name": "Nickel Cover 6",
+    "formation": "nickel",
+    "coverage": "cover6",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "zone",
+        "zone": "hookCurlLeft"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "CB3": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepHalfLeft"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "deepQuarter3"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepQuarter4"
+      }
+    },
+    "tags": [
+      "base"
+    ],
+    "alignTo": "passStrength"
+  },
+  {
+    "id": "nickel-cover0-cbBlitz",
+    "name": "Nickel Cover 0 CB Blitz",
+    "formation": "nickel",
+    "coverage": "cover0",
+    "family": "man",
+    "blitz": "cb",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "C-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "C-right"
+      },
+      "CB3": {
+        "type": "blitz",
+        "gap": "D-right"
+      },
+      "OLB1": {
+        "type": "manCover",
+        "manTarget": "RB",
+        "technique": "off",
+        "hasHelp": false
+      },
+      "MLB": {
+        "type": "manCover",
+        "manTarget": "TE1",
+        "technique": "off",
+        "hasHelp": false
+      },
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "WR1",
+        "technique": "press",
+        "hasHelp": false
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "WR2",
+        "technique": "press",
+        "hasHelp": false
+      },
+      "SS": {
+        "type": "manCover",
+        "manTarget": "WR3",
+        "technique": "press",
+        "hasHelp": false
+      },
+      "FS": {
+        "type": "spy"
+      }
+    },
+    "tags": [
+      "blitz",
+      "thirdDown"
+    ],
+    "alignTo": "passStrength"
+  },
+  {
+    "id": "nickel-cover9-match",
+    "name": "Nickel Cover 9",
+    "formation": "nickel",
+    "coverage": "cover9",
+    "family": "match",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "OLB1": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "CB3": {
+        "type": "manCover",
+        "manTarget": "WR3",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "deepThirdLeft"
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "WR2",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "base"
+    ],
+    "alignTo": "passStrength"
+  },
+  {
+    "id": "dime-cover2-zone",
+    "name": "Dime Cover 2",
+    "formation": "dime",
+    "coverage": "cover2",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "CB3": {
+        "type": "zone",
+        "zone": "hookCurlRight"
+      },
+      "CB4": {
+        "type": "zone",
+        "zone": "hookCurlLeft"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "flatLeft"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "flatRight"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepHalfLeft"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "deepHalfRight"
+      }
+    },
+    "tags": [
+      "longYardage",
+      "thirdDown"
+    ]
+  },
+  {
+    "id": "dime-cover4-match",
+    "name": "Dime Quarters Match",
+    "formation": "dime",
+    "coverage": "cover4",
+    "family": "match",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "CB3": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "CB4": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "deepQuarter1"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepQuarter2"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "deepQuarter3"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepQuarter4"
+      }
+    },
+    "tags": [
+      "longYardage",
+      "twoMinute"
+    ]
+  },
+  {
+    "id": "dime-cover3-zone",
+    "name": "Dime Cover 3",
+    "formation": "dime",
+    "coverage": "cover3",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "CB3": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "CB4": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "hookCurlRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "deepThirdLeft"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepThirdRight"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "longYardage"
+    ]
+  },
+  {
+    "id": "dime-cover1-man",
+    "name": "Dime Cover 1",
+    "formation": "dime",
+    "coverage": "cover1",
+    "family": "man",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "MLB": {
+        "type": "manCover",
+        "manTarget": "RB",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "CB3": {
+        "type": "manCover",
+        "manTarget": "WR3",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "CB4": {
+        "type": "manCover",
+        "manTarget": "TE1",
+        "technique": "off",
+        "hasHelp": true
+      },
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "WR1",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "WR2",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "middleHole"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "thirdDown",
+      "longYardage"
+    ]
+  },
+  {
+    "id": "dime-cover6-zone",
+    "name": "Dime Cover 6",
+    "formation": "dime",
+    "coverage": "cover6",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "contain"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "contain"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "CB3": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "CB4": {
+        "type": "zone",
+        "zone": "hookCurlLeft"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepHalfLeft"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "deepQuarter3"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepQuarter4"
+      }
+    },
+    "tags": [
+      "longYardage"
+    ],
+    "alignTo": "passStrength"
+  },
+  {
+    "id": "goalLine-cover0-runStop",
+    "name": "Goal Line Cover 0",
+    "formation": "goalLine",
+    "coverage": "cover0",
+    "family": "man",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "C-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "A-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "C-right"
+      },
+      "OLB1": {
+        "type": "contain"
+      },
+      "OLB2": {
+        "type": "contain"
+      },
+      "MLB": {
+        "type": "runFill",
+        "gap": "B-left"
+      },
+      "MLB2": {
+        "type": "runFill",
+        "gap": "B-right"
+      },
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "TE2",
+        "technique": "press",
+        "hasHelp": false
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "TE1",
+        "technique": "press",
+        "hasHelp": false
+      },
+      "SS": {
+        "type": "manCover",
+        "manTarget": "TE3",
+        "technique": "press",
+        "hasHelp": false
+      }
+    },
+    "tags": [
+      "goalLine",
+      "runStop",
+      "shortYardage",
+      "twoPoint"
+    ],
+    "audibles": {
+      "zoneShift": "goalLine-cover1-runStop",
+      "blitz": "goalLine-cover0-blitz"
+    }
+  },
+  {
+    "id": "goalLine-cover1-runStop",
+    "name": "Goal Line Cover 1",
+    "formation": "goalLine",
+    "coverage": "cover1",
+    "family": "man",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "C-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "A-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "C-right"
+      },
+      "OLB1": {
+        "type": "contain"
+      },
+      "OLB2": {
+        "type": "contain"
+      },
+      "MLB": {
+        "type": "runFill",
+        "gap": "A-left"
+      },
+      "MLB2": {
+        "type": "runFill",
+        "gap": "A-right"
+      },
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "TE2",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "TE1",
+        "technique": "press",
+        "hasHelp": true
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "goalLine",
+      "runStop"
+    ]
+  },
+  {
+    "id": "goalLine-cover0-blitz",
+    "name": "Goal Line All Blitz",
+    "formation": "goalLine",
+    "coverage": "cover0",
+    "family": "man",
+    "blitz": "lb",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "C-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "A-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "C-right"
+      },
+      "OLB1": {
+        "type": "blitz",
+        "gap": "D-left"
+      },
+      "OLB2": {
+        "type": "blitz",
+        "gap": "D-right"
+      },
+      "MLB": {
+        "type": "blitz",
+        "gap": "A-left"
+      },
+      "MLB2": {
+        "type": "blitz",
+        "gap": "A-right"
+      },
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "TE2",
+        "technique": "press",
+        "hasHelp": false
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "TE1",
+        "technique": "press",
+        "hasHelp": false
+      },
+      "SS": {
+        "type": "manCover",
+        "manTarget": "TE3",
+        "technique": "press",
+        "hasHelp": false
+      }
+    },
+    "tags": [
+      "goalLine",
+      "blitz",
+      "twoPoint"
+    ]
+  },
+  {
+    "id": "prevent-cover4-zone",
+    "name": "Prevent Quarters",
+    "formation": "prevent",
+    "coverage": "cover4",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "B-right"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "middleHook"
+      },
+      "CB3": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "CB4": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "CB5": {
+        "type": "zone",
+        "zone": "middleHole"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "deepQuarter1"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepQuarter2"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "deepQuarter3"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepQuarter4"
+      }
+    },
+    "tags": [
+      "prevent",
+      "twoMinute",
+      "longYardage"
+    ]
+  },
+  {
+    "id": "prevent-cover3-zone",
+    "name": "Prevent Cover 3",
+    "formation": "prevent",
+    "coverage": "cover3",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "B-right"
+      },
+      "MLB": {
+        "type": "zone",
+        "zone": "hookCurlLeft"
+      },
+      "CB3": {
+        "type": "zone",
+        "zone": "curlFlatLeft"
+      },
+      "CB4": {
+        "type": "zone",
+        "zone": "curlFlatRight"
+      },
+      "CB5": {
+        "type": "zone",
+        "zone": "hookCurlRight"
+      },
+      "CB1": {
+        "type": "zone",
+        "zone": "deepThirdLeft"
+      },
+      "CB2": {
+        "type": "zone",
+        "zone": "deepThirdRight"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      },
+      "SS": {
+        "type": "zone",
+        "zone": "middleHole"
+      }
+    },
+    "tags": [
+      "prevent",
+      "longYardage"
+    ]
+  },
+  {
+    "id": "kickReturn-middle",
+    "name": "Kick Return Middle",
+    "formation": "kickReturn",
+    "coverage": "cover0",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "L1": {
+        "type": "returnBlock"
+      },
+      "L2": {
+        "type": "returnBlock"
+      },
+      "L3": {
+        "type": "returnBlock"
+      },
+      "L4": {
+        "type": "returnBlock"
+      },
+      "L5": {
+        "type": "returnBlock"
+      },
+      "M1": {
+        "type": "returnBlock"
+      },
+      "M2": {
+        "type": "returnBlock"
+      },
+      "M3": {
+        "type": "returnBlock"
+      },
+      "M4": {
+        "type": "returnBlock"
+      },
+      "KR2": {
+        "type": "returner"
+      },
+      "KR": {
+        "type": "returner"
+      }
+    },
+    "tags": [
+      "kickReturn"
+    ]
+  },
+  {
+    "id": "kickReturn-left",
+    "name": "Kick Return Left Wall",
+    "formation": "kickReturn",
+    "coverage": "cover0",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "L1": {
+        "type": "returnBlock"
+      },
+      "L2": {
+        "type": "returnBlock"
+      },
+      "L3": {
+        "type": "returnBlock"
+      },
+      "L4": {
+        "type": "returnBlock"
+      },
+      "L5": {
+        "type": "returnBlock"
+      },
+      "M1": {
+        "type": "returnBlock"
+      },
+      "M2": {
+        "type": "returnBlock"
+      },
+      "M3": {
+        "type": "returnBlock"
+      },
+      "M4": {
+        "type": "returnBlock"
+      },
+      "KR2": {
+        "type": "returner"
+      },
+      "KR": {
+        "type": "returner"
+      }
+    },
+    "tags": [
+      "kickReturn"
+    ],
+    "flip": true
+  },
+  {
+    "id": "kickReturn-hands",
+    "name": "Hands Team",
+    "formation": "kickReturn",
+    "coverage": "cover0",
+    "family": "zone",
+    "blitz": "none",
+    "assignments": {
+      "L1": {
+        "type": "returner"
+      },
+      "L2": {
+        "type": "returner"
+      },
+      "L3": {
+        "type": "returner"
+      },
+      "L4": {
+        "type": "returner"
+      },
+      "L5": {
+        "type": "returner"
+      },
+      "M1": {
+        "type": "returnBlock"
+      },
+      "M2": {
+        "type": "returnBlock"
+      },
+      "M3": {
+        "type": "returnBlock"
+      },
+      "M4": {
+        "type": "returnBlock"
+      },
+      "KR2": {
+        "type": "returner"
+      },
+      "KR": {
+        "type": "returner"
+      }
+    },
+    "tags": [
+      "kickReturn",
+      "onside"
+    ]
+  },
+  {
+    "id": "puntReturn-middle",
+    "name": "Punt Return Middle",
+    "formation": "puntReturn",
+    "coverage": "cover0",
+    "family": "man",
+    "blitz": "none",
+    "assignments": {
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "G1",
+        "technique": "press",
+        "hasHelp": false
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "G2",
+        "technique": "press",
+        "hasHelp": false
+      },
+      "DE1": {
+        "type": "returnBlock"
+      },
+      "DT1": {
+        "type": "returnBlock"
+      },
+      "DT2": {
+        "type": "returnBlock"
+      },
+      "DE2": {
+        "type": "returnBlock"
+      },
+      "OLB1": {
+        "type": "returnBlock"
+      },
+      "OLB2": {
+        "type": "returnBlock"
+      },
+      "CB3": {
+        "type": "returnBlock"
+      },
+      "MLB": {
+        "type": "returnBlock"
+      },
+      "PR": {
+        "type": "returner"
+      }
+    },
+    "tags": [
+      "puntReturn"
+    ]
+  },
+  {
+    "id": "puntReturn-block",
+    "name": "Punt Block",
+    "formation": "puntReturn",
+    "coverage": "cover0",
+    "family": "man",
+    "blitz": "allOut",
+    "assignments": {
+      "CB1": {
+        "type": "manCover",
+        "manTarget": "G1",
+        "technique": "press",
+        "hasHelp": false
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "G2",
+        "technique": "press",
+        "hasHelp": false
+      },
+      "DE1": {
+        "type": "blitz",
+        "gap": "B-left"
+      },
+      "DT1": {
+        "type": "blitz",
+        "gap": "A-left"
+      },
+      "DT2": {
+        "type": "blitz",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "blitz",
+        "gap": "B-right"
+      },
+      "OLB1": {
+        "type": "blitz",
+        "gap": "C-left"
+      },
+      "OLB2": {
+        "type": "blitz",
+        "gap": "C-right"
+      },
+      "MLB": {
+        "type": "blitz",
+        "gap": "D-right"
+      },
+      "CB3": {
+        "type": "returnBlock"
+      },
+      "PR": {
+        "type": "returner"
+      }
+    },
+    "tags": [
+      "puntReturn",
+      "block"
+    ]
+  },
+  {
+    "id": "fgBlock-middle",
+    "name": "FG Block Middle",
+    "formation": "fgBlock",
+    "coverage": "cover0",
+    "family": "man",
+    "blitz": "doubleAGap",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "A-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "B-right"
+      },
+      "OLB1": {
+        "type": "blitz",
+        "gap": "C-left"
+      },
+      "OLB2": {
+        "type": "blitz",
+        "gap": "C-right"
+      },
+      "MLB": {
+        "type": "blitz",
+        "gap": "A-left"
+      },
+      "MLB2": {
+        "type": "blitz",
+        "gap": "A-right"
+      },
+      "CB1": {
+        "type": "contain"
+      },
+      "CB2": {
+        "type": "contain"
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "fgBlock",
+      "pat"
+    ]
+  },
+  {
+    "id": "fgBlock-edge",
+    "name": "FG Block Edge",
+    "formation": "fgBlock",
+    "coverage": "cover0",
+    "family": "man",
+    "blitz": "edge",
+    "assignments": {
+      "DE1": {
+        "type": "rushGap",
+        "gap": "B-left"
+      },
+      "DT1": {
+        "type": "rushGap",
+        "gap": "A-left"
+      },
+      "DT2": {
+        "type": "rushGap",
+        "gap": "A-right"
+      },
+      "DE2": {
+        "type": "rushGap",
+        "gap": "B-right"
+      },
+      "OLB1": {
+        "type": "blitz",
+        "gap": "D-left"
+      },
+      "OLB2": {
+        "type": "blitz",
+        "gap": "D-right"
+      },
+      "MLB": {
+        "type": "runFill",
+        "gap": "A-left"
+      },
+      "MLB2": {
+        "type": "runFill",
+        "gap": "A-right"
+      },
+      "CB1": {
+        "type": "blitz",
+        "gap": "D-left"
+      },
+      "CB2": {
+        "type": "manCover",
+        "manTarget": "W2",
+        "technique": "off",
+        "hasHelp": false
+      },
+      "FS": {
+        "type": "zone",
+        "zone": "deepThirdMiddle"
+      }
+    },
+    "tags": [
+      "fgBlock",
+      "pat",
+      "edge"
+    ]
+  }
+]

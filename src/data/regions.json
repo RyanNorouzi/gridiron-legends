@@ -1,0 +1,308 @@
+[
+  {
+    "id": "northeast",
+    "name": "Northeast",
+    "states": [
+      "MA",
+      "CT",
+      "RI",
+      "NH",
+      "VT",
+      "ME",
+      "NY"
+    ],
+    "cities": [
+      "Boston",
+      "New York",
+      "Buffalo",
+      "Providence",
+      "Hartford",
+      "Albany",
+      "Rochester",
+      "Syracuse",
+      "Worcester",
+      "Portland Maine",
+      "Burlington",
+      "Manchester"
+    ],
+    "climates": [
+      "cold",
+      "temperate",
+      "coastal"
+    ]
+  },
+  {
+    "id": "midAtlantic",
+    "name": "Mid-Atlantic",
+    "states": [
+      "NJ",
+      "PA",
+      "DE",
+      "MD",
+      "DC",
+      "VA",
+      "WV"
+    ],
+    "cities": [
+      "Philadelphia",
+      "Pittsburgh",
+      "Baltimore",
+      "Washington",
+      "Newark",
+      "Richmond",
+      "Norfolk",
+      "Wilmington",
+      "Harrisburg",
+      "Trenton",
+      "Charleston",
+      "Allentown"
+    ],
+    "climates": [
+      "temperate",
+      "cold",
+      "coastal"
+    ]
+  },
+  {
+    "id": "southeast",
+    "name": "Southeast",
+    "states": [
+      "GA",
+      "NC",
+      "SC",
+      "TN",
+      "AL",
+      "KY"
+    ],
+    "cities": [
+      "Atlanta",
+      "Charlotte",
+      "Nashville",
+      "Memphis",
+      "Birmingham",
+      "Louisville",
+      "Raleigh",
+      "Columbia",
+      "Knoxville",
+      "Chattanooga",
+      "Savannah",
+      "Greenville",
+      "Montgomery",
+      "Lexington"
+    ],
+    "climates": [
+      "temperate",
+      "warm"
+    ]
+  },
+  {
+    "id": "florida",
+    "name": "Florida",
+    "states": [
+      "FL"
+    ],
+    "cities": [
+      "Miami",
+      "Tampa",
+      "Jacksonville",
+      "Orlando",
+      "Fort Lauderdale",
+      "Tallahassee",
+      "Gainesville",
+      "Pensacola",
+      "St. Petersburg",
+      "Fort Myers"
+    ],
+    "climates": [
+      "warm",
+      "coastal"
+    ]
+  },
+  {
+    "id": "greatLakes",
+    "name": "Great Lakes",
+    "states": [
+      "OH",
+      "MI",
+      "IN",
+      "IL",
+      "WI"
+    ],
+    "cities": [
+      "Chicago",
+      "Detroit",
+      "Cleveland",
+      "Cincinnati",
+      "Indianapolis",
+      "Milwaukee",
+      "Columbus",
+      "Toledo",
+      "Grand Rapids",
+      "Dayton",
+      "Akron",
+      "Fort Wayne",
+      "Green Bay",
+      "Peoria",
+      "Madison"
+    ],
+    "climates": [
+      "cold",
+      "temperate"
+    ]
+  },
+  {
+    "id": "heartland",
+    "name": "Heartland",
+    "states": [
+      "MN",
+      "IA",
+      "MO",
+      "KS",
+      "NE",
+      "SD",
+      "ND"
+    ],
+    "cities": [
+      "Minneapolis",
+      "Kansas City",
+      "St. Louis",
+      "Omaha",
+      "Des Moines",
+      "Wichita",
+      "Sioux Falls",
+      "Fargo",
+      "Lincoln",
+      "Topeka",
+      "Springfield",
+      "Duluth",
+      "Cedar Rapids"
+    ],
+    "climates": [
+      "cold",
+      "temperate"
+    ]
+  },
+  {
+    "id": "southCentral",
+    "name": "South Central",
+    "states": [
+      "TX",
+      "OK",
+      "LA",
+      "AR",
+      "MS"
+    ],
+    "cities": [
+      "Dallas",
+      "Houston",
+      "San Antonio",
+      "Oklahoma City",
+      "New Orleans",
+      "Austin",
+      "Fort Worth",
+      "El Paso",
+      "Tulsa",
+      "Baton Rouge",
+      "Little Rock",
+      "Jackson",
+      "Shreveport",
+      "Lubbock",
+      "Corpus Christi"
+    ],
+    "climates": [
+      "warm",
+      "temperate"
+    ]
+  },
+  {
+    "id": "mountainWest",
+    "name": "Mountain West",
+    "states": [
+      "CO",
+      "UT",
+      "AZ",
+      "NM",
+      "NV",
+      "ID",
+      "MT",
+      "WY"
+    ],
+    "cities": [
+      "Denver",
+      "Salt Lake City",
+      "Phoenix",
+      "Las Vegas",
+      "Albuquerque",
+      "Boise",
+      "Tucson",
+      "Colorado Springs",
+      "Reno",
+      "Billings",
+      "Cheyenne",
+      "Provo",
+      "Fort Collins",
+      "Flagstaff"
+    ],
+    "climates": [
+      "cold",
+      "desert",
+      "temperate"
+    ]
+  },
+  {
+    "id": "pacificNorthwest",
+    "name": "Pacific Northwest",
+    "states": [
+      "WA",
+      "OR",
+      "AK"
+    ],
+    "cities": [
+      "Seattle",
+      "Portland",
+      "Spokane",
+      "Tacoma",
+      "Eugene",
+      "Anchorage",
+      "Salem",
+      "Bellingham",
+      "Olympia",
+      "Juneau"
+    ],
+    "climates": [
+      "coastal",
+      "temperate",
+      "cold"
+    ]
+  },
+  {
+    "id": "westCoast",
+    "name": "West Coast",
+    "states": [
+      "CA",
+      "HI"
+    ],
+    "cities": [
+      "Los Angeles",
+      "San Francisco",
+      "San Diego",
+      "Oakland",
+      "Sacramento",
+      "San Jose",
+      "Fresno",
+      "Long Beach",
+      "Bakersfield",
+      "Honolulu",
+      "Anaheim",
+      "Riverside",
+      "Stockton",
+      "Santa Barbara"
+    ],
+    "climates": [
+      "coastal",
+      "warm",
+      "temperate",
+      "desert"
+    ]
+  }
+]

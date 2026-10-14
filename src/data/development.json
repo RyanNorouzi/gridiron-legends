@@ -1,0 +1,83 @@
+{
+  "positions": {
+    "QB": { "growthEnd": 26, "peakStart": 28, "peakEnd": 34, "declineEnd": 40 },
+    "RB": { "growthEnd": 24, "peakStart": 25, "peakEnd": 28, "declineEnd": 33 },
+    "FB": { "growthEnd": 25, "peakStart": 26, "peakEnd": 30, "declineEnd": 35 },
+    "WR": { "growthEnd": 25, "peakStart": 26, "peakEnd": 30, "declineEnd": 35 },
+    "TE": { "growthEnd": 25, "peakStart": 26, "peakEnd": 31, "declineEnd": 36 },
+    "OT": { "growthEnd": 26, "peakStart": 27, "peakEnd": 32, "declineEnd": 37 },
+    "OG": { "growthEnd": 26, "peakStart": 27, "peakEnd": 32, "declineEnd": 37 },
+    "C": { "growthEnd": 26, "peakStart": 27, "peakEnd": 33, "declineEnd": 38 },
+    "DE": { "growthEnd": 25, "peakStart": 26, "peakEnd": 30, "declineEnd": 35 },
+    "DT": { "growthEnd": 25, "peakStart": 26, "peakEnd": 31, "declineEnd": 36 },
+    "OLB": { "growthEnd": 25, "peakStart": 26, "peakEnd": 30, "declineEnd": 35 },
+    "MLB": { "growthEnd": 25, "peakStart": 26, "peakEnd": 31, "declineEnd": 36 },
+    "CB": { "growthEnd": 24, "peakStart": 25, "peakEnd": 29, "declineEnd": 34 },
+    "FS": { "growthEnd": 25, "peakStart": 26, "peakEnd": 30, "declineEnd": 35 },
+    "SS": { "growthEnd": 25, "peakStart": 26, "peakEnd": 30, "declineEnd": 35 },
+    "K": { "growthEnd": 27, "peakStart": 29, "peakEnd": 36, "declineEnd": 42 },
+    "P": { "growthEnd": 27, "peakStart": 29, "peakEnd": 36, "declineEnd": 42 }
+  },
+  "devTraitMultipliers": { "bust": 0.5, "normal": 1.0, "quick": 1.35, "star": 1.7, "superstar": 2.1 },
+  "devTraitWeightsByQuality": {
+    "elite": { "bust": 0.02, "normal": 0.30, "quick": 0.33, "star": 0.25, "superstar": 0.10 },
+    "starter": { "bust": 0.06, "normal": 0.45, "quick": 0.30, "star": 0.15, "superstar": 0.04 },
+    "rotation": { "bust": 0.12, "normal": 0.55, "quick": 0.23, "star": 0.08, "superstar": 0.02 },
+    "backup": { "bust": 0.18, "normal": 0.60, "quick": 0.16, "star": 0.05, "superstar": 0.01 },
+    "fringe": { "bust": 0.25, "normal": 0.60, "quick": 0.12, "star": 0.03, "superstar": 0.0 },
+    "prospect": { "bust": 0.12, "normal": 0.45, "quick": 0.25, "star": 0.13, "superstar": 0.05 }
+  },
+  "growth": {
+    "basePerYear": 4.5,
+    "plateauDriftSd": 0.7,
+    "focusBonus": 2,
+    "irrelevantGrowthChance": 0.3,
+    "coachRange": [0.75, 1.25],
+    "facilityRange": [0.85, 1.15],
+    "snapsForFullBonus": 600,
+    "snapsRange": [0.8, 1.2],
+    "successRange": [0.95, 1.05],
+    "lowMoraleThreshold": 35,
+    "lowMoralePenalty": 0.2
+  },
+  "decline": {
+    "basePerYear": 3.5,
+    "injuryHistoryPenaltyPerSevere": 0.06,
+    "wisdomGain": 1,
+    "order": {
+      "speed": 1.0, "acceleration": 1.0, "agility": 0.85, "jumping": 0.85, "stamina": 0.6, "injuryResistance": 0.6,
+      "strength": 0.5, "balance": 0.4, "reaction": 0.5, "release": 0.5, "passRush": 0.45, "pursuit": 0.55,
+      "coverage": 0.5, "tackling": 0.35, "carrying": 0.3, "catching": 0.3, "hands": 0.25, "routeRunning": 0.25,
+      "blocking": 0.3, "throwPower": 0.4, "throwAccuracy": 0.15, "kickPower": 0.35, "kickAccuracy": 0.15,
+      "vision": 0.05, "awareness": 0.0
+    }
+  },
+  "events": {
+    "breakout": { "baseProb": 0.05, "maxAge": 26, "bonus": [4, 8], "potentialBonus": [2, 5] },
+    "jump": { "baseProb": 0.04, "maxAge": 30, "bonus": [3, 5] },
+    "slump": { "baseProb": 0.04, "penalty": [2, 5], "lowMoraleMultiplier": 1.5 },
+    "decline": { "baseProb": 0.03, "minAge": 29, "perYearOver": 0.02, "penalty": [4, 8] },
+    "injury": { "penalty": [2, 4] }
+  },
+  "potentialDrift": { "sd": 1.2, "max": 2 },
+  "traitEffects": { "workhorse": 1.15, "lazy": 0.8 },
+  "salary": {
+    "minimum": 800000,
+    "top": 52000000,
+    "floorOverall": 50,
+    "exponent": 2.8,
+    "roundTo": 10000,
+    "potentialWeight": 0.35,
+    "potentialMaxAge": 26,
+    "positionMultiplier": {
+      "QB": 1.0, "RB": 0.45, "FB": 0.15, "WR": 0.62, "TE": 0.42, "OT": 0.6, "OG": 0.42, "C": 0.4,
+      "DE": 0.68, "DT": 0.55, "OLB": 0.6, "MLB": 0.45, "CB": 0.6, "FS": 0.45, "SS": 0.42, "K": 0.12, "P": 0.1
+    },
+    "ageBands": [
+      { "maxAge": 24, "mult": 0.85 },
+      { "maxAge": 30, "mult": 1.0 },
+      { "maxAge": 33, "mult": 0.8 },
+      { "maxAge": 99, "mult": 0.6 }
+    ]
+  }
+}

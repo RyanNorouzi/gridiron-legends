@@ -1,0 +1,81 @@
+{
+  "undraftedExtra": 36,
+  "minClassSize": 40,
+  "ageWeights": { "20": 0.08, "21": 0.35, "22": 0.42, "23": 0.15 },
+  "positionWeights": {
+    "QB": 14, "RB": 20, "FB": 4, "WR": 34, "TE": 14, "OT": 20, "OG": 16, "C": 10,
+    "DE": 20, "DT": 18, "OLB": 18, "MLB": 12, "CB": 28, "FS": 10, "SS": 10, "K": 6, "P": 6
+  },
+  "specialistMinRound": 4,
+  "tiers": [
+    { "id": "star", "share": 0.015, "round": 1, "overall": [68, 75], "potentialGap": 20 },
+    { "id": "round1", "share": 0.105, "round": 1, "overall": [62, 72], "potentialGap": 17 },
+    { "id": "round2", "share": 0.12, "round": 2, "overall": [57, 66], "potentialGap": 15 },
+    { "id": "round3", "share": 0.12, "round": 3, "overall": [53, 62], "potentialGap": 13 },
+    { "id": "round4", "share": 0.12, "round": 4, "overall": [50, 58], "potentialGap": 11 },
+    { "id": "round5", "share": 0.12, "round": 5, "overall": [47, 55], "potentialGap": 9 },
+    { "id": "round6", "share": 0.12, "round": 6, "overall": [45, 52], "potentialGap": 8 },
+    { "id": "round7", "share": 0.12, "round": 7, "overall": [44, 50], "potentialGap": 7 },
+    { "id": "undrafted", "share": 0.16, "round": 7, "overall": [40, 48], "potentialGap": 5 }
+  ],
+  "ageAdjust": { "referenceAge": 22, "overallPerYear": 1.5, "gapPerYear": 2 },
+  "positionValue": {
+    "QB": 1.12, "RB": 0.9, "FB": 0.7, "WR": 1.0, "TE": 0.92, "OT": 1.02, "OG": 0.9, "C": 0.88,
+    "DE": 1.04, "DT": 0.96, "OLB": 0.98, "MLB": 0.9, "CB": 1.02, "FS": 0.92, "SS": 0.9, "K": 0.6, "P": 0.55
+  },
+  "value": { "overallWeight": 0.45, "potentialWeight": 0.55, "ageBonusPerYear": 0.8, "positionScale": 20 },
+  "consensusNoise": 4.5,
+  "localCollegeShare": 0.7,
+  "grades": [
+    { "grade": "A+", "min": 81 }, { "grade": "A", "min": 76 }, { "grade": "A-", "min": 73 },
+    { "grade": "B+", "min": 70 }, { "grade": "B", "min": 67 }, { "grade": "B-", "min": 64 },
+    { "grade": "C+", "min": 60 }, { "grade": "C", "min": 57 }, { "grade": "C-", "min": 54 },
+    { "grade": "D+", "min": 51 }, { "grade": "D", "min": 48 }, { "grade": "D-", "min": 45 },
+    { "grade": "F", "min": 0 }
+  ],
+  "scouting": {
+    "basePointsPerWeek": 8,
+    "scoutRatingDivisor": 8,
+    "facilityScoutingPoints": 3,
+    "facilityAnalyticsPoints": 1.5,
+    "fallbackScoutRating": 35,
+    "initialWeeks": 10,
+    "maxInvestedPerProspect": 100,
+    "interviewCost": 12,
+    "biasSd": 1.6,
+    "sigmaMax": 6.5,
+    "sigmaMin": 1.0,
+    "sigmaDecay": 30,
+    "qualityFactor": [1.35, 0.65],
+    "potentialSigmaScale": 1.4,
+    "potentialSigmaFloor": 0.8,
+    "attributeSigmaScale": 1.5,
+    "attributeSigmaFloor": 1.0,
+    "combineWeight": 0.5,
+    "rangeZ": 1.645,
+    "devRevealInvest": [70, 40],
+    "devAccuracy": [0.6, 0.85],
+    "interviewSecondTraitChance": [0.4, 0.8],
+    "redFlagDetection": [0.75, 0.95]
+  },
+  "ai": {
+    "needWeight": 20,
+    "riskAversion": 0.2,
+    "noiseSd": 1.2,
+    "reachChance": 0.1,
+    "reachSd": 3.5,
+    "scarcityWeight": 2,
+    "specialistPenalty": 25,
+    "scoutChunk": 10,
+    "scoutTiers": [
+      { "count": 4, "cap": 60 },
+      { "count": 6, "cap": 30 },
+      { "count": 10, "cap": 15 }
+    ],
+    "interviewTargets": 3,
+    "windowWidth": 25,
+    "redFlagPenalty": 2,
+    "devTraitBonus": { "bust": -3, "normal": 0, "quick": 1, "star": 2, "superstar": 3 }
+  },
+  "udfa": { "maxPerTeam": 4, "rosterExtra": 7, "minValue": 38 }
+}
